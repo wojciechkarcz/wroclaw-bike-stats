@@ -1,0 +1,94 @@
+UID wynajmu,Numer roweru,Data wynajmu,Data zwrotu,Stacja wynajmu,Stacja zwrotu,Czas trwania
+220968611,603303,2024-03-30 22:49:35,2024-03-31 01:47:08,Sukielicka / Rogowska,Dworzec Główny ,178
+220968647,603887,2024-03-30 22:50:08,2024-03-31 01:47:20,Sukielicka / Rogowska,Dworzec Główny ,177
+220969927,603461,2024-03-30 23:12:36,2024-03-31 00:05:39,Plac Grunwaldzki (DS Ołówek),Zatorska / Królewska - pętla MPK,53
+220970020,602554,2024-03-30 23:13:51,2024-03-31 00:07:04,Plac Grunwaldzki (DS Ołówek),Zatorska / Królewska - pętla MPK,53
+220971578,603831,2024-03-30 23:41:35,2024-03-31 00:10:27,Rynek,Kamienna / Tomaszowska,29
+220971717,602525,2024-03-30 23:44:00,2024-03-31 00:10:43,Rynek,Kamienna / Tomaszowska,27
+220971852,602502,2024-03-30 23:47:19,2024-03-31 00:01:20,"Paprotna / Obornicka, zajezdnia MPK",Drobnera / Plac Bema,14
+220972097,603132,2024-03-30 23:51:48,2024-03-31 00:03:47,Dworzec Główny ,Wyszyńskiego / Szczytnicka,12
+220972203,604264,2024-03-30 23:53:49,2024-03-31 00:32:27,Jagiełły / Dmowskiego ,Jagiełły / Dmowskiego ,39
+220972248,603952,2024-03-30 23:55:00,2024-03-31 00:05:59,Plac Uniwersytecki (UWr),Popowicka / Niedźwiedzia,11
+220972258,603784,2024-03-30 23:55:10,2024-03-31 00:12:39,"Dworzec Główny, południe",Jagodzińska / Buforowa,17
+220972268,603316,2024-03-30 23:55:24,2024-03-31 00:04:32,Przyjaźni / Karkonoska,Przyjaźni / Karkonoska,9
+220972420,652064,2024-03-30 23:58:13,2024-03-31 00:07:46,Bezpieczna / Obornicka,pl. Powstańców Wielkopolskich,10
+220972448,602427,2024-03-30 23:59:04,2024-03-31 00:05:49,Czekoladowa / Wałbrzyska,Wałbrzyska - pętla tramwajowa,7
+220972450,602849,2024-03-30 23:59:04,2024-03-31 00:04:53,Czekoladowa / Wałbrzyska,Wałbrzyska - pętla tramwajowa,6
+220972454,603942,2024-03-30 23:59:14,2024-03-31 00:22:15,Graniczna / Strzegomska,Mińska / Stanisławowska,23
+220972475,603618,2024-03-30 23:59:47,2024-03-31 00:10:57,Plac Dominikański (Galeria Dominikańska),al. Kochanowskiego / Kopernika,11
+220972480,603358,2024-03-30 23:59:54,2024-03-31 00:00:31,Poza stacją,Rynek,1
+220972496,603246,2024-03-31 00:00:31,2024-03-31 00:05:11,Poza stacją,Poza stacją,5
+220972535,603311,2024-03-31 00:01:34,2024-03-31 00:23:37,Plac Strzegomski / Poznańska,Lotnicza / Na Ostatnim Groszu,22
+220972557,604449,2024-03-31 00:02:01,2024-03-31 00:17:12,Dyrekcyjna / Borowska (Wroclavia),al. Armii Krajowej / Bardzka,15
+220972566,603911,2024-03-31 00:02:15,2024-03-31 00:02:50,Szewska / Kazimierza Wielkiego ,Szewska / Kazimierza Wielkiego ,1
+220972578,603358,2024-03-31 00:02:33,2024-03-31 00:03:08,Rynek,Rynek,1
+220972589,603136,2024-03-31 00:03:00,2024-03-31 00:05:11,Szewska / Kazimierza Wielkiego ,Szewska / Kazimierza Wielkiego ,2
+220972594,602756,2024-03-31 00:03:09,2024-03-31 00:15:57,Ślężna / Kamienna (Uniw. Ekonomiczny),Plac Jana Pawła II (Akademia Muzyczna),13
+220972599,602333,2024-03-31 00:03:17,2024-03-31 00:04:08,Rynek,Rynek,1
+220972607,603764,2024-03-31 00:03:33,2024-03-31 00:07:04,Plac Powstańców Warszawy (Muzeum Narodowe),Plac Powstańców Warszawy (Muzeum Narodowe),4
+220972619,602694,2024-03-31 00:03:46,2024-03-31 00:07:00,Plac Powstańców Warszawy (Muzeum Narodowe),Plac Powstańców Warszawy (Muzeum Narodowe),3
+220972631,602223,2024-03-31 00:04:02,2024-03-31 00:46:17,Hubska / Prudnicka,Tyrmanda / Trawowa,42
+220972642,602772,2024-03-31 00:04:08,2024-03-31 00:07:37,Hubska / Prudnicka,Kamienna / Tomaszowska,3
+220972694,603911,2024-03-31 00:05:35,2024-03-31 00:06:20,Szewska / Kazimierza Wielkiego ,Szewska / Kazimierza Wielkiego ,1
+220972721,602483,2024-03-31 00:06:19,2024-03-31 00:21:18,Grabiszyńska / Aleja Hallera,Solskiego / al. Piastów,15
+220972731,602338,2024-03-31 00:06:31,2024-03-31 00:12:02,Szewska / Kazimierza Wielkiego ,Traugutta / Pułaskiego,6
+220972747,603906,2024-03-31 00:06:57,2024-03-31 00:21:57,Rondo Reagana,Olszewskiego / Spółdzielcza,15
+220972761,603318,2024-03-31 00:07:15,2024-03-31 00:26:11,Plac Powstańców Warszawy (Muzeum Narodowe),Kazimierza Wielkiego (Helios),19
+220972811,603607,2024-03-31 00:08:15,2024-03-31 00:12:50,Poza stacją,Piłsudskiego 13 od Jump Hall,5
+220972814,602694,2024-03-31 00:08:17,2024-03-31 00:08:40,Plac Powstańców Warszawy (Muzeum Narodowe),Plac Powstańców Warszawy (Muzeum Narodowe),0
+220972847,602694,2024-03-31 00:09:02,2024-03-31 00:26:25,Plac Powstańców Warszawy (Muzeum Narodowe),Kazimierza Wielkiego (Helios),17
+220972875,603189,2024-03-31 00:09:34,2024-03-31 00:15:14,Krzycka / Aleja Karkonoska (Park Południowy),Krzycka / Aleja Karkonoska (Park Południowy),6
+220972996,602458,2024-03-31 00:12:29,2024-03-31 00:17:48,Nowowiejska / Wyszyńskiego,Nowowiejska / Jedności Narodowej,5
+220973002,603136,2024-03-31 00:12:41,2024-03-31 00:31:59,Szewska / Kazimierza Wielkiego ,al. Armii Krajowej / Bardzka,19
+220973043,604541,2024-03-31 00:13:26,2024-03-31 00:22:40,Plac Dominikański (Galeria Dominikańska),Kościuszki / Pułaskiego,9
+220973075,602921,2024-03-31 00:14:24,2024-03-31 00:17:42,Poza stacją,Poza stacją,3
+220973267,603572,2024-03-31 00:19:18,2024-03-31 00:33:32,Kościuszki / Komuny Paryskiej / Zgodna,Opolska / Siemianowicka,14
+220973286,603862,2024-03-31 00:19:53,2024-03-31 00:30:04,Legnicka / Zachodnia ,Legnicka / Wejherowska,10
+220973413,604558,2024-03-31 00:22:58,2024-03-31 00:40:41,Gliniana / Gajowa,Przyjaźni / Karkonoska,18
+220973607,602458,2024-03-31 00:27:40,2024-03-31 00:28:36,Nowowiejska / Jedności Narodowej,Nowowiejska / Jedności Narodowej,1
+220973619,603382,2024-03-31 00:28:09,2024-03-31 00:58:59,Legnicka / Zachodnia ,Rondo Reagana,31
+220973684,602458,2024-03-31 00:30:04,2024-03-31 00:34:22,Nowowiejska / Jedności Narodowej,Nowowiejska / Wyszyńskiego,4
+220973693,602921,2024-03-31 00:30:17,2024-03-31 00:34:11,Poza stacją,Poza stacją,4
+220973703,603651,2024-03-31 00:30:27,2024-03-31 00:46:47,Legnicka / Wejherowska,Poza stacją,16
+220973707,602687,2024-03-31 00:30:30,2024-03-31 01:13:20,Klecińska (Wrocław Grabiszyn),Klecińska / Duńska,43
+220973802,603139,2024-03-31 00:32:41,2024-03-31 00:52:08,"Paprotna / Obornicka, zajezdnia MPK",Nowowiejska / Wyszyńskiego,19
+220973842,603677,2024-03-31 00:34:08,2024-03-31 00:38:16,Czekoladowa / Wałbrzyska,Wałbrzyska - pętla tramwajowa,4
+220973848,602667,2024-03-31 00:34:19,2024-03-31 00:41:36,Powstańcow Śląskich / Aleja Hallera,Świdnicka / Piłsudskiego (Hotel Scandic),7
+220973867,602419,2024-03-31 00:35:06,2024-03-31 00:49:06,Plac Legionów,Grabiszyńska / Aleja Hallera,14
+220973905,603084,2024-03-31 00:36:19,2024-03-31 00:43:49,Sienkiewicza / Wyszyńskiego,al. Kochanowskiego / Kopernika,8
+220974005,603241,2024-03-31 00:38:39,2024-03-31 00:44:10,Wałbrzyska - pętla tramwajowa,Poza stacją,6
+220974047,602684,2024-03-31 00:39:30,2024-03-31 00:49:30,Drobnera / Plac Bema,Promenady Wrocławskie,10
+220974092,604470,2024-03-31 00:40:40,2024-03-31 00:53:15,Kasprowicza / Syrokomli,Promenady Wrocławskie,13
+220974095,602670,2024-03-31 00:40:45,2024-03-31 00:44:11,al. Armii Krajowej / Borowska,Kamienna / Borowska (Aquapark),3
+220974099,603783,2024-03-31 00:40:52,2024-03-31 00:53:27,Dyrekcyjna / Borowska (Wroclavia),al. Armii Krajowej / Bardzka,13
+220974181,603769,2024-03-31 00:43:17,2024-03-31 01:00:21,Poza stacją,Poza stacją,17
+220974191,603695,2024-03-31 00:43:34,2024-03-31 00:44:21,Świdnicka / Piłsudskiego (Hotel Scandic),Świdnicka / Piłsudskiego (Hotel Scandic),1
+220974193,604183,2024-03-31 00:43:37,2024-03-31 00:55:06,Kościuszki / Komuny Paryskiej / Zgodna,Bardzka / Piękna,11
+220974207,602667,2024-03-31 00:43:58,2024-03-31 00:44:24,Świdnicka / Piłsudskiego (Hotel Scandic),Świdnicka / Piłsudskiego (Hotel Scandic),0
+220974257,602596,2024-03-31 00:45:09,2024-03-31 00:57:15,Krucza / Mielecka / Stalowa,Hallera / Odkrywców,12
+220974275,652007,2024-03-31 00:45:36,2024-03-31 00:53:13,Drobnera / Dubois,Młodych Techników,8
+220974356,603651,2024-03-31 00:47:36,2024-03-31 01:03:32,Poza stacją,Poza stacją,16
+220974383,603306,2024-03-31 00:48:18,2024-03-31 01:04:54,Powstańcow Śląskich / Aleja Hallera,Świeradowska / Krynicka,17
+220974455,603903,2024-03-31 00:50:28,2024-03-31 01:46:55,Opolska / Siemianowicka,Mińska / Stanisławowska,56
+220974484,602499,2024-03-31 00:51:07,2024-03-31 01:04:09,"Paprotna / Obornicka, zajezdnia MPK",Czarnuszkowa/Waniliowa,13
+220974488,602993,2024-03-31 00:51:11,2024-03-31 00:52:18,Grabiszyńska / Aleja Hallera,Grabiszyńska / Aleja Hallera,1
+220974527,602921,2024-03-31 00:52:39,2024-03-31 00:55:38,Poza stacją,Poza stacją,3
+220974624,602827,2024-03-31 00:55:25,2024-03-31 00:57:58,Legnicka / Wejherowska,Lotnicza / Na Ostatnim Groszu,3
+220974710,603356,2024-03-31 00:57:22,2024-03-31 01:01:16,Poza stacją,Chałubińskiego / Mikulicza-Radeckiego,4
+220974782,603418,2024-03-31 00:59:41,2024-03-31 01:04:15,Dworzec Główny ,Plac Legionów,5
+220974874,604216,2024-03-31 01:02:46,2024-03-31 01:13:10,Drobnera / Dubois,Wyszyńskiego / Szczytnicka,10
+220974889,603848,2024-03-31 01:03:11,2024-03-31 01:18:50,Chałubińskiego / Mikulicza-Radeckiego,Partyzantów / Okrzei,16
+220974921,602263,2024-03-31 01:04:31,2024-03-31 01:27:38,Plac Powstańców Śląskich,Zwycięska / Agrestowa,23
+220974930,603712,2024-03-31 01:04:44,2024-03-31 01:27:27,Plac Powstańców Śląskich,Zwycięska / Agrestowa,23
+220975024,604565,2024-03-31 01:07:35,2024-03-31 01:20:21,Żmigrodzka / Marino,Księgarska / Dekarska / Zduńska,13
+220975110,602166,2024-03-31 01:09:54,2024-03-31 01:14:53,Otyńska,Klecińska / Duńska,5
+220975132,603899,2024-03-31 01:10:24,2024-03-31 01:26:25,Poza stacją,Legnicka / Wejherowska,16
+220975142,603205,2024-03-31 01:11:00,2024-03-31 01:12:06,Szczęśliwa (Sky Tower),Szczęśliwa (Sky Tower),1
+220975159,602029,2024-03-31 01:11:37,2024-03-31 01:24:14,Lotnicza / Na Ostatnim Groszu,Hermanowska / Kołobrzeska,13
+220975183,603576,2024-03-31 01:12:08,2024-03-31 01:30:04,Aleja Hallera / Mielecka,Aleja Hallera / Mielecka,18
+220975196,602986,2024-03-31 01:12:28,2024-03-31 01:13:16,Szczęśliwa (Sky Tower),Szczęśliwa (Sky Tower),1
+220975368,602166,2024-03-31 01:17:43,2024-03-31 01:21:51,Klecińska / Duńska,Otyńska,4
+220975545,603311,2024-03-31 01:22:39,2024-03-31 01:35:05,Lotnicza / Na Ostatnim Groszu,Robotnicza / Fabryczna,12
+220975775,602743,2024-03-31 01:31:01,2024-03-31 01:52:17,Jagiełły / Dmowskiego ,Lotnicza / Bajana,21
+220976146,603925,2024-03-31 01:44:15,2024-03-31 01:56:07,Kutrzeby / Hubala,Świeradowska / Krynicka,12
+220976278,602468,2024-03-31 01:47:59,2024-03-31 01:53:49,Plac Legionów,Grabiszyńska / Stalowa,6

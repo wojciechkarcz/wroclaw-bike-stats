@@ -1,0 +1,34 @@
+UID wynajmu,Numer roweru,Data wynajmu,Data zwrotu,Stacja wynajmu,Stacja zwrotu,Czas trwania
+171328626,602043,2023-02-22 10:32:42,2023-02-22 10:42:19,Świdnicka / Piłsudskiego (Hotel Scandic),Powstańców Śląskich (Arkady Wrocławskie),10
+171328834,602329,2023-02-22 10:37:01,2023-02-22 10:42:19,Świdnicka / Piłsudskiego (Hotel Scandic),Powstańców Śląskich (Arkady Wrocławskie),6
+171328821,602036,2023-02-22 10:36:49,2023-02-22 10:42:21,Świdnicka / Piłsudskiego (Hotel Scandic),Powstańców Śląskich (Arkady Wrocławskie),6
+171328861,602458,2023-02-22 10:37:39,2023-02-22 10:42:21,Świdnicka / Piłsudskiego (Hotel Scandic),Powstańców Śląskich (Arkady Wrocławskie),5
+171328943,602027,2023-02-22 10:39:22,2023-02-22 10:42:50,Świdnicka / Piłsudskiego (Hotel Scandic),Powstańców Śląskich (Arkady Wrocławskie),4
+171328818,602322,2023-02-22 10:36:47,2023-02-22 10:47:26,Świdnicka / Piłsudskiego (Hotel Scandic),Powstańców Śląskich (Arkady Wrocławskie),11
+171329214,602329,2023-02-22 10:45:37,2023-02-22 10:47:31,Powstańców Śląskich (Arkady Wrocławskie),Powstańców Śląskich (Arkady Wrocławskie),2
+171329204,602036,2023-02-22 10:45:19,2023-02-22 10:47:33,Powstańców Śląskich (Arkady Wrocławskie),Powstańców Śląskich (Arkady Wrocławskie),3
+171329232,602458,2023-02-22 10:45:53,2023-02-22 10:47:42,Powstańców Śląskich (Arkady Wrocławskie),Powstańców Śląskich (Arkady Wrocławskie),2
+171329230,602027,2023-02-22 10:45:53,2023-02-22 10:47:57,Powstańców Śląskich (Arkady Wrocławskie),Powstańców Śląskich (Arkady Wrocławskie),3
+171329366,602458,2023-02-22 10:48:38,2023-02-22 10:50:02,Powstańców Śląskich (Arkady Wrocławskie),Powstańców Śląskich (Arkady Wrocławskie),2
+171329443,602036,2023-02-22 10:50:12,2023-02-22 11:00:32,Powstańców Śląskich (Arkady Wrocławskie),Świdnicka / Piłsudskiego (Hotel Scandic),11
+171329939,602329,2023-02-22 10:59:30,2023-02-22 11:03:20,Powstańców Śląskich (Arkady Wrocławskie),Świdnicka / Piłsudskiego (Hotel Scandic),4
+171329733,602322,2023-02-22 10:55:44,2023-02-22 11:04:16,Powstańców Śląskich (Arkady Wrocławskie),Plac Kościuszki (Renoma),9
+171329757,602027,2023-02-22 10:56:07,2023-02-22 11:04:17,Powstańców Śląskich (Arkady Wrocławskie),Plac Kościuszki (Renoma),9
+171329463,602458,2023-02-22 10:50:36,2023-02-22 11:06:14,Powstańców Śląskich (Arkady Wrocławskie),Plac Kościuszki (Renoma),16
+171331297,602322,2023-02-22 11:26:20,2023-02-22 11:27:48,Plac Kościuszki (Renoma),Poza stacją,2
+171330424,602027,2023-02-22 11:09:24,2023-02-22 11:27:49,Plac Kościuszki (Renoma),Poza stacją,19
+171330383,602458,2023-02-22 11:08:27,2023-02-22 11:28:28,Plac Kościuszki (Renoma),Poza stacją,21
+171331530,602027,2023-02-22 11:30:02,2023-02-22 11:33:11,Poza stacją,Świdnicka / Piłsudskiego (Hotel Scandic),4
+171331534,602322,2023-02-22 11:30:07,2023-02-22 11:33:12,Poza stacją,Świdnicka / Piłsudskiego (Hotel Scandic),4
+171331528,602458,2023-02-22 11:30:02,2023-02-22 11:33:22,Poza stacją,Poza stacją,4
+171331842,602322,2023-02-22 11:35:47,2023-02-22 11:36:15,Świdnicka / Piłsudskiego (Hotel Scandic),Świdnicka / Piłsudskiego (Hotel Scandic),1
+171331563,602043,2023-02-22 11:30:52,2023-02-22 11:36:21,Świdnicka / Piłsudskiego (Hotel Scandic),Świdnicka / Piłsudskiego (Hotel Scandic),6
+171331803,602458,2023-02-22 11:35:08,2023-02-22 11:36:23,Poza stacją,Świdnicka / Piłsudskiego (Hotel Scandic),2
+171331792,602036,2023-02-22 11:34:56,2023-02-22 11:36:24,Świdnicka / Piłsudskiego (Hotel Scandic),Świdnicka / Piłsudskiego (Hotel Scandic),2
+171331952,602329,2023-02-22 11:37:37,2023-02-22 11:39:42,Świdnicka / Piłsudskiego (Hotel Scandic),Powstańców Śląskich (Arkady Wrocławskie),3
+171331912,602322,2023-02-22 11:36:49,2023-02-22 11:40:35,Świdnicka / Piłsudskiego (Hotel Scandic),Powstańców Śląskich (Arkady Wrocławskie),4
+171332219,602322,2023-02-22 11:42:06,2023-02-22 11:43:30,Powstańców Śląskich (Arkady Wrocławskie),Poza stacją,2
+171332126,604113,2023-02-22 11:40:29,2023-02-22 11:43:43,Poza stacją,Poza stacją,4
+171332220,602329,2023-02-22 11:42:06,2023-02-22 11:44:06,Powstańców Śląskich (Arkady Wrocławskie),Powstańców Śląskich (Arkady Wrocławskie),2
+171332425,602329,2023-02-22 11:45:15,2023-02-22 11:46:42,Powstańców Śląskich (Arkady Wrocławskie),Poza stacją,2
+171332422,602322,2023-02-22 11:45:12,2023-02-22 11:46:52,Poza stacją,Poza stacją,2

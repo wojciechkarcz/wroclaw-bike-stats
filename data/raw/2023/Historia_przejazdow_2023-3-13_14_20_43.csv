@@ -1,0 +1,1242 @@
+UID wynajmu,Numer roweru,Data wynajmu,Data zwrotu,Stacja wynajmu,Stacja zwrotu,Czas trwania
+172467960,602378,2023-03-10 23:49:56,2023-03-11 00:00:29,Sienkiewicza / Wyszyńskiego,Aleja Kromera,11
+172467961,603412,2023-03-10 23:50:00,2023-03-11 00:00:32,Sienkiewicza / Wyszyńskiego,Aleja Kromera,11
+172468207,603068,2023-03-10 23:59:17,2023-03-11 00:01:58,Graniczna / Strzegomska,Strzegomska / Rogowska ,3
+172468037,603451,2023-03-10 23:52:34,2023-03-11 00:02:05,Na Ostatnim Groszu,Strzegomska / Rogowska ,10
+172468197,602975,2023-03-10 23:58:57,2023-03-11 00:02:06,Graniczna / Strzegomska,Strzegomska / Rogowska ,4
+172467833,603286,2023-03-10 23:46:18,2023-03-11 00:04:34,Ślężna / Skierniewicka,Mościckiego (stacja kolejowa),19
+172467779,603295,2023-03-10 23:44:35,2023-03-11 00:07:16,Krakowska / Leroy Merlin,Olszewskiego / Spółdzielcza,23
+172468184,603234,2023-03-10 23:58:23,2023-03-11 00:08:06,Rynek,Plac Strzegomski / Poznańska,10
+172468158,602186,2023-03-10 23:57:05,2023-03-11 00:08:42,Rondo Reagana,Promenady Wrocławskie,12
+172468480,603108,2023-03-11 00:08:36,2023-03-11 00:08:51,Szewska / Kazimierza Wielkiego ,Szewska / Kazimierza Wielkiego ,1
+172468176,602764,2023-03-10 23:57:54,2023-03-11 00:09:23,al. Kochanowskiego / Kopernika,Partyzantów / Okrzei,12
+172468229,602745,2023-03-11 00:00:27,2023-03-11 00:10:10,Piaskowa / św. Ducha,Jedności Narodowej / Wyszyńskiego,10
+172468365,602888,2023-03-11 00:05:29,2023-03-11 00:11:39,Lotnicza / Na Ostatnim Groszu,Lotnicza / Bajana,7
+172468414,602290,2023-03-11 00:06:39,2023-03-11 00:13:12,Piaskowa / św. Ducha,Żeromskiego / Daszyńskiego,7
+172468389,603035,2023-03-11 00:06:16,2023-03-11 00:15:47,"Olszewskiego, pętla tramwajowa",Partyzantów / Okrzei,10
+172468516,603180,2023-03-11 00:09:39,2023-03-11 00:17:30,Fosa Miejska ,Kamienna / Borowska (Aquapark),8
+172468465,602049,2023-03-11 00:08:08,2023-03-11 00:19:40,Popowicka / Niedźwiedzia,Jagiełły / Dmowskiego ,12
+172468525,603635,2023-03-11 00:09:52,2023-03-11 00:19:59,Krakowska / Leroy Merlin,al. Armii Krajowej / Bardzka,11
+172468558,602787,2023-03-11 00:11:17,2023-03-11 00:20:19,Szewska / Kazimierza Wielkiego ,Plac Grunwaldzki / Polaka,10
+172467723,602721,2023-03-10 23:42:41,2023-03-11 00:20:26,Szewska / Kazimierza Wielkiego ,Poza stacją,38
+172467664,603499,2023-03-10 23:40:56,2023-03-11 00:20:37,Szewska / Kazimierza Wielkiego ,Poza stacją,40
+172467836,603663,2023-03-10 23:46:24,2023-03-11 00:20:38,Szewska / Kazimierza Wielkiego ,Poza stacją,35
+172467669,602458,2023-03-10 23:41:15,2023-03-11 00:20:41,Szewska / Kazimierza Wielkiego ,Poza stacją,40
+172468127,602744,2023-03-10 23:56:05,2023-03-11 00:20:49,Kazimierza Wielkiego (Helios),Strzegomska / Estońska,25
+172468429,602003,2023-03-11 00:07:06,2023-03-11 00:21:52,Plac Powstańców Śląskich,Poza stacją,15
+172468646,603442,2023-03-11 00:15:05,2023-03-11 00:22:46,Kościuszki / Komuny Paryskiej / Zgodna,Walońska (Angel Poland Group),8
+172468682,602825,2023-03-11 00:16:31,2023-03-11 00:23:47,pl. Powstańców Wielkopolskich,pl. Powstańców Wielkopolskich,8
+172468679,602056,2023-03-11 00:16:22,2023-03-11 00:23:53,pl. Powstańców Wielkopolskich,pl. Powstańców Wielkopolskich,8
+172468144,603148,2023-03-10 23:56:31,2023-03-11 00:24:51,Plac Grunwaldzki / Polaka,Powstańcow Śląskich / Aleja Hallera,29
+172468915,602102,2023-03-11 00:24:38,2023-03-11 00:25:17,Świeradowska (Ferio Gaj ),Świeradowska (Ferio Gaj ),1
+172468581,602710,2023-03-11 00:12:07,2023-03-11 00:28:25,Buforowa - Vivaldiego,Hubska / Prudnicka,17
+172468576,602977,2023-03-11 00:11:49,2023-03-11 00:28:32,Buforowa - Vivaldiego,Hubska / Prudnicka,17
+172469067,602907,2023-03-11 00:29:17,2023-03-11 00:29:51,Kamienna / Borowska (Aquapark),Kamienna / Borowska (Aquapark),1
+172468189,602048,2023-03-10 23:58:36,2023-03-11 00:29:53,Drobnera / Dubois,Graniczna / Strzegomska,32
+172468820,602666,2023-03-11 00:21:24,2023-03-11 00:29:57,Plac Grunwaldzki (DS Ołówek),Nowowiejska / Wyszyńskiego,9
+172468991,604370,2023-03-11 00:26:37,2023-03-11 00:30:57,Ślężna / Aleja Wiśniowa,Dyrekcyjna / Borowska (Wroclavia),5
+172469019,602841,2023-03-11 00:27:21,2023-03-11 00:31:41,Nowowiejska / Górnickiego,Rondo Reagana,5
+172469131,602907,2023-03-11 00:31:24,2023-03-11 00:31:43,Kamienna / Borowska (Aquapark),Kamienna / Borowska (Aquapark),1
+172468705,603452,2023-03-11 00:17:22,2023-03-11 00:32:43,Zaporoska / Grabiszyńska,Poza stacją,16
+172468678,602026,2023-03-11 00:16:20,2023-03-11 00:33:34,Aleja Hallera / Mielecka,Kazimierza Wielkiego (Helios),18
+172468961,602084,2023-03-11 00:25:38,2023-03-11 00:34:11,Świeradowska (Ferio Gaj ),al. Armii Krajowej / Borowska,9
+172469046,603109,2023-03-11 00:28:33,2023-03-11 00:36:05,"Olszewskiego, pętla tramwajowa",Poza stacją,8
+172468994,603656,2023-03-11 00:26:45,2023-03-11 00:36:10,Drobnera / Dubois,Żeromskiego / Daszyńskiego,10
+172469208,603416,2023-03-11 00:34:33,2023-03-11 00:36:18,Nowowiejska / Jedności Narodowej,Nowowiejska / Jedności Narodowej,2
+172469073,602245,2023-03-11 00:29:25,2023-03-11 00:36:29,Hubska / Prudnicka,Kościuszki / Komuny Paryskiej / Zgodna,8
+172469065,602294,2023-03-11 00:29:15,2023-03-11 00:36:31,Hubska / Prudnicka,Kościuszki / Komuny Paryskiej / Zgodna,8
+172469084,603005,2023-03-11 00:29:43,2023-03-11 00:37:18,Powstańców Śląskich (Arkady Wrocławskie),Kościuszki / Pułaskiego,8
+172468937,603192,2023-03-11 00:25:04,2023-03-11 00:37:50,Plac Powstańców Śląskich,Bardzka / Piękna,13
+172469040,603640,2023-03-11 00:28:16,2023-03-11 00:38:15,Drobnera / Dubois,Żmigrodzka / Broniewskiego,10
+172469129,603382,2023-03-11 00:31:13,2023-03-11 00:40:41,Piaskowa / św. Ducha,Nowowiejska / Wyszyńskiego,10
+172469336,602549,2023-03-11 00:39:16,2023-03-11 00:44:06,Dworzec Główny ,Kościuszki / Pułaskiego,5
+172469209,603356,2023-03-11 00:34:37,2023-03-11 00:44:25,Leśnica - pętla tramwajowa,Wojanowska / Arbuzowa ,10
+172469445,602399,2023-03-11 00:43:21,2023-03-11 00:45:07,Ślężna / Kamienna (Uniw. Ekonomiczny),Ślężna / Kamienna (Uniw. Ekonomiczny),2
+172468593,602588,2023-03-11 00:12:35,2023-03-11 00:46:40,Zaporoska / Grabiszyńska,Pilczycka (Stadion Miejski),35
+172469145,602087,2023-03-11 00:32:12,2023-03-11 00:47:08,Łukasiewicza / Smoluchowskiego (PWr),Wróblewskiego (Teki),15
+172469143,602785,2023-03-11 00:32:08,2023-03-11 00:48:26,Kamienna / Borowska (Aquapark),Świeradowska (Ferio Gaj ),17
+172469299,602026,2023-03-11 00:38:14,2023-03-11 00:48:54,Kazimierza Wielkiego (Helios),Zaporoska / Grabiszyńska,11
+172469240,602080,2023-03-11 00:35:42,2023-03-11 00:50:18,Dworzec Główny ,Śrubowa / Strzegomska,15
+172469172,602014,2023-03-11 00:33:28,2023-03-11 00:50:22,Plac Kościuszki (Renoma),Borowska (Uniw. Szpital Kliniczny),17
+172469434,602568,2023-03-11 00:42:41,2023-03-11 00:51:00,Poza stacją,Jagiełły / Dmowskiego ,9
+172469265,603109,2023-03-11 00:36:40,2023-03-11 00:52:21,Poza stacją,Poza stacją,16
+172469245,602178,2023-03-11 00:35:46,2023-03-11 00:52:22,Poza stacją,Grota-Roweckiego/Iwaszkiewicza,17
+172469609,602611,2023-03-11 00:49:22,2023-03-11 00:52:26,Komandorska / Kamienna,Plac Powstańców Śląskich,4
+172469388,604385,2023-03-11 00:41:08,2023-03-11 00:54:01,Poza stacją,Aleja Hallera / Mielecka,13
+172469469,602381,2023-03-11 00:43:57,2023-03-11 00:54:27,Traugutta / Pułaskiego,Hubska / Prudnicka,11
+172469331,602553,2023-03-11 00:39:10,2023-03-11 00:57:04,Świdnicka / Piłsudskiego (Hotel Scandic),Świeradowska (Ferio Gaj ),18
+172469335,602146,2023-03-11 00:39:15,2023-03-11 00:57:06,Świdnicka / Piłsudskiego (Hotel Scandic),Świeradowska (Ferio Gaj ),18
+172469735,602744,2023-03-11 00:55:48,2023-03-11 01:00:50,Strzegomska / Estońska,Tyrmanda / Mińska,6
+172469827,602399,2023-03-11 00:59:31,2023-03-11 01:01:24,Ślężna / Kamienna (Uniw. Ekonomiczny),Ślężna / Kamienna (Uniw. Ekonomiczny),2
+172468606,604335,2023-03-11 00:13:05,2023-03-11 01:07:07,Szewska / Kazimierza Wielkiego ,al. Armii Krajowej / Bardzka,55
+172468529,603108,2023-03-11 00:10:08,2023-03-11 01:07:50,Szewska / Kazimierza Wielkiego ,al. Armii Krajowej / Bardzka,58
+172469786,603399,2023-03-11 00:57:49,2023-03-11 01:11:07,Kurkowa / Dubois,Plac Strzegomski / Poznańska,14
+172469685,603109,2023-03-11 00:53:24,2023-03-11 01:12:10,Poza stacją,Szczęśliwa (Sky Tower),19
+172470128,602969,2023-03-11 01:11:25,2023-03-11 01:15:21,Plac Jana Pawła II (Akademia Muzyczna),Piłsudskiego 13 od Jump Hall,4
+172470180,603109,2023-03-11 01:13:39,2023-03-11 01:15:45,Szczęśliwa (Sky Tower),Plac Powstańców Śląskich,3
+172470060,603167,2023-03-11 01:08:40,2023-03-11 01:18:52,Rynek,Plac Powstańców Śląskich,11
+172469739,602933,2023-03-11 00:55:52,2023-03-11 01:22:09,Popowicka / Niedźwiedzia,Kołłątaja / Podwale,27
+172470232,602139,2023-03-11 01:15:35,2023-03-11 01:25:09,Gajowicka,Komandorska / Kamienna,10
+172470319,602611,2023-03-11 01:19:38,2023-03-11 01:29:58,Plac Powstańców Śląskich,Racławicka / Rymarska,11
+172470291,602841,2023-03-11 01:18:20,2023-03-11 01:35:26,Rondo Reagana,Bardzka / Piękna,18
+172470345,602718,2023-03-11 01:21:19,2023-03-11 01:35:38,Komandorska / Kamienna,Nyska / Jesionowa,15
+172470413,602080,2023-03-11 01:24:09,2023-03-11 01:36:55,Śrubowa / Strzegomska,Kołłątaja / Podwale,13
+172470415,602969,2023-03-11 01:24:26,2023-03-11 01:37:31,Piłsudskiego 13 od Jump Hall,Grabiszyńska / Aleja Hallera,14
+172470509,602867,2023-03-11 01:28:21,2023-03-11 01:37:44,Konduktorska,Mościckiego / Chińska ,10
+172470689,603217,2023-03-11 01:36:10,2023-03-11 01:38:41,Promenady Wrocławskie,Promenady Wrocławskie,3
+172470692,603178,2023-03-11 01:36:20,2023-03-11 01:39:02,Promenady Wrocławskie,Promenady Wrocławskie,3
+172470424,602218,2023-03-11 01:24:54,2023-03-11 01:39:16,Zachodnia / Poznańska,Plac Uniwersytecki (UWr),15
+172470653,602650,2023-03-11 01:34:07,2023-03-11 01:41:57,Nowowiejska / Jedności Narodowej,Poza stacją,8
+172469669,602870,2023-03-11 00:52:28,2023-03-11 01:42:53,Wyszyńskiego / Szczytnicka,Strzegomska / Rogowska ,51
+172470602,603537,2023-03-11 01:31:33,2023-03-11 01:43:22,Rynek,Sienkiewicza / Wyszyńskiego,12
+172470852,602218,2023-03-11 01:43:29,2023-03-11 01:45:31,Plac Uniwersytecki (UWr),Wita Stwosza / Szewska,3
+172470769,604324,2023-03-11 01:40:52,2023-03-11 01:45:33,Poniatowskiego / Oleśnicka,Poniatowskiego / Oleśnicka,5
+172470620,603381,2023-03-11 01:32:14,2023-03-11 01:51:45,Gajowicka,Poza stacją,20
+172470953,602780,2023-03-11 01:48:06,2023-03-11 01:56:38,Wróblewskiego (Teki),Rondo Reagana,9
+172470567,603690,2023-03-11 01:30:10,2023-03-11 01:57:17,Rynek,al. Armii Krajowej / Borowska,28
+172470987,602841,2023-03-11 01:50:44,2023-03-11 01:57:32,Bardzka / Piękna,Dworzec Główny ,7
+172470551,604346,2023-03-11 01:29:37,2023-03-11 02:02:55,Drobnera / Dubois,Bezpieczna/Jugosławiańska,34
+172471235,602056,2023-03-11 02:04:15,2023-03-11 02:07:04,pl. Powstańców Wielkopolskich,Reymonta / Kleczkowska,3
+172471162,602708,2023-03-11 02:00:48,2023-03-11 02:07:55,Plac Dominikański (Galeria Dominikańska),Plac Grunwaldzki / Polaka,8
+172471170,603111,2023-03-11 02:00:58,2023-03-11 02:09:38,Bezpieczna/Jugosławiańska,Poza stacją,9
+172471175,603169,2023-03-11 02:01:12,2023-03-11 02:09:46,Bezpieczna/Jugosławiańska,Poza stacją,9
+172471283,602841,2023-03-11 02:07:06,2023-03-11 02:11:17,Dworzec Główny ,Plac Legionów,5
+172471401,602197,2023-03-11 02:13:14,2023-03-11 02:14:03,Wróblewskiego (Teki),Wróblewskiego (Teki),1
+172471421,604314,2023-03-11 02:14:08,2023-03-11 02:23:23,Dworzec Główny ,Traugutta / Kościuszki,10
+172471301,602787,2023-03-11 02:08:10,2023-03-11 02:25:04,Plac Grunwaldzki / Polaka,Wróblewskiego (Teki),17
+172471487,602087,2023-03-11 02:17:47,2023-03-11 02:28:39,Wróblewskiego (Teki),Łukasiewicza / Smoluchowskiego (PWr),11
+172471495,602584,2023-03-11 02:18:06,2023-03-11 02:28:54,Wróblewskiego (Teki),Łukasiewicza / Smoluchowskiego (PWr),11
+172471483,602197,2023-03-11 02:17:40,2023-03-11 02:28:55,Wróblewskiego (Teki),Łukasiewicza / Smoluchowskiego (PWr),12
+172471504,602843,2023-03-11 02:18:29,2023-03-11 02:28:56,Wróblewskiego (Teki),Łukasiewicza / Smoluchowskiego (PWr),11
+172471527,603434,2023-03-11 02:19:21,2023-03-11 02:28:59,Wróblewskiego (Teki),Łukasiewicza / Smoluchowskiego (PWr),10
+172471373,602841,2023-03-11 02:11:50,2023-03-11 02:29:02,Plac Legionów,Strzegomska / Rogowska ,18
+172471499,603278,2023-03-11 02:18:21,2023-03-11 02:29:05,Wróblewskiego (Teki),Łukasiewicza / Smoluchowskiego (PWr),11
+172471667,603054,2023-03-11 02:29:12,2023-03-11 02:32:16,Nyska / Jesionowa,al. Armii Krajowej / Bardzka,4
+172471677,603434,2023-03-11 02:29:50,2023-03-11 02:35:04,Łukasiewicza / Smoluchowskiego (PWr),Łukasiewicza / Smoluchowskiego (PWr),6
+172471678,603278,2023-03-11 02:29:50,2023-03-11 02:35:04,Łukasiewicza / Smoluchowskiego (PWr),Łukasiewicza / Smoluchowskiego (PWr),6
+172471684,602843,2023-03-11 02:30:01,2023-03-11 02:35:13,Łukasiewicza / Smoluchowskiego (PWr),Łukasiewicza / Smoluchowskiego (PWr),6
+172471682,602087,2023-03-11 02:30:00,2023-03-11 02:35:45,Łukasiewicza / Smoluchowskiego (PWr),Łukasiewicza / Smoluchowskiego (PWr),6
+172471154,602840,2023-03-11 02:00:17,2023-03-11 02:37:09,Miłoszycka / Swojczycka ,Plac Grunwaldzki / Polaka,37
+172471694,602650,2023-03-11 02:30:25,2023-03-11 02:38:54,Poza stacją,Kraszewskiego / Trzebnicka,9
+172471681,602584,2023-03-11 02:29:58,2023-03-11 02:38:57,Łukasiewicza / Smoluchowskiego (PWr),Wyszyńskiego / Szczytnicka,9
+172471692,602197,2023-03-11 02:30:14,2023-03-11 02:39:02,Łukasiewicza / Smoluchowskiego (PWr),Wyszyńskiego / Szczytnicka,9
+172471840,602817,2023-03-11 02:40:52,2023-03-11 02:42:37,Wałbrzyska - pętla tramwajowa,Wałbrzyska - pętla tramwajowa,2
+172471741,603176,2023-03-11 02:33:12,2023-03-11 02:42:57,Rynek,Pereca / Grabiszyńska,10
+172471828,603005,2023-03-11 02:39:59,2023-03-11 02:44:58,Kościuszki / Pułaskiego,Walońska (Angel Poland Group),5
+172471913,602967,2023-03-11 02:44:41,2023-03-11 02:45:13,Rynek,Rynek,1
+172471925,603431,2023-03-11 02:45:46,2023-03-11 02:46:18,Rynek,Rynek,1
+172471792,603234,2023-03-11 02:36:50,2023-03-11 02:46:56,Plac Strzegomski / Poznańska,Legnicka / Wejherowska,11
+172471859,602584,2023-03-11 02:42:13,2023-03-11 02:47:28,Wyszyńskiego / Szczytnicka,Łukasiewicza / Smoluchowskiego (PWr),6
+172472000,603232,2023-03-11 02:51:09,2023-03-11 02:51:38,Bardzka (cmentarz),Bardzka (cmentarz),1
+172472045,603415,2023-03-11 02:53:22,2023-03-11 02:56:11,Plac Powstańców Warszawy (Muzeum Narodowe),Plac Powstańców Warszawy (Muzeum Narodowe),3
+172472015,603642,2023-03-11 02:51:48,2023-03-11 02:58:06,Żeromskiego / Kluczborska,Kurkowa / Dubois,7
+172472005,603234,2023-03-11 02:51:25,2023-03-11 02:58:34,Legnicka / Wejherowska,Kozanowska / Pilczycka,8
+172471987,602933,2023-03-11 02:50:39,2023-03-11 03:00:55,Kołłątaja / Podwale,Zaporoska / Grabiszyńska,11
+172471976,603431,2023-03-11 02:49:53,2023-03-11 03:02:55,Rynek,Zaporoska / Grabiszyńska,14
+172472006,603426,2023-03-11 02:51:27,2023-03-11 03:03:54,Bardzka (cmentarz),Hubska / Prudnicka,13
+172472010,603663,2023-03-11 02:51:36,2023-03-11 03:08:47,Poza stacją,Karwińska / Opolska,18
+172471940,602967,2023-03-11 02:46:44,2023-03-11 03:12:59,Rynek,Racławicka / Rymarska,27
+172472289,602872,2023-03-11 03:11:00,2023-03-11 03:17:33,Żelazna / Pereca,Aleja Hallera / Mielecka,7
+172472329,603426,2023-03-11 03:13:46,2023-03-11 03:18:40,Hubska / Prudnicka,"Dworzec Główny, południe",5
+172472332,602218,2023-03-11 03:13:57,2023-03-11 03:22:39,Wita Stwosza / Szewska,Kościuszki / Komuny Paryskiej / Zgodna,9
+172472461,603255,2023-03-11 03:23:25,2023-03-11 03:23:58,Kazimierza Wielkiego (Helios),Kazimierza Wielkiego (Helios),1
+172472423,603426,2023-03-11 03:21:09,2023-03-11 03:24:44,"Dworzec Główny, południe",Gliniana / Gajowa,4
+172472377,603167,2023-03-11 03:17:50,2023-03-11 03:30:05,Plac Powstańców Śląskich,Nyska / Jesionowa,13
+172472364,602924,2023-03-11 03:16:28,2023-03-11 03:31:03,Żeromskiego / Daszyńskiego,Kościuszki / Pułaskiego,15
+172472388,602146,2023-03-11 03:18:52,2023-03-11 03:33:31,Świeradowska (Ferio Gaj ),Buforowa - Vivaldiego,15
+172472522,603698,2023-03-11 03:27:13,2023-03-11 03:35:47,Zaporoska / Grabiszyńska,Gajowicka,9
+172472504,602259,2023-03-11 03:25:59,2023-03-11 03:37:13,pl. Powstańców Wielkopolskich,Nowowiejska / Jedności Narodowej,12
+172472475,602840,2023-03-11 03:24:17,2023-03-11 03:44:59,Plac Grunwaldzki / Polaka,Tarnogajska / Klimasa,21
+172472719,602946,2023-03-11 03:46:34,2023-03-11 03:53:17,Osobowicka / Ostrowska,Osobowicka - pętla tramwajowa,7
+172472560,602736,2023-03-11 03:30:38,2023-03-11 03:55:10,Amazon WRO2,Powstańców Śląskich/Orla,25
+172472805,602458,2023-03-11 03:55:45,2023-03-11 04:01:16,Poza stacją,Kołłątaja / Podwale,6
+172472804,602721,2023-03-11 03:55:38,2023-03-11 04:05:44,Poza stacją,Kołłątaja / Podwale,11
+172472791,602616,2023-03-11 03:54:33,2023-03-11 04:17:43,Pilczycka (Stadion Miejski),"Paprotna / Obornicka, zajezdnia MPK",24
+172472970,602565,2023-03-11 04:14:06,2023-03-11 04:19:54,Gliniana / Gajowa,Nyska / Jesionowa,6
+172472885,602843,2023-03-11 04:05:00,2023-03-11 04:20:16,Łukasiewicza / Smoluchowskiego (PWr),Wróblewskiego (Teki),16
+172472899,603078,2023-03-11 04:06:05,2023-03-11 04:20:29,Łukasiewicza / Smoluchowskiego (PWr),Wróblewskiego (Teki),15
+172472884,602584,2023-03-11 04:04:55,2023-03-11 04:20:37,Łukasiewicza / Smoluchowskiego (PWr),Wróblewskiego (Teki),16
+172472891,602087,2023-03-11 04:05:15,2023-03-11 04:20:39,Łukasiewicza / Smoluchowskiego (PWr),Wróblewskiego (Teki),16
+172472889,603434,2023-03-11 04:05:10,2023-03-11 04:20:47,Łukasiewicza / Smoluchowskiego (PWr),Wróblewskiego (Teki),16
+172473039,602693,2023-03-11 04:22:02,2023-03-11 04:22:18,Opolska / pętla tramwajowa,Opolska / pętla tramwajowa,1
+172472912,602585,2023-03-11 04:07:40,2023-03-11 04:22:34,Powstańców Śląskich (Arkady Wrocławskie),Sienkiewicza / Wyszyńskiego,15
+172472806,602549,2023-03-11 03:55:45,2023-03-11 04:24:19,Kościuszki / Pułaskiego,Krzycka / Aleja Karkonoska (Park Południowy),29
+172472807,602544,2023-03-11 03:55:56,2023-03-11 04:24:23,Kościuszki / Pułaskiego,Krzycka / Aleja Karkonoska (Park Południowy),29
+172473035,602234,2023-03-11 04:21:38,2023-03-11 04:25:40,Plac Jana Pawła II (Akademia Muzyczna),Kazimierza Wielkiego (Helios),5
+172473090,603294,2023-03-11 04:26:37,2023-03-11 04:28:26,Kościuszki / Pułaskiego,Dworzec Główny ,2
+172473033,602332,2023-03-11 04:21:22,2023-03-11 04:29:30,Przyjaźni,Powstańców Śląskich/Orla,9
+172473147,603176,2023-03-11 04:32:53,2023-03-11 04:36:00,Pereca / Grabiszyńska,Zaporoska / Gajowicka,4
+172473174,602497,2023-03-11 04:36:21,2023-03-11 04:38:00,Zaporoska / Gajowicka,Zaporoska / Gajowicka,2
+172473141,602907,2023-03-11 04:31:55,2023-03-11 04:39:17,Kamienna / Borowska (Aquapark),Borowska (Uniw. Szpital Kliniczny),8
+172473102,603322,2023-03-11 04:27:49,2023-03-11 04:40:10,Partyzantów / Okrzei,al. Kochanowskiego / Śniadeckich ,13
+172473211,603294,2023-03-11 04:39:44,2023-03-11 04:40:32,Plac Powstańców Śląskich,Plac Powstańców Śląskich,1
+172473177,603253,2023-03-11 04:36:52,2023-03-11 04:45:27,Wróblewskiego (ZOO),Olszewskiego / Spółdzielcza,9
+172473190,603176,2023-03-11 04:38:22,2023-03-11 04:49:00,Zaporoska / Gajowicka,Bardzka / Piękna,11
+172473077,602213,2023-03-11 04:25:48,2023-03-11 04:49:16,Kazimierza Wielkiego (Helios),Wróblewskiego (Teki),24
+172473240,603356,2023-03-11 04:44:23,2023-03-11 04:49:41,Wojanowska / Arbuzowa ,Boguszowska / Kosmonautów,6
+172473194,603445,2023-03-11 04:38:43,2023-03-11 04:54:55,Jagiełły / Dmowskiego ,Żmigrodzka / Marino,17
+172473242,602116,2023-03-11 04:45:07,2023-03-11 04:57:17,al. Armii Krajowej / Bardzka,"Dworzec Główny, południe",13
+172473044,602693,2023-03-11 04:22:54,2023-03-11 04:57:19,Opolska / pętla tramwajowa,Rynek,35
+172473042,602732,2023-03-11 04:22:16,2023-03-11 04:57:40,Opolska / pętla tramwajowa,Rynek,36
+172473270,602977,2023-03-11 04:50:11,2023-03-11 04:58:00,Hubska / Prudnicka,Dyrekcyjna / Borowska (Wroclavia),8
+172473303,602972,2023-03-11 04:55:00,2023-03-11 04:59:32,Młodych Techników,Legnicka / Młodych Techników,5
+172473314,602026,2023-03-11 04:56:56,2023-03-11 04:59:51,Zaporoska / Grabiszyńska,Zaporoska / Gajowicka,3
+172473301,602418,2023-03-11 04:54:54,2023-03-11 05:01:15,Grabiszyńska / Aleja Hallera,Pereca / Grabiszyńska,7
+172473330,603663,2023-03-11 04:58:58,2023-03-11 05:02:09,Karwińska / Opolska,Gazowa / Międzyleska,4
+172473405,603294,2023-03-11 05:09:10,2023-03-11 05:09:37,Plac Powstańców Śląskich,Plac Powstańców Śląskich,1
+172473360,602785,2023-03-11 05:03:12,2023-03-11 05:10:32,Świeradowska (Ferio Gaj ),Kamienna / Borowska (Aquapark),8
+172473496,602040,2023-03-11 05:20:11,2023-03-11 05:26:42,Kwidzyńska pętla,3M,7
+172473488,603139,2023-03-11 05:19:41,2023-03-11 05:28:38,Nowowiejska / Wyszyńskiego,Plac Powstańców Warszawy (Muzeum Narodowe),9
+172473479,602650,2023-03-11 05:18:40,2023-03-11 05:32:41,Kraszewskiego / Trzebnicka,pl. Orląt Lwowskich,15
+172473530,603276,2023-03-11 05:25:59,2023-03-11 05:34:03,Plac Świętego Macieja / Trzebnicka,Sienkiewicza / Wyszyńskiego,9
+172473591,602378,2023-03-11 05:33:33,2023-03-11 05:38:30,Aleja Kromera,Poza stacją,5
+172473511,603277,2023-03-11 05:22:44,2023-03-11 05:39:55,pl. Powstańców Wielkopolskich,Dworzec Główny ,18
+172473622,602995,2023-03-11 05:38:19,2023-03-11 05:43:05,Osobowicka / Ostrowska,Osobowicka - pętla tramwajowa,5
+172473663,602017,2023-03-11 05:42:51,2023-03-11 05:49:04,Krzywoustego - Rynek Psie Pole,Kiełczowska,7
+172473657,603424,2023-03-11 05:42:01,2023-03-11 05:50:35,Czekoladowa / Wałbrzyska,Centrum Handlowe Auchan Bielany,9
+172473684,602139,2023-03-11 05:45:24,2023-03-11 05:51:04,Komandorska / Kamienna,"Dworzec Główny, południe",6
+172473685,604352,2023-03-11 05:45:27,2023-03-11 05:51:16,Poza stacją,Plac Powstańców Warszawy (Muzeum Narodowe),6
+172473718,602643,2023-03-11 05:50:02,2023-03-11 05:51:43,Tarnogajska / Klimasa,Tarnogajska / Klimasa,2
+172473720,603455,2023-03-11 05:50:16,2023-03-11 05:56:02,al. Armii Krajowej / Borowska,Poza stacją,6
+172473733,602840,2023-03-11 05:51:53,2023-03-11 06:03:47,Tarnogajska / Klimasa,Gliniana / Gajowa,12
+172473728,602202,2023-03-11 05:51:29,2023-03-11 06:05:10,Poza stacją,Nowowiejska / Górnickiego,14
+172473765,603499,2023-03-11 05:57:47,2023-03-11 06:07:32,Poza stacją,Jagiełły / Dmowskiego ,10
+172473870,602047,2023-03-11 06:10:51,2023-03-11 06:14:00,Klecińska / Duńska,Strzegomska / Estońska,4
+172474012,603267,2023-03-11 06:29:55,2023-03-11 06:34:22,Skarbowców / Wietrzna,Krzycka / Aleja Karkonoska (Park Południowy),5
+172473955,602872,2023-03-11 06:23:55,2023-03-11 06:40:59,Aleja Hallera / Mielecka,"Dworzec Główny, południe",18
+172474125,602003,2023-03-11 06:40:07,2023-03-11 06:43:14,Poza stacją,Świeradowska (Ferio Gaj ),4
+172474065,602824,2023-03-11 06:34:40,2023-03-11 06:45:05,Poza stacją,Młodych Techników,11
+172474231,604332,2023-03-11 06:49:58,2023-03-11 06:51:54,Młodych Techników,Młodych Techników,2
+172474182,602638,2023-03-11 06:44:47,2023-03-11 06:52:46,Legnicka / Zachodnia ,Fabryczna / Wagonowa,8
+172474099,602100,2023-03-11 06:37:49,2023-03-11 06:54:08,Plac Strzegomski / Poznańska,Żeromskiego / Daszyńskiego,17
+172474252,602458,2023-03-11 06:52:38,2023-03-11 06:55:51,Kołłątaja / Podwale,Dworzec Główny ,4
+172474194,602967,2023-03-11 06:45:46,2023-03-11 06:59:29,Racławicka / Rymarska,al. Karkonoska / Jeździecka,14
+172474276,602142,2023-03-11 06:55:32,2023-03-11 07:03:18,Poleska / Litewska,al. Jana III Sobieskiego / stacja kolejowa,8
+172474339,602202,2023-03-11 07:02:37,2023-03-11 07:11:07,Nowowiejska / Górnickiego,Piaskowa / św. Ducha,9
+172474409,602116,2023-03-11 07:09:47,2023-03-11 07:16:48,"Dworzec Główny, południe",al. Armii Krajowej / Borowska,8
+172474386,603142,2023-03-11 07:07:39,2023-03-11 07:20:06,Poza stacją,Plac Świętego Macieja / Trzebnicka,13
+172474492,602780,2023-03-11 07:18:12,2023-03-11 07:21:37,Rondo Reagana,Plac Grunwaldzki (DS Ołówek),4
+172474579,603306,2023-03-11 07:23:38,2023-03-11 07:24:12,Żeromskiego / Kluczborska,Żeromskiego / Kluczborska,1
+172474634,602890,2023-03-11 07:28:05,2023-03-11 07:32:28,Kościuszki / Komuny Paryskiej / Zgodna,"Dworzec Główny, południe",5
+172474705,602202,2023-03-11 07:33:48,2023-03-11 07:35:51,Piaskowa / św. Ducha,Plac Dominikański (Galeria Dominikańska),3
+172474681,603459,2023-03-11 07:31:40,2023-03-11 07:37:15,Lotnicza / Bajana,Pilczycka / Kozanowska,6
+172474547,602183,2023-03-11 07:21:13,2023-03-11 07:41:16,Reymonta / Kleczkowska,Poza stacją,21
+172474750,603239,2023-03-11 07:36:43,2023-03-11 07:45:25,Racławicka / Rymarska,Aleja Hallera / Mielecka,9
+172474801,602731,2023-03-11 07:40:21,2023-03-11 07:45:36,Drzewieckiego / Dedala,Legnicka / Wejherowska,6
+172474761,602483,2023-03-11 07:37:24,2023-03-11 07:48:38,Mińska / Stanisławowska,Grabiszyńska / Aleja Hallera,12
+172474924,603216,2023-03-11 07:48:38,2023-03-11 07:49:00,Poza stacją,Plac Grunwaldzki (DS Ołówek),1
+172464324,603067,2023-03-10 22:05:21,2023-03-11 07:55:19,3M,3M,590
+172475042,602448,2023-03-11 07:56:06,2023-03-11 07:56:24,Legnicka / Młodych Techników,Legnicka / Młodych Techników,1
+172474932,603692,2023-03-11 07:48:56,2023-03-11 07:56:26,Grabiszyńska / Aleja Hallera,Zaporoska / Grabiszyńska,8
+172475048,602054,2023-03-11 07:56:38,2023-03-11 07:57:40,Legnicka / Młodych Techników,Legnicka / Młodych Techników,2
+172475028,603139,2023-03-11 07:55:22,2023-03-11 08:02:03,Plac Powstańców Warszawy (Muzeum Narodowe),Nowowiejska / Górnickiego,7
+172474942,603216,2023-03-11 07:49:35,2023-03-11 08:03:40,Plac Grunwaldzki (DS Ołówek),Rakowiecka,15
+172475067,602972,2023-03-11 07:57:47,2023-03-11 08:08:44,Legnicka / Młodych Techników,Dworzec Główny ,11
+172475159,603005,2023-03-11 08:03:28,2023-03-11 08:09:33,Walońska (Angel Poland Group),Plac Dominikański (Galeria Dominikańska),7
+172475137,603337,2023-03-11 08:02:15,2023-03-11 08:11:38,Czekoladowa / Wałbrzyska,Centrum Handlowe Auchan Bielany,10
+172475049,603442,2023-03-11 07:56:38,2023-03-11 08:17:02,Walońska (Angel Poland Group),pl. Powstańców Wielkopolskich,21
+172475178,603216,2023-03-11 08:04:47,2023-03-11 08:18:48,Rakowiecka,al. Armii Krajowej / Tarnogajska,15
+172475390,603274,2023-03-11 08:17:20,2023-03-11 08:21:24,Robotnicza / Fabryczna,Poza stacją,5
+172475406,603482,2023-03-11 08:17:57,2023-03-11 08:23:22,Klecińska / Duńska,Klecińska (Wrocław Grabiszyn),6
+172475429,602466,2023-03-11 08:19:20,2023-03-11 08:23:31,Zwycięska / Ołtaszyńska,al. Karkonoska / Jeździecka,5
+172475428,603054,2023-03-11 08:19:17,2023-03-11 08:28:04,al. Armii Krajowej / Bardzka,Kamienna / Borowska (Aquapark),9
+172475377,602441,2023-03-11 08:16:31,2023-03-11 08:29:35,Traugutta / Kościuszki,Poza stacją,14
+172475442,603077,2023-03-11 08:20:03,2023-03-11 08:30:27,Wojanowska / Arbuzowa ,Leśnica - pętla tramwajowa,11
+172475498,603291,2023-03-11 08:23:01,2023-03-11 08:30:33,Konduktorska,Semaforowa,8
+172475430,603216,2023-03-11 08:19:22,2023-03-11 08:32:22,al. Armii Krajowej / Tarnogajska,Piławska,13
+172475206,602735,2023-03-11 08:06:20,2023-03-11 08:39:23,Sienkiewicza / Piastowska,Fabryczna / Wagonowa,34
+172475959,603026,2023-03-11 08:42:20,2023-03-11 08:44:20,Poza stacją,Buforowa - Vivaldiego,2
+172476138,602803,2023-03-11 08:48:29,2023-03-11 08:49:33,Poza stacją,Wojanowska / Arbuzowa ,2
+172476088,603030,2023-03-11 08:46:29,2023-03-11 08:50:28,Zatorska / Królewska - pętla MPK,Wilanowska,4
+172476007,602419,2023-03-11 08:43:54,2023-03-11 08:53:37,Plac Świętego Macieja / Trzebnicka,Wita Stwosza / Szewska,10
+172476019,602972,2023-03-11 08:44:22,2023-03-11 08:53:51,Dworzec Główny ,al. Armii Krajowej / Bardzka,10
+172476065,604352,2023-03-11 08:45:40,2023-03-11 08:54:17,Plac Powstańców Warszawy (Muzeum Narodowe),Poza stacją,9
+172476182,603639,2023-03-11 08:49:30,2023-03-11 08:54:31,Komandorska / Kamienna,Dyrekcyjna / Borowska (Wroclavia),6
+172476305,602047,2023-03-11 08:53:12,2023-03-11 09:02:00,Strzegomska / Estońska,Klecińska (Wrocław Grabiszyn),9
+172476625,602442,2023-03-11 09:04:31,2023-03-11 09:06:12,Wojanowska / Arbuzowa ,Wojanowska / Arbuzowa ,2
+172476501,602356,2023-03-11 09:00:09,2023-03-11 09:07:16,Poza stacją,Konduktorska,8
+172476657,603120,2023-03-11 09:05:47,2023-03-11 09:10:12,Żeromskiego / Kluczborska,Plac Świętego Macieja / Trzebnicka,5
+172476714,603030,2023-03-11 09:07:28,2023-03-11 09:11:52,Wilanowska,Zatorska / Królewska - pętla MPK,5
+172476692,602803,2023-03-11 09:06:37,2023-03-11 09:13:18,Wojanowska / Arbuzowa ,Boguszowska / Kosmonautów,7
+172476682,602888,2023-03-11 09:06:22,2023-03-11 09:20:39,Lotnicza / Bajana,Plac Jana Pawła II (Akademia Muzyczna),15
+172473266,602381,2023-03-11 04:49:32,2023-03-11 09:25:22,Hubska / Prudnicka,Hubska / Prudnicka,276
+172476951,602199,2023-03-11 09:15:26,2023-03-11 09:26:52,Jagodzińska / Buforowa,Bardzka (cmentarz),12
+172477121,603635,2023-03-11 09:20:42,2023-03-11 09:27:07,al. Armii Krajowej / Bardzka,Piławska,7
+172477336,603474,2023-03-11 09:27:43,2023-03-11 09:28:01,Bardzka (cmentarz),Bardzka (cmentarz),1
+172477160,602872,2023-03-11 09:22:02,2023-03-11 09:28:53,"Dworzec Główny, południe",Komandorska / Sanocka,7
+172477148,602925,2023-03-11 09:21:29,2023-03-11 09:29:39,Grota-Roweckiego / Parafialna,al. Armii Krajowej / Borowska,9
+172477168,603442,2023-03-11 09:22:24,2023-03-11 09:30:24,pl. Powstańców Wielkopolskich,Żmigrodzka / Broniewskiego,8
+172477008,603528,2023-03-11 09:17:12,2023-03-11 09:31:25,Jedności Narodowej / Wyszyńskiego,Kazimierza Wielkiego (Helios),15
+172477590,603139,2023-03-11 09:34:18,2023-03-11 09:37:19,Nowowiejska / Górnickiego,Sienkiewicza / Piastowska,4
+172477369,603474,2023-03-11 09:28:37,2023-03-11 09:37:37,Bardzka (cmentarz),al. Armii Krajowej / Bardzka,9
+172477851,603181,2023-03-11 09:40:50,2023-03-11 09:41:24,Komandorska / Kamienna,Komandorska / Kamienna,1
+172477378,603301,2023-03-11 09:28:49,2023-03-11 09:43:38,Pereca / Grabiszyńska,Kościuszki / Pułaskiego,15
+172474745,602654,2023-03-11 07:36:19,2023-03-11 09:49:54,Mińska / Stanisławowska,Mińska / Stanisławowska,134
+172478147,602780,2023-03-11 09:47:25,2023-03-11 09:51:32,Plac Grunwaldzki (DS Ołówek),Norwida / Wyspiańskiego (PWr),5
+172477835,603474,2023-03-11 09:40:32,2023-03-11 09:52:20,al. Armii Krajowej / Bardzka,Dyrekcyjna / Borowska (Wroclavia),12
+172478131,603228,2023-03-11 09:47:05,2023-03-11 09:57:30,Bacciarellego,Wróblewskiego (ZOO),11
+172477861,602252,2023-03-11 09:41:08,2023-03-11 10:01:19,Grota-Roweckiego/Iwaszkiewicza,Kamienna / Borowska (Aquapark),21
+172478781,603499,2023-03-11 10:02:09,2023-03-11 10:03:02,Poza stacją,Jagiełły / Dmowskiego ,1
+172478366,602186,2023-03-11 09:52:35,2023-03-11 10:04:44,Promenady Wrocławskie,Bałtycka / Żmigrodzka,13
+172478494,602451,2023-03-11 09:55:46,2023-03-11 10:08:18,Jagiełły / Dmowskiego ,Drobnera / Dubois,13
+172478899,602972,2023-03-11 10:05:24,2023-03-11 10:08:44,al. Armii Krajowej / Bardzka,Hubska / Prudnicka,4
+172478594,602441,2023-03-11 09:58:11,2023-03-11 10:08:52,Poza stacją,Wyszyńskiego / Szczytnicka,11
+172478743,602977,2023-03-11 10:01:15,2023-03-11 10:10:13,Dyrekcyjna / Borowska (Wroclavia),Powstańcow Śląskich / Aleja Hallera,9
+172478836,602213,2023-03-11 10:03:30,2023-03-11 10:15:16,Wróblewskiego (Teki),Plac Grunwaldzki (DS Ołówek),12
+172478825,602568,2023-03-11 10:03:16,2023-03-11 10:15:50,Jagiełły / Dmowskiego ,Jagiełły / Dmowskiego ,13
+172479032,604397,2023-03-11 10:09:16,2023-03-11 10:16:50,Wyszyńskiego / Szczytnicka,Wyszyńskiego / Szczytnicka,8
+172476929,602788,2023-03-11 09:14:35,2023-03-11 10:16:55,Poza stacją,Poza stacją,63
+172479089,603294,2023-03-11 10:10:52,2023-03-11 10:19:08,Powstańcow Śląskich / Aleja Hallera,Skarbowców / Wietrzna,9
+172479247,602785,2023-03-11 10:14:35,2023-03-11 10:21:32,Kamienna / Borowska (Aquapark),al. Armii Krajowej / Bardzka,7
+172479393,603474,2023-03-11 10:17:50,2023-03-11 10:25:58,Dyrekcyjna / Borowska (Wroclavia),Szczęśliwa (Sky Tower),9
+172479718,603649,2023-03-11 10:25:31,2023-03-11 10:26:05,Nowowiejska / Górnickiego,Nowowiejska / Górnickiego,1
+172479201,602119,2023-03-11 10:13:38,2023-03-11 10:27:30,Poza stacją,Grabiszyńska / Magazynierska (Corte Verona),14
+172479580,602049,2023-03-11 10:22:11,2023-03-11 10:29:16,Jagiełły / Dmowskiego ,Szewska / Kazimierza Wielkiego ,8
+172479864,603474,2023-03-11 10:29:35,2023-03-11 10:30:18,Szczęśliwa (Sky Tower),Szczęśliwa (Sky Tower),1
+172479604,602197,2023-03-11 10:22:50,2023-03-11 10:30:38,Wyszyńskiego / Szczytnicka,Drobnera / Dubois,8
+172479509,809010,2023-03-11 10:20:38,2023-03-11 10:31:22,TEST_WROCŁAW_ANIA,TEST_WROCŁAW_ANIA,11
+172480023,603424,2023-03-11 10:33:28,2023-03-11 10:33:43,Centrum Handlowe Auchan Bielany,Centrum Handlowe Auchan Bielany,1
+172479861,603381,2023-03-11 10:29:33,2023-03-11 10:35:44,Poza stacją,Oporów (pętla tramwajowa),7
+172480138,602391,2023-03-11 10:35:38,2023-03-11 10:36:21,Racławicka / Rymarska,Racławicka / Rymarska,1
+172480337,603255,2023-03-11 10:40:10,2023-03-11 10:40:47,Promenady Wrocławskie,Promenady Wrocławskie,1
+172480187,602489,2023-03-11 10:36:42,2023-03-11 10:41:01,Racławicka / Rymarska,Powstańców Śląskich/Orla,5
+172480024,603649,2023-03-11 10:33:29,2023-03-11 10:42:05,Sienkiewicza / Piastowska,al. Kochanowskiego / Kopernika,9
+172479981,602231,2023-03-11 10:32:32,2023-03-11 10:42:14,Semaforowa,Konduktorska,10
+172480112,603337,2023-03-11 10:34:58,2023-03-11 10:44:22,Centrum Handlowe Auchan Bielany,Czekoladowa / Wałbrzyska,10
+172479904,603474,2023-03-11 10:30:46,2023-03-11 10:44:26,Szczęśliwa (Sky Tower),Dyrekcyjna / Borowska (Wroclavia),14
+172480269,603226,2023-03-11 10:38:39,2023-03-11 10:44:51,Kościuszki / Komuny Paryskiej / Zgodna,"Dworzec Główny, południe",7
+172475283,603692,2023-03-11 08:11:08,2023-03-11 10:46:07,Zaporoska / Grabiszyńska,Zaporoska / Grabiszyńska,155
+172480683,603166,2023-03-11 10:47:14,2023-03-11 10:47:35,Plac Świętego Macieja / Trzebnicka,Plac Świętego Macieja / Trzebnicka,1
+172480240,602454,2023-03-11 10:38:09,2023-03-11 10:48:22,Kwidzyńska pętla,Poza stacją,11
+172480322,603178,2023-03-11 10:39:56,2023-03-11 10:49:33,Promenady Wrocławskie,Bałtycka / Żmigrodzka,10
+172480149,602676,2023-03-11 10:35:50,2023-03-11 10:52:12,Nowowiejska / Górnickiego,Szewska / Kazimierza Wielkiego ,17
+172480459,809010,2023-03-11 10:42:32,2023-03-11 10:53:10,TEST_WROCŁAW_ANIA,TEST_WROCŁAW_ANIA,11
+172480746,603142,2023-03-11 10:48:18,2023-03-11 10:53:35,Plac Świętego Macieja / Trzebnicka,Poza stacją,6
+172480176,602700,2023-03-11 10:36:26,2023-03-11 10:54:09,Oporów (pętla tramwajowa),Skarbowców / Wietrzna,18
+172480676,603181,2023-03-11 10:46:58,2023-03-11 10:55:02,Ślężna / Kamienna (Uniw. Ekonomiczny),Dworzec Główny ,9
+172480866,602186,2023-03-11 10:50:56,2023-03-11 10:57:02,Bałtycka / Żmigrodzka,Bezpieczna / Obornicka,7
+172481094,809010,2023-03-11 10:56:29,2023-03-11 10:57:03,TEST_WROCŁAW_ANIA,TEST_WROCŁAW_ANIA,1
+172481220,809010,2023-03-11 10:59:33,2023-03-11 11:00:08,TEST_WROCŁAW_ANIA,TEST_WROCŁAW_ANIA,1
+172481324,603416,2023-03-11 11:02:00,2023-03-11 11:06:42,Nowowiejska / Jedności Narodowej,Drobnera / Dubois,5
+172481535,809010,2023-03-11 11:06:52,2023-03-11 11:07:07,TEST_WROCŁAW_ANIA,TEST_WROCŁAW_ANIA,1
+172481226,602139,2023-03-11 10:59:36,2023-03-11 11:08:32,"Dworzec Główny, południe",Nyska / Jesionowa,9
+172480530,603277,2023-03-11 10:43:49,2023-03-11 11:10:06,Dworzec Główny ,Legnicka / Młodych Techników,27
+172481222,603474,2023-03-11 10:59:34,2023-03-11 11:10:28,Dyrekcyjna / Borowska (Wroclavia),Poza stacją,11
+172481167,603639,2023-03-11 10:58:14,2023-03-11 11:11:59,Dyrekcyjna / Borowska (Wroclavia),Fosa Miejska ,14
+172480648,602399,2023-03-11 10:46:22,2023-03-11 11:14:52,Ślężna / Kamienna (Uniw. Ekonomiczny),Ślężna / Kamienna (Uniw. Ekonomiczny),29
+172481925,602267,2023-03-11 11:15:48,2023-03-11 11:16:15,Zaporoska / Wielka / Krucza,Zaporoska / Wielka / Krucza,1
+172481539,603139,2023-03-11 11:06:57,2023-03-11 11:16:58,Sienkiewicza / Piastowska,Sienkiewicza / Wyszyńskiego,11
+172481991,603126,2023-03-11 11:17:09,2023-03-11 11:17:39,Zaporoska / Wielka / Krucza,Zaporoska / Wielka / Krucza,1
+172481349,602872,2023-03-11 11:02:33,2023-03-11 11:19:31,Komandorska / Sanocka,Plac Grunwaldzki / Polaka,17
+172482032,603281,2023-03-11 11:18:11,2023-03-11 11:19:36,Zaporoska / Wielka / Krucza,Zaporoska / Wielka / Krucza,2
+172481943,602014,2023-03-11 11:16:08,2023-03-11 11:22:58,Borowska (Uniw. Szpital Kliniczny),Kamienna / Borowska (Aquapark),7
+172481801,602785,2023-03-11 11:13:01,2023-03-11 11:26:35,al. Armii Krajowej / Bardzka,Mościckiego (stacja kolejowa),14
+172482047,604348,2023-03-11 11:18:31,2023-03-11 11:26:41,Komandorska / Kamienna,"Dworzec Główny, południe",9
+172482406,603644,2023-03-11 11:26:33,2023-03-11 11:27:35,Solskiego / al. Piastów,Solskiego / al. Piastów,2
+172482195,602954,2023-03-11 11:21:51,2023-03-11 11:29:20,Chałubińskiego / Mikulicza-Radeckiego,Plac Grunwaldzki / Polaka,8
+172481792,603639,2023-03-11 11:12:38,2023-03-11 11:31:33,Fosa Miejska ,Żeromskiego / Kluczborska,19
+172482392,602084,2023-03-11 11:26:10,2023-03-11 11:35:08,al. Armii Krajowej / Borowska,Grota-Roweckiego / Parafialna,9
+172482147,602397,2023-03-11 11:20:40,2023-03-11 11:35:11,Zaporoska / Wielka / Krucza,Dworzec Główny ,15
+172482716,809010,2023-03-11 11:33:23,2023-03-11 11:36:25,TEST_WROCŁAW_ANIA,TEST_WROCŁAW_ANIA,4
+172482402,603226,2023-03-11 11:26:29,2023-03-11 11:38:56,"Dworzec Główny, południe",Rynek,13
+172482423,602666,2023-03-11 11:27:04,2023-03-11 11:39:21,Nowowiejska / Wyszyńskiego,Dworzec Główny ,13
+172482540,603306,2023-03-11 11:29:38,2023-03-11 11:40:02,Plac Grunwaldzki / Polaka,Dworzec Główny ,11
+172483097,809010,2023-03-11 11:40:52,2023-03-11 11:41:21,TEST_WROCŁAW_ANIA,TEST_WROCŁAW_ANIA,1
+172482686,603142,2023-03-11 11:32:45,2023-03-11 11:41:56,Poza stacją,Plac Dominikański (Galeria Dominikańska),10
+172482113,602233,2023-03-11 11:19:54,2023-03-11 11:42:13,Przyjaźni,Powstańców Śląskich (Arkady Wrocławskie),23
+172482671,602027,2023-03-11 11:32:24,2023-03-11 11:42:17,Ślężna / Skierniewicka,al. Karkonoska / Jeździecka,10
+172482476,602070,2023-03-11 11:28:21,2023-03-11 11:42:30,Solskiego / al. Piastów,Wałbrzyska - pętla tramwajowa,15
+172483309,809010,2023-03-11 11:44:14,2023-03-11 11:44:48,TEST_WROCŁAW_ANIA,TEST_WROCŁAW_ANIA,1
+172482872,603181,2023-03-11 11:36:21,2023-03-11 11:46:02,Dworzec Główny ,Poza stacją,10
+172483285,602954,2023-03-11 11:43:49,2023-03-11 11:46:24,Plac Grunwaldzki / Polaka,Rondo Reagana,3
+172482623,603474,2023-03-11 11:31:26,2023-03-11 11:47:36,Poza stacją,Ślężna / Aleja Wiśniowa,17
+172483032,602418,2023-03-11 11:39:29,2023-03-11 11:49:24,Pereca / Grabiszyńska,Grabiszyńska / Magazynierska (Corte Verona),10
+172482854,602252,2023-03-11 11:35:56,2023-03-11 11:49:46,Kamienna / Borowska (Aquapark),Grota-Roweckiego / Parafialna,14
+172482463,602267,2023-03-11 11:27:58,2023-03-11 11:50:44,Zaporoska / Wielka / Krucza,Szczęśliwa (Sky Tower),23
+172483352,602239,2023-03-11 11:44:53,2023-03-11 11:52:08,Sienkiewicza / Piastowska,Nowowiejska / Wyszyńskiego,8
+172483637,603142,2023-03-11 11:50:06,2023-03-11 11:53:00,Plac Dominikański (Galeria Dominikańska),Piaskowa / św. Ducha,3
+172483249,603324,2023-03-11 11:43:01,2023-03-11 11:54:32,Lotnicza / Metalowców,Popowice,12
+172483235,602027,2023-03-11 11:42:52,2023-03-11 11:56:05,al. Karkonoska / Jeździecka,Aleja Bielany,14
+172483280,602448,2023-03-11 11:43:40,2023-03-11 11:56:11,Legnicka / Młodych Techników,Otyńska,13
+172482940,602992,2023-03-11 11:37:55,2023-03-11 11:57:03,Hubska / Prudnicka,Krucza / Mielecka / Stalowa,20
+172483325,603005,2023-03-11 11:44:26,2023-03-11 11:57:46,Plac Dominikański (Galeria Dominikańska),Dworzec Główny ,14
+172484085,809010,2023-03-11 11:57:27,2023-03-11 11:57:56,TEST_WROCŁAW_ANIA,TEST_WROCŁAW_ANIA,1
+172483811,602218,2023-03-11 11:52:43,2023-03-11 11:58:15,Kościuszki / Komuny Paryskiej / Zgodna,Krakowska / Leroy Merlin,6
+172483531,602091,2023-03-11 11:48:11,2023-03-11 11:58:24,Berenta / Kasprowicza,Promenady Wrocławskie,11
+172483520,602374,2023-03-11 11:48:00,2023-03-11 11:58:43,Legnicka / Młodych Techników,Dworzec Główny ,11
+172483502,603329,2023-03-11 11:47:37,2023-03-11 12:00:45,Nyska / Jesionowa,pl. Orląt Lwowskich,14
+172484393,603232,2023-03-11 12:02:57,2023-03-11 12:03:24,Poza stacją,"Dworzec Główny, południe",1
+172484092,603251,2023-03-11 11:57:42,2023-03-11 12:03:41,al. Armii Krajowej / Tarnogajska,Krakowska / Leroy Merlin,6
+172484138,604360,2023-03-11 11:58:32,2023-03-11 12:03:41,Plac Jana Pawła II (Akademia Muzyczna),Plac Strzegomski / Poznańska,6
+172484156,602219,2023-03-11 11:58:51,2023-03-11 12:05:05,Plac Świętego Macieja / Trzebnicka,Plac Dominikański (Galeria Dominikańska),7
+172484154,602933,2023-03-11 11:58:50,2023-03-11 12:05:08,Zaporoska / Grabiszyńska,Kazimierza Wielkiego (Helios),7
+172481107,602026,2023-03-11 10:56:50,2023-03-11 12:06:17,Zaporoska / Gajowicka,Wita Stwosza / Szewska,70
+172484407,603124,2023-03-11 12:03:13,2023-03-11 12:07:20,Traugutta / Kościuszki,Rakowiecka,5
+172484633,602084,2023-03-11 12:07:29,2023-03-11 12:13:03,Grota-Roweckiego / Parafialna,Grota-Roweckiego/Iwaszkiewicza,6
+172484757,604370,2023-03-11 12:09:34,2023-03-11 12:13:15,Dyrekcyjna / Borowska (Wroclavia),Komandorska / Sanocka,4
+172484542,602049,2023-03-11 12:05:33,2023-03-11 12:14:15,Szewska / Kazimierza Wielkiego ,Jagiełły / Dmowskiego ,9
+172484975,602717,2023-03-11 12:13:41,2023-03-11 12:16:35,Komandorska / Sanocka,Szczęśliwa (Sky Tower),3
+172484598,602968,2023-03-11 12:06:31,2023-03-11 12:16:52,Nowowiejska / Górnickiego,Janiszewskiego (PWr),11
+172484731,602786,2023-03-11 12:09:13,2023-03-11 12:17:55,Legnicka (Park Magnolia),Lotnicza / Na Ostatnim Groszu,9
+172484925,603403,2023-03-11 12:12:35,2023-03-11 12:18:31,Legnicka (Park Magnolia),Legnicka / Zachodnia ,6
+172485185,603301,2023-03-11 12:17:34,2023-03-11 12:18:44,Kościuszki / Pułaskiego,Kościuszki / Pułaskiego,2
+172484356,603324,2023-03-11 12:02:23,2023-03-11 12:19:35,Popowice,Pilczycka / Kozanowska,18
+172484638,603474,2023-03-11 12:07:32,2023-03-11 12:20:37,Ślężna / Aleja Wiśniowa,Zaporoska / Grabiszyńska,14
+172485335,602441,2023-03-11 12:20:14,2023-03-11 12:20:49,Wyszyńskiego / Szczytnicka,Wyszyńskiego / Szczytnicka,1
+172485363,603614,2023-03-11 12:20:35,2023-03-11 12:21:07,Maślicka / Brodnicka,Maślicka / Brodnicka,1
+172484729,603178,2023-03-11 12:09:13,2023-03-11 12:21:10,Bałtycka / Żmigrodzka,Promenady Wrocławskie,12
+172484562,603639,2023-03-11 12:05:51,2023-03-11 12:21:24,Żeromskiego / Kluczborska,Zachodnia / Poznańska,16
+172484539,603239,2023-03-11 12:05:30,2023-03-11 12:22:04,Aleja Hallera / Mielecka,"Dworzec Główny, południe",17
+172485009,602198,2023-03-11 12:14:21,2023-03-11 12:22:52,Zaporoska / Grabiszyńska,Fosa Miejska ,9
+172485222,602418,2023-03-11 12:18:12,2023-03-11 12:26:45,Grabiszyńska / Magazynierska (Corte Verona),Pereca / Grabiszyńska,9
+172485528,602717,2023-03-11 12:23:33,2023-03-11 12:27:40,Szczęśliwa (Sky Tower),Komandorska / Sanocka,5
+172485259,602415,2023-03-11 12:18:54,2023-03-11 12:33:23,Kościuszki / Pułaskiego,Żeromskiego / Daszyńskiego,15
+172485485,603239,2023-03-11 12:22:45,2023-03-11 12:33:23,"Dworzec Główny, południe",Ślężna / Aleja Wiśniowa,11
+172485828,602274,2023-03-11 12:28:55,2023-03-11 12:33:31,Żmigrodzka / Broniewskiego,Bezpieczna / Obornicka,5
+172485565,603440,2023-03-11 12:24:14,2023-03-11 12:33:41,Zaporoska / Grabiszyńska,Komandorska / Sanocka,10
+172485701,603306,2023-03-11 12:26:47,2023-03-11 12:34:02,Dworzec Główny ,Traugutta / Pułaskiego,8
+172485429,602448,2023-03-11 12:21:40,2023-03-11 12:34:19,Otyńska,Legnicka / Młodych Techników,13
+172485505,603474,2023-03-11 12:23:05,2023-03-11 12:34:40,Zaporoska / Grabiszyńska,Legnicka / Młodych Techników,12
+172485304,602267,2023-03-11 12:19:46,2023-03-11 12:34:54,Szczęśliwa (Sky Tower),Komandorska / Kamienna,16
+172485864,602489,2023-03-11 12:29:35,2023-03-11 12:35:06,Powstańców Śląskich/Orla,Racławicka / Rymarska,6
+172485923,602787,2023-03-11 12:30:50,2023-03-11 12:35:09,Wróblewskiego (Teki),Olszewskiego / Spółdzielcza,5
+172485409,602676,2023-03-11 12:21:21,2023-03-11 12:35:26,Szewska / Kazimierza Wielkiego ,Zachodnia / Poznańska,15
+172485847,602718,2023-03-11 12:29:10,2023-03-11 12:36:46,Nyska / Jesionowa,"Dworzec Główny, południe",8
+172485671,603055,2023-03-11 12:26:16,2023-03-11 12:37:20,Pereca / Grabiszyńska,Szewska / Kazimierza Wielkiego ,12
+172486099,602975,2023-03-11 12:34:00,2023-03-11 12:38:42,Strzegomska / Rogowska ,Graniczna / Strzegomska,5
+172485361,603324,2023-03-11 12:20:33,2023-03-11 12:39:28,Pilczycka / Kozanowska,Popowice,19
+172485636,602769,2023-03-11 12:25:44,2023-03-11 12:39:35,Zaporoska / Wielka / Krucza,Grochowa / Jemiołowa,14
+172485418,602189,2023-03-11 12:21:29,2023-03-11 12:42:16,Wyszyńskiego / Szczytnicka,Plac Legionów,21
+172486188,602267,2023-03-11 12:35:40,2023-03-11 12:42:22,Komandorska / Kamienna,Dyrekcyjna / Borowska (Wroclavia),7
+172486481,602717,2023-03-11 12:40:45,2023-03-11 12:44:12,Komandorska / Sanocka,Szczęśliwa (Sky Tower),4
+172486385,603329,2023-03-11 12:39:22,2023-03-11 12:45:45,Plac Jana Pawła II (Akademia Muzyczna),Legnicka / Zachodnia ,7
+172486228,602087,2023-03-11 12:36:39,2023-03-11 12:47:54,Wróblewskiego (Teki),Rondo Reagana,12
+172486415,602233,2023-03-11 12:39:48,2023-03-11 12:52:13,Powstańców Śląskich (Arkady Wrocławskie),Powstańcow Śląskich / Aleja Hallera,13
+172486491,603341,2023-03-11 12:40:57,2023-03-11 12:53:04,Lotnicza / Bajana,Lotnicza / Na Ostatnim Groszu,13
+172485451,602735,2023-03-11 12:22:08,2023-03-11 12:53:40,Fabryczna / Wagonowa,Rondo Reagana,32
+172486637,603120,2023-03-11 12:42:57,2023-03-11 12:54:55,Plac Świętego Macieja / Trzebnicka,Sienkiewicza / Piastowska,12
+172484657,602537,2023-03-11 12:08:00,2023-03-11 12:55:14,Legnicka (Park Magnolia),Legnicka (Park Magnolia),48
+172487017,602803,2023-03-11 12:49:18,2023-03-11 12:55:37,Boguszowska / Kosmonautów,Wojanowska / Arbuzowa ,7
+172487414,603146,2023-03-11 12:55:18,2023-03-11 12:56:12,Chałubińskiego / Mikulicza-Radeckiego,Chałubińskiego / Mikulicza-Radeckiego,1
+172487549,603126,2023-03-11 12:57:15,2023-03-11 12:57:36,Zaporoska / Wielka / Krucza,Zaporoska / Wielka / Krucza,1
+172485275,602840,2023-03-11 12:19:12,2023-03-11 12:57:46,Gliniana / Gajowa,Gliniana / Gajowa,39
+172486895,602466,2023-03-11 12:47:16,2023-03-11 12:58:37,al. Karkonoska / Jeździecka,Centrum Handlowe Auchan Bielany,12
+172487008,603142,2023-03-11 12:49:08,2023-03-11 12:59:38,Piaskowa / św. Ducha,Fosa Miejska ,11
+172486942,602419,2023-03-11 12:48:06,2023-03-11 12:59:42,Wita Stwosza / Szewska,Reymonta / Kleczkowska,12
+172487261,602787,2023-03-11 12:53:08,2023-03-11 12:59:46,Olszewskiego / Spółdzielcza,Wróblewskiego (Teki),7
+172486965,602087,2023-03-11 12:48:27,2023-03-11 12:59:48,Rondo Reagana,Wróblewskiego (Teki),12
+172487926,603255,2023-03-11 13:02:41,2023-03-11 13:03:07,Plac Powstańców Warszawy (Muzeum Narodowe),Plac Powstańców Warszawy (Muzeum Narodowe),1
+172487375,602888,2023-03-11 12:54:52,2023-03-11 13:03:25,Plac Jana Pawła II (Akademia Muzyczna),Dworzec Główny ,9
+172487898,603415,2023-03-11 13:02:18,2023-03-11 13:03:42,Plac Powstańców Warszawy (Muzeum Narodowe),Plac Powstańców Warszawy (Muzeum Narodowe),2
+172487401,602389,2023-03-11 12:55:10,2023-03-11 13:03:44,Grabiszyńska / Stalowa,Aleja Hallera / Mielecka,9
+172487976,602342,2023-03-11 13:03:17,2023-03-11 13:03:57,Graniczna / Strzegomska,Graniczna / Strzegomska,1
+172487589,602615,2023-03-11 12:57:57,2023-03-11 13:04:51,Zaporoska / Wielka / Krucza,Powstańcow Śląskich / Aleja Hallera,7
+172487117,602862,2023-03-11 12:51:00,2023-03-11 13:05:14,Pereca / Grabiszyńska,Szczęśliwa (Sky Tower),15
+172487902,602216,2023-03-11 13:02:21,2023-03-11 13:05:14,Nowowiejska / Wyszyńskiego,Nowowiejska / Górnickiego,3
+172486805,603324,2023-03-11 12:45:48,2023-03-11 13:05:39,Popowice,Lotnicza / Bajana,20
+172487222,602977,2023-03-11 12:52:37,2023-03-11 13:05:53,Powstańcow Śląskich / Aleja Hallera,Racławicka / Rymarska,14
+172488118,602051,2023-03-11 13:05:42,2023-03-11 13:06:14,Ślężna / Skierniewicka,Ślężna / Skierniewicka,1
+172487315,603055,2023-03-11 12:53:54,2023-03-11 13:07:11,Szewska / Kazimierza Wielkiego ,Śrubowa / Strzegomska,14
+172488175,602990,2023-03-11 13:06:39,2023-03-11 13:07:14,Kamieńskiego,Kamieńskiego,1
+172488043,602908,2023-03-11 13:04:25,2023-03-11 13:07:48,Graniczna / Strzegomska,Graniczna / Strzegomska,4
+172487793,603395,2023-03-11 13:00:42,2023-03-11 13:09:14,Grochowa / Jemiołowa,Grabiszyńska / Aleja Hallera,9
+172487698,603239,2023-03-11 12:59:19,2023-03-11 13:14:43,Ślężna / Aleja Wiśniowa,Kościuszki / Komuny Paryskiej / Zgodna,16
+172487783,603640,2023-03-11 13:00:30,2023-03-11 13:15:25,Żmigrodzka / Broniewskiego,Plac Uniwersytecki (UWr),15
+172488194,602036,2023-03-11 13:06:54,2023-03-11 13:15:42,Ślężna / Skierniewicka,al. Armii Krajowej / Borowska,9
+172488408,602117,2023-03-11 13:10:51,2023-03-11 13:17:50,Zatorska / Królewska - pętla MPK,Okulickiego,7
+172488155,603324,2023-03-11 13:06:20,2023-03-11 13:17:51,Lotnicza / Bajana,Popowice,12
+172488517,603142,2023-03-11 13:12:33,2023-03-11 13:19:56,Fosa Miejska ,Dworzec Główny ,8
+172488122,602862,2023-03-11 13:05:50,2023-03-11 13:20:29,Szczęśliwa (Sky Tower),Borowska (Uniw. Szpital Kliniczny),15
+172488619,603482,2023-03-11 13:14:04,2023-03-11 13:20:34,Klecińska (Wrocław Grabiszyn),Klecińska / Duńska,7
+172488981,603226,2023-03-11 13:19:58,2023-03-11 13:20:43,Rynek,Rynek,1
+172488403,602670,2023-03-11 13:10:48,2023-03-11 13:20:50,Promenady Wrocławskie,Sienkiewicza / Piastowska,11
+172488976,602442,2023-03-11 13:19:57,2023-03-11 13:20:54,Wojanowska / Arbuzowa ,Wojanowska / Arbuzowa ,1
+172488828,603301,2023-03-11 13:17:24,2023-03-11 13:21:01,Kościuszki / Pułaskiego,Dworzec Główny ,4
+172488582,602416,2023-03-11 13:13:30,2023-03-11 13:21:39,Nowowiejska / Wyszyńskiego,Drobnera / Dubois,9
+172488778,602026,2023-03-11 13:16:34,2023-03-11 13:21:51,Wita Stwosza / Szewska,Plac Kościuszki (Renoma),6
+172488860,602954,2023-03-11 13:18:00,2023-03-11 13:23:42,Rondo Reagana,Janiszewskiego (PWr),6
+172488997,602454,2023-03-11 13:20:10,2023-03-11 13:24:52,Poza stacją,al. Brücknera / Kwidzyńska,5
+172489056,602862,2023-03-11 13:21:10,2023-03-11 13:25:38,Borowska (Uniw. Szpital Kliniczny),Poza stacją,5
+172488249,603343,2023-03-11 13:07:44,2023-03-11 13:25:50,Kamieńskiego,Krzywoustego / Korona,19
+172488965,604372,2023-03-11 13:19:46,2023-03-11 13:26:43,Powstańców Śląskich (Arkady Wrocławskie),Powstańców Śląskich (Arkady Wrocławskie),7
+172488447,602202,2023-03-11 13:11:30,2023-03-11 13:27:00,Plac Dominikański (Galeria Dominikańska),pl. Orląt Lwowskich,16
+172488415,602219,2023-03-11 13:10:56,2023-03-11 13:27:03,Plac Dominikański (Galeria Dominikańska),pl. Orląt Lwowskich,17
+172489080,603080,2023-03-11 13:21:35,2023-03-11 13:27:27,pl. Orląt Lwowskich,Plac Uniwersytecki (UWr),6
+172489145,603076,2023-03-11 13:22:39,2023-03-11 13:27:59,al. Poprzeczna / stacja kolejowa,Sołtysowicka / Redycka,6
+172488858,602932,2023-03-11 13:17:59,2023-03-11 13:29:12,Krucza / Mielecka / Stalowa,Aleja Hallera / Mielecka,12
+172489062,602803,2023-03-11 13:21:21,2023-03-11 13:29:57,Wojanowska / Arbuzowa ,Leśnica - pętla tramwajowa,9
+172488893,602209,2023-03-11 13:18:41,2023-03-11 13:30:41,Kutrzeby / Hubala,Zwycięska / Ołtaszyńska,12
+172489486,602972,2023-03-11 13:28:40,2023-03-11 13:30:56,Hubska / Prudnicka,Bardzka / Piękna,3
+172489227,602968,2023-03-11 13:24:12,2023-03-11 13:31:35,Janiszewskiego (PWr),Wróblewskiego (Teki),8
+172489014,603440,2023-03-11 13:20:28,2023-03-11 13:32:04,Komandorska / Sanocka,Zaporoska / Grabiszyńska,12
+172489169,602650,2023-03-11 13:23:06,2023-03-11 13:32:33,pl. Orląt Lwowskich,Komandorska / Sanocka,10
+172489446,602670,2023-03-11 13:27:57,2023-03-11 13:33:15,Sienkiewicza / Piastowska,Wyszyńskiego / Szczytnicka,6
+172489060,602693,2023-03-11 13:21:15,2023-03-11 13:33:27,Rynek,"Dworzec Główny, południe",13
+172489825,603316,2023-03-11 13:34:14,2023-03-11 13:35:04,Poza stacją,Zaporoska / Wielka / Krucza,1
+172486389,602568,2023-03-11 12:39:26,2023-03-11 13:35:07,Jagiełły / Dmowskiego ,Drobnera / Dubois,56
+172488825,602198,2023-03-11 13:17:20,2023-03-11 13:36:12,Fosa Miejska ,Jagiełły / Dmowskiego ,19
+172489410,602216,2023-03-11 13:27:25,2023-03-11 13:36:12,Nowowiejska / Górnickiego,Stadion Olimpijski,9
+172489714,602537,2023-03-11 13:32:35,2023-03-11 13:36:18,Legnicka (Park Magnolia),Legnicka / Zachodnia ,4
+172489131,603540,2023-03-11 13:22:27,2023-03-11 13:38:32,Kamienna / Tomaszowska,al. Karkonoska / Jeździecka,17
+172490178,603690,2023-03-11 13:39:33,2023-03-11 13:39:49,al. Armii Krajowej / Borowska,al. Armii Krajowej / Borowska,1
+172472463,602708,2023-03-11 03:23:28,2023-03-11 13:40:07,Plac Grunwaldzki / Polaka,Plac Grunwaldzki / Polaka,617
+172489267,603193,2023-03-11 13:24:49,2023-03-11 13:40:16,Partyzantów / Okrzei,Partyzantów / Okrzei,16
+172490122,602051,2023-03-11 13:38:47,2023-03-11 13:40:44,Ślężna / Skierniewicka,Ślężna / Skierniewicka,2
+172489142,602233,2023-03-11 13:22:38,2023-03-11 13:41:30,Powstańcow Śląskich / Aleja Hallera,Powstańcow Śląskich / Aleja Hallera,19
+172490270,603167,2023-03-11 13:41:07,2023-03-11 13:41:32,Nyska / Jesionowa,Nyska / Jesionowa,1
+172489717,602968,2023-03-11 13:32:41,2023-03-11 13:41:38,Wróblewskiego (Teki),Wróblewskiego (Teki),9
+172490296,603219,2023-03-11 13:41:27,2023-03-11 13:41:55,Wróblewskiego (Teki),Wróblewskiego (Teki),1
+172490313,603306,2023-03-11 13:41:48,2023-03-11 13:42:19,Traugutta / Pułaskiego,Traugutta / Pułaskiego,1
+172489622,603108,2023-03-11 13:31:03,2023-03-11 13:42:35,al. Armii Krajowej / Bardzka,Konduktorska,12
+172489367,603240,2023-03-11 13:26:33,2023-03-11 13:43:34,Koszarowa / UWr,pl. Powstańców Wielkopolskich,18
+172489424,602944,2023-03-11 13:27:39,2023-03-11 13:44:55,Żeromskiego / Kluczborska,Fosa Miejska ,18
+172490415,603313,2023-03-11 13:43:22,2023-03-11 13:45:11,.RELOKACYJNA,Rynek,2
+172490312,604325,2023-03-11 13:41:48,2023-03-11 13:46:01,al. Armii Krajowej / Bardzka,al. Armii Krajowej / Borowska,5
+172490442,602233,2023-03-11 13:43:45,2023-03-11 13:46:08,Powstańcow Śląskich / Aleja Hallera,Powstańcow Śląskich / Aleja Hallera,3
+172488537,603050,2023-03-11 13:12:51,2023-03-11 13:46:46,Krzywoustego / Korona,Jedności Narodowej / Wyszyńskiego,34
+172489936,603076,2023-03-11 13:36:11,2023-03-11 13:47:14,Sołtysowicka / Redycka,Aleja Kromera,12
+172489992,602316,2023-03-11 13:36:53,2023-03-11 13:47:15,Kościuszki / Pułaskiego,Plac Grunwaldzki / Polaka,11
+172489679,603659,2023-03-11 13:32:03,2023-03-11 13:47:45,Legnicka (Park Magnolia),Drzewieckiego / Dedala,16
+172489668,602601,2023-03-11 13:31:55,2023-03-11 13:47:58,Legnicka (Park Magnolia),Drzewieckiego / Dedala,17
+172490307,602465,2023-03-11 13:41:44,2023-03-11 13:48:30,Nyska / Jesionowa,Kamienna / Borowska (Aquapark),7
+172490796,602601,2023-03-11 13:49:27,2023-03-11 13:49:57,Drzewieckiego / Dedala,Drzewieckiego / Dedala,1
+172490600,602615,2023-03-11 13:46:14,2023-03-11 13:51:02,Powstańcow Śląskich / Aleja Hallera,Aleja Hallera / Mielecka,5
+172490454,602840,2023-03-11 13:44:03,2023-03-11 13:51:32,Gliniana / Gajowa,Dyrekcyjna / Borowska (Wroclavia),8
+172490103,602235,2023-03-11 13:38:29,2023-03-11 13:51:34,Popowice,Pilczycka / Koszykarska,14
+172490109,603414,2023-03-11 13:38:34,2023-03-11 13:52:31,Maślicka / Brodnicka,Maślicka / Stodolna,14
+172490142,602484,2023-03-11 13:38:58,2023-03-11 13:52:36,Maślicka / Brodnicka,Maślicka / Stodolna,14
+172490590,602218,2023-03-11 13:46:07,2023-03-11 13:53:01,Krakowska / Leroy Merlin,al. Armii Krajowej / Tarnogajska,7
+172490791,603157,2023-03-11 13:49:20,2023-03-11 13:53:04,Komandorska / Sanocka,Dyrekcyjna / Borowska (Wroclavia),4
+172491031,603316,2023-03-11 13:52:37,2023-03-11 13:53:07,Poza stacją,"Dworzec Główny, południe",1
+172490218,602893,2023-03-11 13:40:20,2023-03-11 13:53:28,Poza stacją,al. Brücknera / Kwidzyńska,14
+172490785,602389,2023-03-11 13:49:17,2023-03-11 13:53:34,Aleja Hallera / Mielecka,Grochowa / Jemiołowa,5
+172491044,603232,2023-03-11 13:52:49,2023-03-11 13:53:54,"Dworzec Główny, południe","Dworzec Główny, południe",2
+172490525,602825,2023-03-11 13:45:05,2023-03-11 13:53:59,pl. Powstańców Wielkopolskich,Wita Stwosza / Szewska,9
+172490276,602947,2023-03-11 13:41:12,2023-03-11 13:54:41,Ślężna / Skierniewicka,Skarbowców / Wietrzna,14
+172489958,602014,2023-03-11 13:36:27,2023-03-11 13:55:05,Kamienna / Borowska (Aquapark),Hubska / Prudnicka,19
+172488279,602908,2023-03-11 13:08:24,2023-03-11 13:57:46,Graniczna / Strzegomska,Graniczna / Strzegomska,50
+172490803,603659,2023-03-11 13:49:33,2023-03-11 13:59:36,Drzewieckiego / Dedala,Bystrzycka / Idzikowskiego,11
+172490850,602073,2023-03-11 13:50:03,2023-03-11 13:59:42,Drzewieckiego / Dedala,Bystrzycka / Idzikowskiego,10
+172491248,602992,2023-03-11 13:55:49,2023-03-11 14:01:41,Krucza / Mielecka / Stalowa,Żelazna / Pereca,6
+172491151,602718,2023-03-11 13:54:25,2023-03-11 14:01:45,"Dworzec Główny, południe",Kościuszki / Komuny Paryskiej / Zgodna,8
+172490987,603324,2023-03-11 13:51:50,2023-03-11 14:01:57,Popowice,Młodych Techników,11
+172490618,602036,2023-03-11 13:46:29,2023-03-11 14:03:15,al. Armii Krajowej / Borowska,Pereca / Grabiszyńska,17
+172490217,603690,2023-03-11 13:40:19,2023-03-11 14:04:18,al. Armii Krajowej / Borowska,Aleja Hallera / Mielecka,24
+172491201,602235,2023-03-11 13:55:10,2023-03-11 14:04:21,Pilczycka / Koszykarska,Bogatyńska / Turoszowska,10
+172490655,603499,2023-03-11 13:47:09,2023-03-11 14:04:45,Jagiełły / Dmowskiego ,Kazimierza Wielkiego (Helios),18
+172491005,603416,2023-03-11 13:52:11,2023-03-11 14:04:53,Drobnera / Dubois,Bezpieczna / Obornicka,13
+172491331,603203,2023-03-11 13:57:05,2023-03-11 14:05:07,Skarbowców / Wietrzna,Krzycka / Aleja Karkonoska (Park Południowy),9
+172491554,603659,2023-03-11 14:00:44,2023-03-11 14:06:37,Bystrzycka / Idzikowskiego,Hermanowska / Kołobrzeska,6
+172491312,602027,2023-03-11 13:56:47,2023-03-11 14:06:40,Aleja Bielany,Aleja Bielany,10
+172491564,602030,2023-03-11 14:00:51,2023-03-11 14:06:40,Bystrzycka / Idzikowskiego,Hermanowska / Kołobrzeska,6
+172491306,602218,2023-03-11 13:56:38,2023-03-11 14:07:44,al. Armii Krajowej / Tarnogajska,al. Armii Krajowej / Bardzka,12
+172491550,602925,2023-03-11 14:00:42,2023-03-11 14:08:35,al. Armii Krajowej / Borowska,Dyrekcyjna / Borowska (Wroclavia),8
+172491701,603324,2023-03-11 14:03:11,2023-03-11 14:12:51,Młodych Techników,Kurkowa / Dubois,10
+172492403,603122,2023-03-11 14:14:44,2023-03-11 14:14:56,Lotnicza / Metalowców,Lotnicza / Metalowców,1
+172491003,602670,2023-03-11 13:52:08,2023-03-11 14:15:21,Wyszyńskiego / Szczytnicka,Bacciarellego,24
+172492143,602925,2023-03-11 14:10:27,2023-03-11 14:16:09,Dyrekcyjna / Borowska (Wroclavia),Ślężna / Aleja Wiśniowa,6
+172491736,602794,2023-03-11 14:03:44,2023-03-11 14:18:28,Komandorska / Sanocka,Plac Grunwaldzki / Polaka,15
+172492439,603122,2023-03-11 14:15:28,2023-03-11 14:22:00,Lotnicza / Metalowców,Lotnicza / Na Ostatnim Groszu,7
+172492824,602274,2023-03-11 14:21:35,2023-03-11 14:22:58,Bezpieczna / Obornicka,Bezpieczna / Obornicka,2
+172492434,602787,2023-03-11 14:15:19,2023-03-11 14:24:43,Wróblewskiego (Teki),Łukasiewicza / Smoluchowskiego (PWr),10
+172492212,603474,2023-03-11 14:11:22,2023-03-11 14:26:36,Legnicka / Młodych Techników,Młodych Techników,16
+172491960,602162,2023-03-11 14:07:33,2023-03-11 14:27:06,.RELOKACYJNA,Walońska (Angel Poland Group),20
+172492322,602409,2023-03-11 14:13:11,2023-03-11 14:28:31,pl. Powstańców Wielkopolskich,Poza stacją,16
+172492318,603340,2023-03-11 14:13:03,2023-03-11 14:28:36,pl. Powstańców Wielkopolskich,Poza stacją,16
+172492973,602650,2023-03-11 14:23:41,2023-03-11 14:29:00,Komandorska / Sanocka,Szczęśliwa (Sky Tower),6
+172492105,602973,2023-03-11 14:09:54,2023-03-11 14:29:10,Jedności Narodowej / Wyszyńskiego,Aleja Kromera,20
+172492076,602745,2023-03-11 14:09:24,2023-03-11 14:29:12,Jedności Narodowej / Wyszyńskiego,Aleja Kromera,20
+172492955,602001,2023-03-11 14:23:22,2023-03-11 14:30:49,Żmigrodzka / Marino,Kamieńskiego,8
+172489841,603440,2023-03-11 13:34:26,2023-03-11 14:32:18,Zaporoska / Grabiszyńska,Rynek,58
+172490042,602189,2023-03-11 13:37:41,2023-03-11 14:32:28,Plac Legionów,Rynek,55
+172492645,602872,2023-03-11 14:18:50,2023-03-11 14:33:26,Plac Grunwaldzki / Polaka,Mickiewicza / pętla tramwajowa,15
+172492346,603324,2023-03-11 14:13:40,2023-03-11 14:33:39,Kurkowa / Dubois,pl. Powstańców Wielkopolskich,20
+172492865,602735,2023-03-11 14:22:10,2023-03-11 14:33:47,Rondo Reagana,Promenady Wrocławskie,12
+172493521,604374,2023-03-11 14:33:07,2023-03-11 14:33:54,Rondo Reagana,Rondo Reagana,1
+172492947,602259,2023-03-11 14:23:14,2023-03-11 14:36:48,Nowowiejska / Jedności Narodowej,Nowowiejska / Jedności Narodowej,14
+172492957,603457,2023-03-11 14:23:27,2023-03-11 14:39:28,Hubska / Prudnicka,Plac Powstańców Warszawy (Muzeum Narodowe),17
+172492971,603122,2023-03-11 14:23:37,2023-03-11 14:40:42,Lotnicza / Na Ostatnim Groszu,Bezpieczna/Jugosławiańska,18
+172493576,602014,2023-03-11 14:34:07,2023-03-11 14:42:17,Hubska / Prudnicka,Dworzec Główny ,9
+172493552,602710,2023-03-11 14:33:42,2023-03-11 14:42:27,Hubska / Prudnicka,Dworzec Główny ,9
+172493995,603232,2023-03-11 14:41:02,2023-03-11 14:43:48,"Dworzec Główny, południe",Poza stacją,3
+172493447,602162,2023-03-11 14:31:38,2023-03-11 14:46:00,Walońska (Angel Poland Group),Powstańców Śląskich (Arkady Wrocławskie),15
+172493514,603340,2023-03-11 14:32:53,2023-03-11 14:47:02,Poza stacją,Poza stacją,15
+172493487,602409,2023-03-11 14:32:18,2023-03-11 14:47:05,Poza stacją,Poza stacją,15
+172493646,603424,2023-03-11 14:35:09,2023-03-11 14:48:34,Centrum Handlowe Auchan Bielany,Wałbrzyska - pętla tramwajowa,14
+172493687,602538,2023-03-11 14:35:44,2023-03-11 14:51:14,pl. Powstańców Wielkopolskich,Walońska (Angel Poland Group),16
+172493612,603324,2023-03-11 14:34:36,2023-03-11 14:51:19,pl. Powstańców Wielkopolskich,Drobnera / Dubois,17
+172494397,603340,2023-03-11 14:47:36,2023-03-11 14:52:59,Poza stacją,Poza stacją,6
+172494410,602409,2023-03-11 14:47:44,2023-03-11 14:53:01,Poza stacją,Poza stacją,6
+172494463,603343,2023-03-11 14:48:34,2023-03-11 14:56:41,Krzywoustego / Korona,Aleja Kromera,9
+172494601,602832,2023-03-11 14:51:09,2023-03-11 14:57:42,Na Ostatnim Groszu,Legnicka (Park Magnolia),7
+172494531,602992,2023-03-11 14:49:43,2023-03-11 14:58:33,Żelazna / Pereca,Aleja Hallera / Mielecka,9
+172495026,603623,2023-03-11 14:58:39,2023-03-11 15:00:49,Poza stacją,Młodych Techników,3
+172494690,603427,2023-03-11 14:52:50,2023-03-11 15:03:29,Popowicka / Niedźwiedzia,Popowice,11
+172492968,603416,2023-03-11 14:23:32,2023-03-11 15:07:24,Bezpieczna / Obornicka,Bezpieczna / Obornicka,44
+172495299,603531,2023-03-11 15:03:26,2023-03-11 15:08:02,Nowowiejska / Wyszyńskiego,Sienkiewicza / Wyszyńskiego,5
+172494637,603324,2023-03-11 14:51:50,2023-03-11 15:08:23,Drobnera / Dubois,Drobnera / Dubois,17
+172495520,602309,2023-03-11 15:07:20,2023-03-11 15:08:35,Świeradowska / Krynicka,Świeradowska / Krynicka,2
+172494704,603361,2023-03-11 14:53:10,2023-03-11 15:09:03,Krzywoustego / Korona,Nowowiejska / Wyszyńskiego,16
+172494950,603193,2023-03-11 14:57:37,2023-03-11 15:11:21,Partyzantów / Okrzei,al. Kochanowskiego / Śniadeckich ,14
+172495537,602925,2023-03-11 15:07:33,2023-03-11 15:11:44,Ślężna / Aleja Wiśniowa,al. Armii Krajowej / Borowska,5
+172494608,602162,2023-03-11 14:51:15,2023-03-11 15:12:23,Powstańców Śląskich (Arkady Wrocławskie),Racławicka / Rymarska,22
+172495337,603372,2023-03-11 15:03:54,2023-03-11 15:12:48,Kazimierza Wielkiego (Helios),Kazimierza Wielkiego (Helios),9
+172495774,602708,2023-03-11 15:11:41,2023-03-11 15:13:39,Plac Grunwaldzki / Polaka,Plac Grunwaldzki / Polaka,2
+172493295,602825,2023-03-11 14:29:10,2023-03-11 15:13:45,Wita Stwosza / Szewska,Poza stacją,45
+172495501,602994,2023-03-11 15:07:00,2023-03-11 15:15:23,Świeradowska / Krynicka,al. Armii Krajowej / Bardzka,9
+172495507,603449,2023-03-11 15:07:07,2023-03-11 15:15:31,Świeradowska / Krynicka,al. Armii Krajowej / Bardzka,9
+172495639,602309,2023-03-11 15:09:21,2023-03-11 15:15:41,Świeradowska / Krynicka,al. Armii Krajowej / Bardzka,7
+172495233,603082,2023-03-11 15:02:06,2023-03-11 15:15:56,Grochowa / Jemiołowa,Dyrekcyjna / Borowska (Wroclavia),14
+172495530,602267,2023-03-11 15:07:26,2023-03-11 15:16:08,Dyrekcyjna / Borowska (Wroclavia),al. Armii Krajowej / Borowska,9
+172495562,602026,2023-03-11 15:07:59,2023-03-11 15:18:38,Plac Kościuszki (Renoma),Plac Legionów,11
+172495886,603531,2023-03-11 15:13:48,2023-03-11 15:18:45,Sienkiewicza / Wyszyńskiego,Żeromskiego / Daszyńskiego,5
+172494929,603640,2023-03-11 14:57:14,2023-03-11 15:19:50,Plac Uniwersytecki (UWr),Plac Legionów,23
+172495230,602284,2023-03-11 15:02:05,2023-03-11 15:19:58,Żmigrodzka / Marino,Jagiełły / Dmowskiego ,18
+172496126,603466,2023-03-11 15:18:05,2023-03-11 15:22:12,Kościuszki / Pułaskiego,"Dworzec Główny, południe",5
+172496116,603120,2023-03-11 15:17:55,2023-03-11 15:22:39,Sienkiewicza / Piastowska,Plac Grunwaldzki / Polaka,5
+172496006,603133,2023-03-11 15:15:51,2023-03-11 15:23:12,Tyrmanda / Trawowa,Strzegomska / Rogowska ,8
+172495993,603634,2023-03-11 15:15:37,2023-03-11 15:23:14,Tyrmanda / Trawowa,Strzegomska / Rogowska ,8
+172495437,602888,2023-03-11 15:05:42,2023-03-11 15:23:33,Dworzec Główny ,Dworzec Główny ,18
+172495888,602316,2023-03-11 15:13:49,2023-03-11 15:23:36,Plac Grunwaldzki / Polaka,Nowowiejska / Wyszyńskiego,10
+172495705,602832,2023-03-11 15:10:23,2023-03-11 15:23:41,Legnicka (Park Magnolia),Popowice,14
+172496466,602210,2023-03-11 15:23:21,2023-03-11 15:23:59,Krzywoustego - Rynek Psie Pole,Krzywoustego - Rynek Psie Pole,1
+172496376,603027,2023-03-11 15:21:56,2023-03-11 15:24:45,Gliniana / Gajowa,Hubska / Prudnicka,3
+172491823,602085,2023-03-11 14:05:12,2023-03-11 15:25:24,Wojanowska / Arbuzowa ,Wojanowska / Arbuzowa ,81
+172496470,602825,2023-03-11 15:23:24,2023-03-11 15:26:18,Poza stacją,Wita Stwosza / Szewska,3
+172496301,602733,2023-03-11 15:20:39,2023-03-11 15:26:46,Gazowa / Międzyleska,Mościckiego (stacja kolejowa),7
+172496581,603316,2023-03-11 15:25:11,2023-03-11 15:27:21,Poza stacją,Kościuszki / Pułaskiego,3
+172495499,602585,2023-03-11 15:06:53,2023-03-11 15:27:46,Sienkiewicza / Wyszyńskiego,Sienkiewicza / Wyszyńskiego,21
+172496747,603232,2023-03-11 15:27:59,2023-03-11 15:28:15,Poza stacją,Hubska / Prudnicka,1
+172496428,602972,2023-03-11 15:22:43,2023-03-11 15:29:06,Bardzka / Piękna,"Dworzec Główny, południe",7
+172496584,603166,2023-03-11 15:25:12,2023-03-11 15:29:26,Plac Świętego Macieja / Trzebnicka,Drobnera / Plac Bema,5
+172496447,602944,2023-03-11 15:23:01,2023-03-11 15:29:51,Fosa Miejska ,Dworzec Główny ,7
+172496134,602565,2023-03-11 15:18:14,2023-03-11 15:30:08,Nyska / Jesionowa,Dyrekcyjna / Borowska (Wroclavia),12
+172496122,602262,2023-03-11 15:18:01,2023-03-11 15:30:20,Promenady Wrocławskie,Rondo Reagana,13
+172496529,602864,2023-03-11 15:24:20,2023-03-11 15:30:55,Krzywoustego - Rynek Psie Pole,Gorlicka / Litewska,7
+172496822,602731,2023-03-11 15:29:07,2023-03-11 15:31:03,Legnicka / Wejherowska,Legnicka / Wejherowska,2
+172496517,603534,2023-03-11 15:24:05,2023-03-11 15:31:38,Grabiszyńska / Stalowa,Żelazna / Pereca,8
+172496655,603536,2023-03-11 15:26:19,2023-03-11 15:32:12,Strachocińska / Wieśniacza,Poza stacją,6
+172495454,603157,2023-03-11 15:06:01,2023-03-11 15:32:57,Dyrekcyjna / Borowska (Wroclavia),Kazimierza Wielkiego (Helios),27
+172496656,603160,2023-03-11 15:26:19,2023-03-11 15:33:09,Strachocińska / Wieśniacza,Poza stacją,7
+172496629,603614,2023-03-11 15:25:51,2023-03-11 15:33:35,Kamienna / Borowska (Aquapark),Ślężna / Skierniewicka,8
+172496775,604336,2023-03-11 15:28:26,2023-03-11 15:33:48,Hubska / Prudnicka,"Dworzec Główny, południe",6
+172495086,603221,2023-03-11 14:59:44,2023-03-11 15:34:35,Czarnuszkowa/Waniliowa,Legnicka (Park Magnolia),35
+172496338,603435,2023-03-11 15:21:19,2023-03-11 15:35:12,pl. Powstańców Wielkopolskich,Szewska / Kazimierza Wielkiego ,14
+172497185,602643,2023-03-11 15:35:31,2023-03-11 15:36:28,Tarnogajska / Klimasa,Tarnogajska / Klimasa,1
+172496709,603356,2023-03-11 15:27:21,2023-03-11 15:37:44,Boguszowska / Kosmonautów,Wojanowska / Arbuzowa ,11
+172496756,603021,2023-03-11 15:28:10,2023-03-11 15:39:08,Kazimierza Wielkiego (Helios),Dworzec Główny ,11
+172496809,603064,2023-03-11 15:29:02,2023-03-11 15:39:10,Popowicka / Niedźwiedzia,Lotnicza / Na Ostatnim Groszu,11
+172496663,603075,2023-03-11 15:26:28,2023-03-11 15:39:19,Grabiszyńska / Stalowa,Kamienna / Borowska (Aquapark),13
+172497138,602247,2023-03-11 15:34:29,2023-03-11 15:40:25,Kościuszki / Komuny Paryskiej / Zgodna,Poza stacją,6
+172496446,603340,2023-03-11 15:22:59,2023-03-11 15:41:07,Poza stacją,Poza stacją,19
+172496439,602409,2023-03-11 15:22:51,2023-03-11 15:41:14,Poza stacją,Poza stacją,19
+172497271,602180,2023-03-11 15:36:51,2023-03-11 15:41:22,Grota-Roweckiego / Parafialna,Grota-Roweckiego/Iwaszkiewicza,5
+172497337,604348,2023-03-11 15:38:05,2023-03-11 15:42:10,"Dworzec Główny, południe","Dworzec Główny, południe",5
+172497202,602186,2023-03-11 15:35:52,2023-03-11 15:42:53,Bezpieczna / Obornicka,Żmigrodzka / Marino,8
+172497120,602968,2023-03-11 15:34:09,2023-03-11 15:43:16,Wróblewskiego (Teki),Norwida / Wyspiańskiego (PWr),10
+172497332,604336,2023-03-11 15:37:53,2023-03-11 15:43:36,"Dworzec Główny, południe","Dworzec Główny, południe",6
+172497300,602001,2023-03-11 15:37:26,2023-03-11 15:45:08,Kamieńskiego,Żmigrodzka / Marino,8
+172496919,603426,2023-03-11 15:30:54,2023-03-11 15:45:12,Gliniana / Gajowa,Plac Grunwaldzki / Polaka,15
+172497155,602216,2023-03-11 15:34:49,2023-03-11 15:45:16,Stadion Olimpijski,Rondo Reagana,11
+172497614,602171,2023-03-11 15:42:37,2023-03-11 15:45:49,Gorlicka/Stanety,Gorlicka / Litewska,4
+172497563,602409,2023-03-11 15:41:50,2023-03-11 15:45:59,Poza stacją,Młodych Techników,5
+172497556,603340,2023-03-11 15:41:43,2023-03-11 15:46:16,Poza stacją,Młodych Techników,5
+172497418,603109,2023-03-11 15:39:22,2023-03-11 15:47:42,Poza stacją,Aleja Hallera / Mielecka,9
+172497499,602840,2023-03-11 15:40:41,2023-03-11 15:48:29,Dyrekcyjna / Borowska (Wroclavia),Kamienna / Borowska (Aquapark),8
+172497238,602972,2023-03-11 15:36:20,2023-03-11 15:49:04,"Dworzec Główny, południe",Kościuszki / Komuny Paryskiej / Zgodna,13
+172494612,603296,2023-03-11 14:51:18,2023-03-11 15:49:42,Czekoladowa / Wałbrzyska,Czekoladowa / Wałbrzyska,59
+172495569,602219,2023-03-11 15:08:03,2023-03-11 15:49:53,pl. Orląt Lwowskich,Rogowska / Zemska,42
+172497336,602198,2023-03-11 15:38:03,2023-03-11 15:50:49,Jagiełły / Dmowskiego ,Walońska (Angel Poland Group),13
+172497511,603455,2023-03-11 15:41:00,2023-03-11 15:50:49,Poza stacją,Ślężna / Skierniewicka,10
+172497225,602994,2023-03-11 15:36:11,2023-03-11 15:51:06,al. Armii Krajowej / Bardzka,"Dworzec Główny, południe",15
+172497241,603449,2023-03-11 15:36:21,2023-03-11 15:51:09,al. Armii Krajowej / Bardzka,"Dworzec Główny, południe",15
+172497233,602309,2023-03-11 15:36:18,2023-03-11 15:51:10,al. Armii Krajowej / Bardzka,"Dworzec Główny, południe",15
+172497755,603436,2023-03-11 15:45:12,2023-03-11 15:52:02,Poza stacją,Nowowiejska / Wyszyńskiego,7
+172498101,602028,2023-03-11 15:50:53,2023-03-11 15:52:08,Grota-Roweckiego / Parafialna,Grota-Roweckiego / Parafialna,2
+172498099,602497,2023-03-11 15:50:51,2023-03-11 15:52:14,Zaporoska / Gajowicka,Zaporoska / Gajowicka,2
+172497637,602700,2023-03-11 15:42:59,2023-03-11 15:53:54,Skarbowców / Wietrzna,Powstańcow Śląskich / Aleja Hallera,11
+172497631,603466,2023-03-11 15:42:53,2023-03-11 15:54:01,"Dworzec Główny, południe",Zaporoska / Gajowicka,12
+172497549,602817,2023-03-11 15:41:34,2023-03-11 15:54:31,Wałbrzyska - pętla tramwajowa,Przyjaźni,13
+172497536,602989,2023-03-11 15:41:24,2023-03-11 15:54:50,Wałbrzyska - pętla tramwajowa,Przyjaźni,14
+172497443,602990,2023-03-11 15:39:43,2023-03-11 15:55:36,Kamieńskiego,Obornicka / Bałtycka,16
+172496973,603688,2023-03-11 15:31:43,2023-03-11 15:56:06,Wałbrzyska - pętla tramwajowa,Dworzec Główny ,25
+172497542,603457,2023-03-11 15:41:30,2023-03-11 15:56:11,Plac Powstańców Warszawy (Muzeum Narodowe),Hubska / Prudnicka,15
+172497301,603277,2023-03-11 15:37:27,2023-03-11 15:56:25,Legnicka / Młodych Techników,Żeromskiego / Daszyńskiego,19
+172497311,602583,2023-03-11 15:37:36,2023-03-11 15:56:36,Legnicka / Młodych Techników,Żeromskiego / Daszyńskiego,19
+172497864,602638,2023-03-11 15:46:54,2023-03-11 15:57:10,Fabryczna / Wagonowa,Legnicka (Park Magnolia),11
+172497748,604350,2023-03-11 15:45:09,2023-03-11 15:57:12,"Dworzec Główny, południe",Bardzka / Piękna,13
+172498113,602693,2023-03-11 15:51:05,2023-03-11 15:57:13,"Dworzec Główny, południe",Kamienna / Tomaszowska,7
+172497695,604348,2023-03-11 15:44:08,2023-03-11 15:57:18,"Dworzec Główny, południe",Bardzka / Piękna,14
+172498182,602029,2023-03-11 15:52:18,2023-03-11 15:57:25,Grota-Roweckiego / Parafialna,Grota-Roweckiego/Iwaszkiewicza,6
+172497767,602112,2023-03-11 15:45:30,2023-03-11 15:58:05,Legnicka / Młodych Techników,Legnicka / Wejherowska,13
+172497839,603027,2023-03-11 15:46:25,2023-03-11 15:58:13,Hubska / Prudnicka,Gliniana / Gajowa,12
+172498271,602011,2023-03-11 15:53:51,2023-03-11 15:59:28,Sołtysowicka / Redycka,al. Poprzeczna / stacja kolejowa,6
+172498297,602807,2023-03-11 15:54:21,2023-03-11 15:59:40,Sołtysowicka / Redycka,al. Poprzeczna / stacja kolejowa,6
+172498358,603255,2023-03-11 15:55:16,2023-03-11 16:00:25,Poza stacją,Drobnera / Plac Bema,6
+172497568,603324,2023-03-11 15:41:54,2023-03-11 16:01:11,Drobnera / Dubois,Drobnera / Plac Bema,20
+172498562,602650,2023-03-11 15:58:40,2023-03-11 16:01:11,Szczęśliwa (Sky Tower),Komandorska / Sanocka,3
+172498566,603176,2023-03-11 15:58:43,2023-03-11 16:02:06,Bardzka / Piękna,Hubska / Prudnicka,4
+172498803,603457,2023-03-11 16:02:19,2023-03-11 16:03:22,Hubska / Prudnicka,Hubska / Prudnicka,2
+172498115,603239,2023-03-11 15:51:06,2023-03-11 16:03:48,Kościuszki / Komuny Paryskiej / Zgodna,Poza stacją,13
+172498460,602068,2023-03-11 15:57:03,2023-03-11 16:04:49,Stabłowicka / Główna ,Stabłowicka / Główna ,8
+172498649,603160,2023-03-11 15:59:44,2023-03-11 16:04:50,Poza stacją,Poza stacją,6
+172498808,602721,2023-03-11 16:02:24,2023-03-11 16:05:07,Kołłątaja / Podwale,Plac Dominikański (Galeria Dominikańska),3
+172498583,603536,2023-03-11 15:58:56,2023-03-11 16:05:10,Poza stacją,Poza stacją,7
+172498917,603294,2023-03-11 16:04:16,2023-03-11 16:05:39,Skarbowców / Wietrzna,Skarbowców / Wietrzna,2
+172498564,602112,2023-03-11 15:58:42,2023-03-11 16:06:48,Legnicka / Wejherowska,Lotnicza / Bajana,9
+172498521,603460,2023-03-11 15:58:00,2023-03-11 16:06:56,Bardzka / Piękna,Bardzka (cmentarz),9
+172498506,603192,2023-03-11 15:57:45,2023-03-11 16:06:57,Bardzka / Piękna,Bardzka (cmentarz),10
+172498871,603430,2023-03-11 16:03:18,2023-03-11 16:08:13,Lotnicza / Na Ostatnim Groszu,Legnicka / Wejherowska,5
+172498921,603027,2023-03-11 16:04:19,2023-03-11 16:08:16,Gliniana / Gajowa,Kamienna / Tomaszowska,4
+172498761,602316,2023-03-11 16:01:41,2023-03-11 16:08:56,Nowowiejska / Wyszyńskiego,Drobnera / Dubois,8
+172498920,602907,2023-03-11 16:04:18,2023-03-11 16:09:01,Borowska (Uniw. Szpital Kliniczny),al. Armii Krajowej / Borowska,5
+172498775,602932,2023-03-11 16:01:54,2023-03-11 16:09:03,Aleja Hallera / Mielecka,Grabiszyńska / Stalowa,8
+172498225,602198,2023-03-11 15:53:10,2023-03-11 16:09:19,Walońska (Angel Poland Group),Ślężna / Kamienna (Uniw. Ekonomiczny),17
+172499219,602198,2023-03-11 16:09:50,2023-03-11 16:10:05,Ślężna / Kamienna (Uniw. Ekonomiczny),Ślężna / Kamienna (Uniw. Ekonomiczny),1
+172498889,603457,2023-03-11 16:03:54,2023-03-11 16:11:19,Hubska / Prudnicka,Dyrekcyjna / Borowska (Wroclavia),8
+172498461,603078,2023-03-11 15:57:04,2023-03-11 16:11:39,Wróblewskiego (Teki),Sienkiewicza / Wyszyńskiego,15
+172499156,603133,2023-03-11 16:08:52,2023-03-11 16:12:04,Strzegomska / Rogowska ,Graniczna / Strzegomska,4
+172499101,602112,2023-03-11 16:07:46,2023-03-11 16:13:01,Lotnicza / Bajana,Bystrzycka / Idzikowskiego,6
+172499037,603109,2023-03-11 16:06:29,2023-03-11 16:13:33,Aleja Hallera / Mielecka,Żelazna / Pereca,8
+172499431,602399,2023-03-11 16:12:56,2023-03-11 16:13:56,Ślężna / Kamienna (Uniw. Ekonomiczny),Ślężna / Kamienna (Uniw. Ekonomiczny),1
+172499035,602453,2023-03-11 16:06:27,2023-03-11 16:14:18,Jagiełły / Dmowskiego ,pl. Powstańców Wielkopolskich,8
+172499293,602198,2023-03-11 16:10:49,2023-03-11 16:15:44,Ślężna / Kamienna (Uniw. Ekonomiczny),Dyrekcyjna / Borowska (Wroclavia),5
+172498947,602378,2023-03-11 16:04:44,2023-03-11 16:15:47,Poza stacją,al. Poprzeczna / stacja kolejowa,12
+172499207,602391,2023-03-11 16:09:37,2023-03-11 16:16:54,Racławicka / Rymarska,Aleja Hallera / Mielecka,8
+172499435,602029,2023-03-11 16:13:00,2023-03-11 16:18:32,Grota-Roweckiego/Iwaszkiewicza,Kutrzeby / Hubala,6
+172499208,602718,2023-03-11 16:09:38,2023-03-11 16:18:38,Kościuszki / Komuny Paryskiej / Zgodna,Kamienna / Tomaszowska,9
+172498874,603324,2023-03-11 16:03:24,2023-03-11 16:18:47,Drobnera / Plac Bema,pl. Powstańców Wielkopolskich,16
+172499412,603160,2023-03-11 16:12:39,2023-03-11 16:19:13,Poza stacją,Strachocińska / Wieśniacza,7
+172499403,603536,2023-03-11 16:12:33,2023-03-11 16:20:01,Poza stacją,Strachocińska / Wieśniacza,8
+172499578,603221,2023-03-11 16:15:27,2023-03-11 16:21:07,Legnicka (Park Magnolia),Legnicka / Wejherowska,6
+172499140,602262,2023-03-11 16:08:38,2023-03-11 16:22:42,Rondo Reagana,Promenady Wrocławskie,15
+172499663,602669,2023-03-11 16:17:02,2023-03-11 16:23:25,Osobowicka - pętla tramwajowa,Osobowicka / Ostrowska,7
+172499462,602259,2023-03-11 16:13:20,2023-03-11 16:23:36,Nowowiejska / Jedności Narodowej,Rondo Reagana,11
+172499409,603270,2023-03-11 16:12:38,2023-03-11 16:24:28,Legnicka (Park Magnolia),Kazimierza Wielkiego (Helios),12
+172499660,602085,2023-03-11 16:16:59,2023-03-11 16:24:37,Wojanowska / Arbuzowa ,"Kosmonautów / Fieldorfa, szpital wojewódzki",8
+172499920,602389,2023-03-11 16:21:50,2023-03-11 16:24:50,Grochowa / Jemiołowa,Zaporoska / Wielka / Krucza,3
+172497318,602217,2023-03-11 15:37:43,2023-03-11 16:24:56,Hallera / Odkrywców,Hallera / Odkrywców,48
+172499975,602556,2023-03-11 16:22:40,2023-03-11 16:25:19,Tyrmanda / Mińska,Tyrmanda / Trawowa,3
+172499976,602304,2023-03-11 16:22:41,2023-03-11 16:25:19,Tyrmanda / Mińska,Tyrmanda / Trawowa,3
+172499041,602448,2023-03-11 16:06:36,2023-03-11 16:25:29,Legnicka / Młodych Techników,Kościuszki / Pułaskiego,19
+172499739,604356,2023-03-11 16:18:36,2023-03-11 16:25:56,Janiszewskiego (PWr),Wróblewskiego (Teki),8
+172499609,602289,2023-03-11 16:16:03,2023-03-11 16:26:01,Poniatowskiego / Oleśnicka,Dworzec Główny ,10
+172499896,603427,2023-03-11 16:21:21,2023-03-11 16:26:44,Popowice,Popowicka / Niedźwiedzia,6
+172500074,603107,2023-03-11 16:24:19,2023-03-11 16:27:09,Grota-Roweckiego/Iwaszkiewicza,Grota-Roweckiego / Parafialna,3
+172500208,602825,2023-03-11 16:26:51,2023-03-11 16:27:12,Wita Stwosza / Szewska,Wita Stwosza / Szewska,1
+172499632,604324,2023-03-11 16:16:31,2023-03-11 16:28:19,Poniatowskiego / Oleśnicka,Dworzec Główny ,12
+172499822,603324,2023-03-11 16:19:48,2023-03-11 16:29:27,pl. Powstańców Wielkopolskich,pl. Powstańców Wielkopolskich,10
+172500390,602930,2023-03-11 16:30:30,2023-03-11 16:31:40,Powstańcow Śląskich / Aleja Hallera,Powstańcow Śląskich / Aleja Hallera,2
+172500269,602968,2023-03-11 16:28:08,2023-03-11 16:31:55,Norwida / Wyspiańskiego (PWr),Plac Grunwaldzki (DS Ołówek),4
+172500030,602693,2023-03-11 16:23:34,2023-03-11 16:33:02,Kamienna / Tomaszowska,Kościuszki / Komuny Paryskiej / Zgodna,10
+172500306,602537,2023-03-11 16:28:45,2023-03-11 16:33:03,Legnicka / Zachodnia ,Legnicka (Park Magnolia),5
+172500508,602032,2023-03-11 16:32:30,2023-03-11 16:33:26,Popowice,Popowice,1
+172500009,603120,2023-03-11 16:23:19,2023-03-11 16:34:59,Plac Grunwaldzki / Polaka,Dworzec Główny ,12
+172500160,602316,2023-03-11 16:25:57,2023-03-11 16:35:02,Drobnera / Dubois,Traugutta / Pułaskiego,10
+172499830,603050,2023-03-11 16:19:57,2023-03-11 16:37:07,Jedności Narodowej / Wyszyńskiego,Świdnicka / Piłsudskiego (Hotel Scandic),18
+172500096,603322,2023-03-11 16:24:53,2023-03-11 16:37:16,al. Kochanowskiego / Śniadeckich ,Plac Grunwaldzki / Polaka,13
+172500511,602994,2023-03-11 16:32:36,2023-03-11 16:38:40,"Dworzec Główny, południe",Nyska / Jesionowa,7
+172500524,602186,2023-03-11 16:32:51,2023-03-11 16:39:05,Żmigrodzka / Marino,Bezpieczna / Obornicka,7
+172499921,603430,2023-03-11 16:21:51,2023-03-11 16:40:58,Legnicka / Wejherowska,Obornicka / Bałtycka,20
+172500470,603426,2023-03-11 16:31:50,2023-03-11 16:41:54,Plac Grunwaldzki / Polaka,Dworzec Główny ,11
+172498881,602880,2023-03-11 16:03:39,2023-03-11 16:42:12,Wróblewskiego (Teki),Legnicka / Wejherowska,39
+172501043,602849,2023-03-11 16:41:14,2023-03-11 16:43:14,Obornicka / Bałtycka,Żmigrodzka / Broniewskiego,2
+172500717,602848,2023-03-11 16:35:52,2023-03-11 16:46:09,Łukasiewicza / Smoluchowskiego (PWr),Sienkiewicza / Wyszyńskiego,11
+172500970,602930,2023-03-11 16:40:01,2023-03-11 16:46:43,Powstańcow Śląskich / Aleja Hallera,Powstańcow Śląskich / Aleja Hallera,7
+172501017,602296,2023-03-11 16:40:41,2023-03-11 16:46:48,Wojanowska / Arbuzowa ,Boguszowska / Kosmonautów,7
+172501436,603192,2023-03-11 16:47:21,2023-03-11 16:48:07,Bardzka (cmentarz),Bardzka (cmentarz),1
+172501376,602453,2023-03-11 16:46:22,2023-03-11 16:49:18,pl. Powstańców Wielkopolskich,Reymonta / Kleczkowska,3
+172495141,602116,2023-03-11 15:00:34,2023-03-11 16:49:39,al. Armii Krajowej / Borowska,al. Armii Krajowej / Borowska,110
+172501431,603460,2023-03-11 16:47:16,2023-03-11 16:50:38,Bardzka (cmentarz),Bardzka (cmentarz),4
+172500570,603324,2023-03-11 16:33:42,2023-03-11 16:50:39,pl. Powstańców Wielkopolskich,Plac Uniwersytecki (UWr),17
+172501467,602205,2023-03-11 16:47:47,2023-03-11 16:50:58,Kołłątaja / Podwale,Plac Kościuszki (Renoma),4
+172501020,602091,2023-03-11 16:40:46,2023-03-11 16:51:19,Promenady Wrocławskie,Sienkiewicza / Piastowska,11
+172501523,603192,2023-03-11 16:48:41,2023-03-11 16:51:22,Bardzka (cmentarz),Bardzka (cmentarz),3
+172501001,602262,2023-03-11 16:40:27,2023-03-11 16:51:27,Promenady Wrocławskie,Sienkiewicza / Piastowska,11
+172500705,602669,2023-03-11 16:35:37,2023-03-11 16:52:06,Osobowicka / Ostrowska,Legnicka / Wejherowska,17
+172501473,602046,2023-03-11 16:47:50,2023-03-11 16:52:16,Graniczna / Strzegomska,Strzegomska / Rogowska ,5
+172501250,603191,2023-03-11 16:44:37,2023-03-11 16:52:49,Kościuszki / Komuny Paryskiej / Zgodna,Hubska / Prudnicka,9
+172500946,602700,2023-03-11 16:39:30,2023-03-11 16:53:49,Powstańcow Śląskich / Aleja Hallera,Skarbowców / Wietrzna,15
+172501559,602568,2023-03-11 16:49:20,2023-03-11 16:55:11,Drobnera / Dubois,Kazimierza Wielkiego (Helios),6
+172501312,602003,2023-03-11 16:45:31,2023-03-11 16:55:20,Świeradowska (Ferio Gaj ),al. Armii Krajowej / Borowska,10
+172501325,602553,2023-03-11 16:45:42,2023-03-11 16:55:24,Świeradowska (Ferio Gaj ),al. Armii Krajowej / Borowska,10
+172501573,602197,2023-03-11 16:49:29,2023-03-11 16:55:36,Drobnera / Dubois,Kazimierza Wielkiego (Helios),7
+172501440,602644,2023-03-11 16:47:24,2023-03-11 16:56:54,Zaporoska / Grabiszyńska,Grabiszyńska / Magazynierska (Corte Verona),10
+172501627,602291,2023-03-11 16:50:17,2023-03-11 16:57:48,Kutrzeby / Hubala,Grota-Roweckiego/Iwaszkiewicza,8
+172501184,602990,2023-03-11 16:43:21,2023-03-11 16:58:57,Obornicka / Bałtycka,Kamieńskiego,16
+172501747,602641,2023-03-11 16:52:12,2023-03-11 16:59:17,Jagodzińska / Buforowa,Buforowa - Vivaldiego,8
+172501731,602538,2023-03-11 16:51:52,2023-03-11 16:59:37,Walońska (Angel Poland Group),Rondo Reagana,8
+172501952,602907,2023-03-11 16:55:16,2023-03-11 17:00:21,al. Armii Krajowej / Borowska,Dyrekcyjna / Borowska (Wroclavia),6
+172501882,602399,2023-03-11 16:54:03,2023-03-11 17:01:28,Ślężna / Kamienna (Uniw. Ekonomiczny),Ślężna / Kamienna (Uniw. Ekonomiczny),8
+172499715,602638,2023-03-11 16:17:59,2023-03-11 17:01:55,Legnicka (Park Magnolia),Księgarska / Dekarska / Zduńska,44
+172501670,603698,2023-03-11 16:50:59,2023-03-11 17:02:14,Gajowicka,Grabiszyńska / Aleja Hallera,12
+172501309,603157,2023-03-11 16:45:30,2023-03-11 17:02:56,Kazimierza Wielkiego (Helios),Plac Strzegomski / Poznańska,18
+172502045,602374,2023-03-11 16:56:56,2023-03-11 17:03:22,Dworzec Główny ,Fosa Miejska ,7
+172501150,602841,2023-03-11 16:42:48,2023-03-11 17:03:30,Strzegomska / Rogowska ,Strzegomska / Estońska,21
+172501729,602216,2023-03-11 16:51:46,2023-03-11 17:03:34,Rondo Reagana,Stadion Olimpijski,12
+172501971,602267,2023-03-11 16:55:38,2023-03-11 17:07:29,al. Armii Krajowej / Borowska,Powstańcow Śląskich / Aleja Hallera,12
+172501979,602328,2023-03-11 16:55:46,2023-03-11 17:07:47,al. Armii Krajowej / Borowska,Powstańcow Śląskich / Aleja Hallera,13
+172502075,603435,2023-03-11 16:57:26,2023-03-11 17:08:50,Szewska / Kazimierza Wielkiego ,Pereca / Grabiszyńska,12
+172501706,603324,2023-03-11 16:51:27,2023-03-11 17:09:13,Plac Uniwersytecki (UWr),Plac Kościuszki (Renoma),18
+172502281,602825,2023-03-11 17:00:38,2023-03-11 17:10:39,Wita Stwosza / Szewska,Plac Legionów,11
+172502720,603460,2023-03-11 17:08:06,2023-03-11 17:10:51,Bardzka (cmentarz),Bardzka (cmentarz),3
+172502662,603248,2023-03-11 17:07:13,2023-03-11 17:11:12,Mościckiego / Chińska ,Mościckiego (stacja kolejowa),4
+172501577,602356,2023-03-11 16:49:31,2023-03-11 17:11:15,Konduktorska,Komandorska / Sanocka,22
+172502895,602840,2023-03-11 17:10:46,2023-03-11 17:11:24,Kamienna / Borowska (Aquapark),Kamienna / Borowska (Aquapark),1
+172502763,603170,2023-03-11 17:08:45,2023-03-11 17:11:41,Poza stacją,Tarnogajska / Klimasa,3
+172502888,603075,2023-03-11 17:10:39,2023-03-11 17:12:34,Kamienna / Borowska (Aquapark),Kamienna / Borowska (Aquapark),2
+172502676,602553,2023-03-11 17:07:31,2023-03-11 17:13:59,al. Armii Krajowej / Borowska,Powstańcow Śląskich / Aleja Hallera,7
+172503059,602643,2023-03-11 17:13:14,2023-03-11 17:14:14,Tarnogajska / Klimasa,Tarnogajska / Klimasa,1
+172502712,603421,2023-03-11 17:08:00,2023-03-11 17:14:32,Maślicka / Stodolna,Lubelska/Łukowska,7
+172502829,602309,2023-03-11 17:09:55,2023-03-11 17:15:35,"Dworzec Główny, południe",Kamienna / Tomaszowska,6
+172503216,603639,2023-03-11 17:15:36,2023-03-11 17:15:53,Zachodnia / Poznańska,Zachodnia / Poznańska,1
+172502245,603692,2023-03-11 17:00:04,2023-03-11 17:16:09,Zaporoska / Grabiszyńska,Nowowiejska / Jedności Narodowej,17
+172502786,603449,2023-03-11 17:09:07,2023-03-11 17:16:58,"Dworzec Główny, południe",Kościuszki / Komuny Paryskiej / Zgodna,8
+172502791,602294,2023-03-11 17:09:14,2023-03-11 17:17:56,Kościuszki / Komuny Paryskiej / Zgodna,Komandorska / Sanocka,9
+172502702,602080,2023-03-11 17:07:54,2023-03-11 17:18:14,Kołłątaja / Podwale,Plac Dominikański (Galeria Dominikańska),11
+172503334,603170,2023-03-11 17:17:23,2023-03-11 17:18:28,Tarnogajska / Klimasa,Tarnogajska / Klimasa,2
+172503078,602840,2023-03-11 17:13:28,2023-03-11 17:19:06,Kamienna / Borowska (Aquapark),Poza stacją,6
+172503063,603075,2023-03-11 17:13:17,2023-03-11 17:19:15,Kamienna / Borowska (Aquapark),Poza stacją,6
+172503460,603054,2023-03-11 17:19:06,2023-03-11 17:19:18,Kamienna / Borowska (Aquapark),Kamienna / Borowska (Aquapark),1
+172502475,603399,2023-03-11 17:03:44,2023-03-11 17:19:19,Plac Strzegomski / Poznańska,Legnicka / Wejherowska,16
+172502711,602199,2023-03-11 17:07:59,2023-03-11 17:20:27,Bardzka (cmentarz),Konduktorska,13
+172502688,603322,2023-03-11 17:07:40,2023-03-11 17:20:37,Plac Grunwaldzki / Polaka,Gliniana / Gajowa,13
+172502868,602091,2023-03-11 17:10:24,2023-03-11 17:21:05,Sienkiewicza / Piastowska,Promenady Wrocławskie,11
+172502857,602262,2023-03-11 17:10:17,2023-03-11 17:21:08,Sienkiewicza / Piastowska,Promenady Wrocławskie,11
+172503711,603313,2023-03-11 17:22:24,2023-03-11 17:23:03,Rynek,Rynek,1
+172502795,602992,2023-03-11 17:09:21,2023-03-11 17:23:42,Aleja Hallera / Mielecka,Plac Powstańców Śląskich,15
+172502451,602745,2023-03-11 17:03:21,2023-03-11 17:23:50,Aleja Kromera,Aleja Kromera,21
+172502900,603324,2023-03-11 17:10:49,2023-03-11 17:24:05,Plac Kościuszki (Renoma),Drobnera / Dubois,14
+172503388,602693,2023-03-11 17:18:13,2023-03-11 17:24:06,Kościuszki / Komuny Paryskiej / Zgodna,Krakowska / Leroy Merlin,6
+172503646,602189,2023-03-11 17:21:35,2023-03-11 17:24:10,Rynek,Rynek,3
+172503311,602676,2023-03-11 17:17:04,2023-03-11 17:24:15,Zachodnia / Poznańska,Kazimierza Wielkiego (Helios),8
+172503754,602840,2023-03-11 17:23:00,2023-03-11 17:24:17,Poza stacją,al. Armii Krajowej / Borowska,2
+172503768,603075,2023-03-11 17:23:08,2023-03-11 17:24:17,Poza stacją,al. Armii Krajowej / Borowska,2
+172503293,602657,2023-03-11 17:16:48,2023-03-11 17:24:46,Kościuszki / Komuny Paryskiej / Zgodna,Krakowska / Leroy Merlin,8
+172503481,603176,2023-03-11 17:19:25,2023-03-11 17:25:40,Hubska / Prudnicka,Dyrekcyjna / Borowska (Wroclavia),7
+172503123,602183,2023-03-11 17:14:13,2023-03-11 17:26:55,Poza stacją,Drobnera / Plac Bema,13
+172500565,603065,2023-03-11 16:33:36,2023-03-11 17:27:31,Popowice,Popowice,54
+172503784,603271,2023-03-11 17:23:19,2023-03-11 17:29:44,Krzywoustego - Rynek Psie Pole,Poleska / Litewska,7
+172503195,602332,2023-03-11 17:15:20,2023-03-11 17:30:41,Powstańców Śląskich/Orla,Kamienna / Borowska (Aquapark),16
+172502973,602650,2023-03-11 17:11:54,2023-03-11 17:30:42,Komandorska / Sanocka,Legnicka (Park Magnolia),19
+172500646,602902,2023-03-11 16:34:47,2023-03-11 17:33:07,Marca Polo (Olimpia Port),Bacciarellego,59
+172502913,603192,2023-03-11 17:11:00,2023-03-11 17:34:06,Bardzka (cmentarz),Plac Dominikański (Galeria Dominikańska),24
+172503967,602218,2023-03-11 17:26:04,2023-03-11 17:34:09,al. Armii Krajowej / Bardzka,al. Armii Krajowej / Borowska,9
+172502928,602825,2023-03-11 17:11:10,2023-03-11 17:34:55,Plac Legionów,Rynek,24
+172503578,602231,2023-03-11 17:20:42,2023-03-11 17:35:05,Konduktorska,Semaforowa,15
+172503572,603108,2023-03-11 17:20:35,2023-03-11 17:35:10,Konduktorska,Semaforowa,15
+172503675,603082,2023-03-11 17:22:02,2023-03-11 17:35:18,Dyrekcyjna / Borowska (Wroclavia),Rondo Reagana,14
+172503877,603216,2023-03-11 17:24:46,2023-03-11 17:36:08,Piławska,al. Armii Krajowej / Tarnogajska,12
+172504294,603322,2023-03-11 17:31:19,2023-03-11 17:36:58,Gliniana / Gajowa,Bardzka / Piękna,6
+172504065,602721,2023-03-11 17:27:41,2023-03-11 17:38:07,Plac Dominikański (Galeria Dominikańska),Plac Legionów,11
+172504447,602693,2023-03-11 17:33:32,2023-03-11 17:39:25,Krakowska / Leroy Merlin,Kościuszki / Komuny Paryskiej / Zgodna,6
+172504236,603191,2023-03-11 17:30:17,2023-03-11 17:39:38,Hubska / Prudnicka,Kościuszki / Komuny Paryskiej / Zgodna,10
+172504088,603432,2023-03-11 17:28:07,2023-03-11 17:42:27,Kozanowska/Pałucka,Bogatyńska / Turoszowska,15
+172503594,602198,2023-03-11 17:20:56,2023-03-11 17:42:40,Dyrekcyjna / Borowska (Wroclavia),Nowowiejska / Jedności Narodowej,22
+172504774,602278,2023-03-11 17:38:22,2023-03-11 17:44:06,Jedności Narodowej / Wyszyńskiego,Nowowiejska / Jedności Narodowej,6
+172504140,602787,2023-03-11 17:28:54,2023-03-11 17:45:12,Łukasiewicza / Smoluchowskiego (PWr),Fosa Miejska ,17
+172504741,602780,2023-03-11 17:37:57,2023-03-11 17:45:26,Norwida / Wyspiańskiego (PWr),Nowowiejska / Górnickiego,8
+172502141,603440,2023-03-11 16:58:24,2023-03-11 17:46:04,Rynek,Aleja Hallera / Mielecka,48
+172504643,603345,2023-03-11 17:36:42,2023-03-11 17:46:38,Partyzantów / Okrzei,al. Kochanowskiego / Kopernika,10
+172504399,602014,2023-03-11 17:32:47,2023-03-11 17:46:55,Dworzec Główny ,Plac Dominikański (Galeria Dominikańska),15
+172504358,602202,2023-03-11 17:32:14,2023-03-11 17:47:48,pl. Orląt Lwowskich,Plac Powstańców Śląskich,16
+172505086,602294,2023-03-11 17:42:41,2023-03-11 17:47:49,Komandorska / Sanocka,Powstańców Śląskich (Arkady Wrocławskie),6
+172504460,602154,2023-03-11 17:33:42,2023-03-11 17:47:58,Krucza / Mielecka / Stalowa,Kamienna / Borowska (Aquapark),15
+172504544,602058,2023-03-11 17:35:03,2023-03-11 17:48:15,Bacciarellego,Marca Polo (Olimpia Port),14
+172503483,602465,2023-03-11 17:19:26,2023-03-11 17:48:22,Kamienna / Borowska (Aquapark),Piławska,29
+172504897,602925,2023-03-11 17:39:53,2023-03-11 17:48:23,al. Armii Krajowej / Borowska,Powstańcow Śląskich / Aleja Hallera,9
+172505454,603640,2023-03-11 17:48:09,2023-03-11 17:48:29,Plac Legionów,Plac Legionów,1
+172505154,602538,2023-03-11 17:43:47,2023-03-11 17:49:14,Rondo Reagana,Rondo Reagana,6
+172504925,603431,2023-03-11 17:40:09,2023-03-11 17:49:31,Zaporoska / Grabiszyńska,"Dworzec Główny, południe",10
+172505266,602162,2023-03-11 17:45:35,2023-03-11 17:49:43,Racławicka / Rymarska,Powstańców Śląskich/Orla,5
+172505322,603639,2023-03-11 17:46:13,2023-03-11 17:50:18,Zachodnia / Poznańska,Młodych Techników,5
+172505240,603335,2023-03-11 17:45:10,2023-03-11 17:50:39,Strzegomska / Rogowska ,Rogowska / Zemska,6
+172505412,602332,2023-03-11 17:47:29,2023-03-11 17:50:49,Kamienna / Borowska (Aquapark),al. Armii Krajowej / Borowska,4
+172504692,603216,2023-03-11 17:37:17,2023-03-11 17:51:07,al. Armii Krajowej / Tarnogajska,Rakowiecka,14
+172505382,602148,2023-03-11 17:47:02,2023-03-11 17:51:14,Bałtycka / Żmigrodzka,Kamieńskiego / Jutrosińska,5
+172504279,602537,2023-03-11 17:31:05,2023-03-11 17:51:40,Legnicka (Park Magnolia),Mrągowska / Rolna,21
+172504700,602207,2023-03-11 17:37:26,2023-03-11 17:52:01,Legnicka / Wejherowska,Kosmonautów / Glinianki / WUWA2,15
+172505672,602538,2023-03-11 17:51:23,2023-03-11 17:52:09,Rondo Reagana,Rondo Reagana,1
+172505386,602239,2023-03-11 17:47:04,2023-03-11 17:53:36,Nowowiejska / Wyszyńskiego,Poza stacją,7
+172504910,602091,2023-03-11 17:40:01,2023-03-11 17:54:52,Promenady Wrocławskie,Bezpieczna/Jugosławiańska,15
+172504898,602262,2023-03-11 17:39:54,2023-03-11 17:54:53,Promenady Wrocławskie,Bezpieczna/Jugosławiańska,15
+172505633,603431,2023-03-11 17:50:48,2023-03-11 17:55:39,"Dworzec Główny, południe",Hubska / Prudnicka,5
+172505315,602356,2023-03-11 17:46:07,2023-03-11 17:57:06,Komandorska / Sanocka,Komandorska / Kamienna,11
+172505346,603082,2023-03-11 17:46:32,2023-03-11 17:57:19,Rondo Reagana,Kościuszki / Pułaskiego,11
+172505055,603275,2023-03-11 17:42:12,2023-03-11 17:58:39,al. Kochanowskiego / Śniadeckich ,Partyzantów / Okrzei,17
+172505909,602200,2023-03-11 17:54:49,2023-03-11 17:58:49,Buforowa - Vivaldiego,Jagodzińska / Buforowa,4
+172506173,603316,2023-03-11 17:58:43,2023-03-11 17:59:03,Dworzec Główny ,Dworzec Główny ,1
+172505595,602989,2023-03-11 17:50:18,2023-03-11 17:59:55,Przyjaźni,Przyjaźni,10
+172505032,603460,2023-03-11 17:41:45,2023-03-11 18:00:13,Bardzka (cmentarz),Grota-Roweckiego / Parafialna,19
+172505707,603191,2023-03-11 17:51:53,2023-03-11 18:00:13,Kościuszki / Komuny Paryskiej / Zgodna,Krakowska / Leroy Merlin,9
+172505467,603127,2023-03-11 17:48:22,2023-03-11 18:00:14,Poza stacją,pl. Powstańców Wielkopolskich,12
+172504908,602747,2023-03-11 17:40:00,2023-03-11 18:01:51,Czekoladowa / Wałbrzyska,Czekoladowa / Wałbrzyska,22
+172505709,602676,2023-03-11 17:51:54,2023-03-11 18:02:21,Kazimierza Wielkiego (Helios),Szewska / Kazimierza Wielkiego ,11
+172505802,603540,2023-03-11 17:53:05,2023-03-11 18:02:41,al. Karkonoska / Jeździecka,Czekoladowa / Wałbrzyska,10
+172506414,603219,2023-03-11 18:02:24,2023-03-11 18:03:03,Poza stacją,Poza stacją,1
+172506428,602954,2023-03-11 18:02:35,2023-03-11 18:03:08,Janiszewskiego (PWr),Janiszewskiego (PWr),1
+172506298,603192,2023-03-11 18:00:28,2023-03-11 18:03:35,Plac Dominikański (Galeria Dominikańska),Piaskowa / św. Ducha,4
+172505743,602259,2023-03-11 17:52:25,2023-03-11 18:04:22,Rondo Reagana,al. Brücknera / Kwidzyńska,12
+172505875,603340,2023-03-11 17:54:27,2023-03-11 18:04:29,Młodych Techników,Plac Jana Pawła II (Akademia Muzyczna),11
+172506376,603157,2023-03-11 18:01:46,2023-03-11 18:04:30,Plac Strzegomski / Poznańska,Legnicka / Młodych Techników,3
+172506239,603176,2023-03-11 17:59:43,2023-03-11 18:04:36,Dyrekcyjna / Borowska (Wroclavia),Komandorska / Kamienna,5
+172505860,603474,2023-03-11 17:54:13,2023-03-11 18:04:54,Młodych Techników,Plac Jana Pawła II (Akademia Muzyczna),11
+172506204,602947,2023-03-11 17:59:12,2023-03-11 18:04:54,Skarbowców / Wietrzna,Przyjaźni / Karkonoska,6
+172506341,602249,2023-03-11 18:01:08,2023-03-11 18:05:21,Świeradowska / Krynicka,al. Armii Krajowej / Bardzka,5
+172506009,603431,2023-03-11 17:56:18,2023-03-11 18:05:33,Hubska / Prudnicka,Hubska / Prudnicka,10
+172506418,603154,2023-03-11 18:02:27,2023-03-11 18:06:35,Sołtysowicka / Redycka,al. Poprzeczna / stacja kolejowa,5
+172505825,603399,2023-03-11 17:53:27,2023-03-11 18:06:37,Legnicka / Wejherowska,Plac Jana Pawła II (Akademia Muzyczna),14
+172505699,603216,2023-03-11 17:51:49,2023-03-11 18:06:48,Rakowiecka,Plac Grunwaldzki (DS Ołówek),15
+172506102,602207,2023-03-11 17:57:39,2023-03-11 18:07:18,Kosmonautów / Glinianki / WUWA2,"Kosmonautów / Fieldorfa, szpital wojewódzki",10
+172506535,603178,2023-03-11 18:04:10,2023-03-11 18:08:45,Promenady Wrocławskie,Kraszewskiego / Trzebnicka,5
+172506595,603473,2023-03-11 18:05:05,2023-03-11 18:11:27,Jedności Narodowej / Wyszyńskiego,Aleja Kromera,7
+172506618,603340,2023-03-11 18:05:23,2023-03-11 18:13:27,Plac Jana Pawła II (Akademia Muzyczna),Plac Legionów,9
+172506462,602676,2023-03-11 18:03:04,2023-03-11 18:13:31,Szewska / Kazimierza Wielkiego ,Dyrekcyjna / Borowska (Wroclavia),11
+172501739,603343,2023-03-11 16:52:02,2023-03-11 18:13:36,Aleja Kromera,Aleja Kromera,82
+172506643,603474,2023-03-11 18:05:42,2023-03-11 18:13:38,Plac Jana Pawła II (Akademia Muzyczna),Plac Legionów,8
+172507224,603360,2023-03-11 18:14:42,2023-03-11 18:15:01,Leśnica - pętla tramwajowa,Leśnica - pętla tramwajowa,1
+172507013,603007,2023-03-11 18:11:26,2023-03-11 18:15:39,Kurkowa / Dubois,Drobnera / Dubois,5
+172507299,603360,2023-03-11 18:15:48,2023-03-11 18:16:16,Leśnica - pętla tramwajowa,Leśnica - pętla tramwajowa,1
+172506971,602650,2023-03-11 18:10:58,2023-03-11 18:16:54,Legnicka (Park Magnolia),Legnicka / Zachodnia ,6
+172506673,602885,2023-03-11 18:06:08,2023-03-11 18:17:02,Mościckiego (stacja kolejowa),Jagodzińska / Buforowa,11
+172506631,602259,2023-03-11 18:05:31,2023-03-11 18:17:10,al. Brücknera / Kwidzyńska,Krzywoustego - Rynek Psie Pole,12
+172507183,603639,2023-03-11 18:14:14,2023-03-11 18:17:57,Młodych Techników,Zachodnia / Poznańska,4
+172507199,602537,2023-03-11 18:14:22,2023-03-11 18:18:02,Mrągowska / Rolna,Maślicka / Brodnicka,4
+172506627,602830,2023-03-11 18:05:26,2023-03-11 18:18:42,Legnicka / Młodych Techników,Piaskowa / św. Ducha,14
+172506320,603127,2023-03-11 18:00:47,2023-03-11 18:18:50,pl. Powstańców Wielkopolskich,Drobnera / Dubois,19
+172507162,602834,2023-03-11 18:13:59,2023-03-11 18:20:16,Jedności Narodowej / Wyszyńskiego,Poza stacją,7
+172507643,603267,2023-03-11 18:21:06,2023-03-11 18:21:21,Krzycka / Aleja Karkonoska (Park Południowy),Krzycka / Aleja Karkonoska (Park Południowy),1
+172506759,602931,2023-03-11 18:07:28,2023-03-11 18:21:56,Grabiszyńska / Aleja Hallera,Aleja Hallera / Mielecka,15
+172507687,602450,2023-03-11 18:21:40,2023-03-11 18:22:03,Krzycka / Aleja Karkonoska (Park Południowy),Krzycka / Aleja Karkonoska (Park Południowy),1
+172506748,603698,2023-03-11 18:07:20,2023-03-11 18:22:11,Grabiszyńska / Aleja Hallera,Aleja Hallera / Mielecka,15
+172507156,603191,2023-03-11 18:13:46,2023-03-11 18:22:11,Krakowska / Leroy Merlin,Kościuszki / Komuny Paryskiej / Zgodna,9
+172507341,602676,2023-03-11 18:16:17,2023-03-11 18:22:33,Dyrekcyjna / Borowska (Wroclavia),Ślężna / Kamienna (Uniw. Ekonomiczny),7
+172507453,602051,2023-03-11 18:18:02,2023-03-11 18:22:37,Ślężna / Skierniewicka,Ślężna / Skierniewicka,5
+172507588,603007,2023-03-11 18:20:15,2023-03-11 18:22:50,Drobnera / Dubois,Plac Uniwersytecki (UWr),3
+172507666,603247,2023-03-11 18:21:26,2023-03-11 18:22:53,Poza stacją,Legnicka / Młodych Techników,2
+172506594,602458,2023-03-11 18:05:05,2023-03-11 18:24:36,Dworzec Główny ,Poza stacją,20
+172505880,602477,2023-03-11 17:54:31,2023-03-11 18:26:42,Mińska / Stanisławowska,Pereca / Grabiszyńska,33
+172507740,602549,2023-03-11 18:22:23,2023-03-11 18:26:47,Krzycka / Aleja Karkonoska (Park Południowy),Przyjaźni / Karkonoska,5
+172507475,602572,2023-03-11 18:18:26,2023-03-11 18:27:15,Aleja Kromera,Krzywoustego / Korona,9
+172507472,603412,2023-03-11 18:18:25,2023-03-11 18:27:16,Aleja Kromera,Krzywoustego / Korona,9
+172507413,602787,2023-03-11 18:17:20,2023-03-11 18:28:32,Fosa Miejska ,Drobnera / Plac Bema,12
+172508042,603316,2023-03-11 18:27:23,2023-03-11 18:29:55,Poza stacją,Plac Świętego Macieja / Trzebnicka,3
+172507301,602973,2023-03-11 18:15:50,2023-03-11 18:31:01,Aleja Kromera,Aleja Kromera,16
+172508002,602205,2023-03-11 18:26:43,2023-03-11 18:31:14,Plac Kościuszki (Renoma),Plac Legionów,5
+172506025,602727,2023-03-11 17:56:29,2023-03-11 18:31:16,Koszarowa / UWr,Kozanowska / Pilczycka,35
+172507556,602858,2023-03-11 18:19:44,2023-03-11 18:32:36,Żmigrodzka / Marino,Reymonta / Kleczkowska,13
+172508130,602054,2023-03-11 18:28:47,2023-03-11 18:33:08,Legnicka / Młodych Techników,Młodych Techników,5
+172507956,602746,2023-03-11 18:25:50,2023-03-11 18:33:30,Wojanowska / Arbuzowa ,"Kosmonautów / Fieldorfa, szpital wojewódzki",8
+172508215,602249,2023-03-11 18:30:23,2023-03-11 18:33:58,al. Armii Krajowej / Bardzka,Świeradowska / Krynicka,4
+172507481,602659,2023-03-11 18:18:30,2023-03-11 18:34:04,Nowowiejska / Wyszyńskiego,Plac Uniwersytecki (UWr),16
+172508197,602787,2023-03-11 18:30:08,2023-03-11 18:35:03,Drobnera / Plac Bema,Żeromskiego / Kluczborska,5
+172507622,603127,2023-03-11 18:20:49,2023-03-11 18:35:38,Drobnera / Dubois,Drobnera / Dubois,15
+172507872,602932,2023-03-11 18:24:33,2023-03-11 18:36:28,Grabiszyńska / Stalowa,Fosa Miejska ,12
+172508506,602717,2023-03-11 18:34:51,2023-03-11 18:37:12,Szczęśliwa (Sky Tower),Plac Powstańców Śląskich,3
+172508430,603274,2023-03-11 18:33:49,2023-03-11 18:37:54,Poza stacją,Robotnicza / Fabryczna,5
+172508006,604336,2023-03-11 18:26:46,2023-03-11 18:39:22,"Dworzec Główny, południe",Plac Jana Pawła II (Akademia Muzyczna),13
+172508734,602890,2023-03-11 18:39:04,2023-03-11 18:39:27,"Dworzec Główny, południe","Dworzec Główny, południe",1
+172508316,602284,2023-03-11 18:32:11,2023-03-11 18:39:28,Jagiełły / Dmowskiego ,Plac Strzegomski / Poznańska,8
+172508001,602881,2023-03-11 18:26:43,2023-03-11 18:40:26,Poza stacją,Wróblewskiego (Teki),14
+172508254,604314,2023-03-11 18:30:59,2023-03-11 18:42:24,Traugutta / Kościuszki,Wita Stwosza / Szewska,12
+172508559,602054,2023-03-11 18:35:56,2023-03-11 18:44:49,Młodych Techników,Plac Jana Pawła II (Akademia Muzyczna),9
+172508883,602874,2023-03-11 18:41:08,2023-03-11 18:45:09,Drzewieckiego / Dedala,Lotnicza / Na Ostatnim Groszu,5
+172508389,603343,2023-03-11 18:33:09,2023-03-11 18:45:38,Aleja Kromera,Nowowiejska / Górnickiego,13
+172508904,602416,2023-03-11 18:41:24,2023-03-11 18:46:08,Drobnera / Dubois,Kurkowa / Dubois,5
+172508652,602218,2023-03-11 18:37:36,2023-03-11 18:46:17,al. Armii Krajowej / Borowska,"Dworzec Główny, południe",9
+172508368,603348,2023-03-11 18:32:52,2023-03-11 18:47:42,Piławska,Krakowska / Leroy Merlin,15
+172508712,602834,2023-03-11 18:38:36,2023-03-11 18:48:13,Poza stacją,Aleja Kromera,10
+172509009,602399,2023-03-11 18:43:24,2023-03-11 18:48:37,Ślężna / Kamienna (Uniw. Ekonomiczny),Ślężna / Kamienna (Uniw. Ekonomiczny),6
+172508115,602451,2023-03-11 18:28:33,2023-03-11 18:48:41,Drobnera / Dubois,Kozanowska / Pilczycka,21
+172509351,602497,2023-03-11 18:48:39,2023-03-11 18:49:27,Zaporoska / Gajowicka,Pereca / Grabiszyńska,1
+172505520,602721,2023-03-11 17:49:09,2023-03-11 18:49:56,Plac Legionów,Świdnicka / Piłsudskiego (Hotel Scandic),61
+172509335,602618,2023-03-11 18:48:22,2023-03-11 18:50:08,Poza stacją,Nyska / Jesionowa,2
+172508974,602183,2023-03-11 18:42:49,2023-03-11 18:51:02,Drobnera / Plac Bema,Plac Dominikański (Galeria Dominikańska),9
+172508511,602972,2023-03-11 18:34:59,2023-03-11 18:51:56,Kościuszki / Komuny Paryskiej / Zgodna,Kościuszki / Komuny Paryskiej / Zgodna,17
+172508749,602944,2023-03-11 18:39:14,2023-03-11 18:52:08,Dworzec Główny ,Drobnera / Plac Bema,13
+172508567,602907,2023-03-11 18:35:59,2023-03-11 18:53:26,Dyrekcyjna / Borowska (Wroclavia),Dyrekcyjna / Borowska (Wroclavia),18
+172509541,603050,2023-03-11 18:51:41,2023-03-11 18:54:14,Świdnicka / Piłsudskiego (Hotel Scandic),Plac Legionów,3
+172509006,602676,2023-03-11 18:43:19,2023-03-11 18:54:45,Ślężna / Kamienna (Uniw. Ekonomiczny),Powstańców Śląskich (Arkady Wrocławskie),12
+172509341,603473,2023-03-11 18:48:33,2023-03-11 18:55:19,Aleja Kromera,Jedności Narodowej / Wyszyńskiego,7
+172508311,603466,2023-03-11 18:32:03,2023-03-11 18:55:41,Zaporoska / Gajowicka,Zwycięska / Ołtaszyńska,24
+172509536,602650,2023-03-11 18:51:39,2023-03-11 18:56:08,Legnicka / Zachodnia ,Legnicka (Park Magnolia),5
+172509334,602973,2023-03-11 18:48:19,2023-03-11 18:56:18,Aleja Kromera,Sołtysowicka / Redycka,8
+172508776,602890,2023-03-11 18:39:35,2023-03-11 18:56:28,"Dworzec Główny, południe","Dworzec Główny, południe",17
+172509210,604380,2023-03-11 18:46:23,2023-03-11 18:56:40,al. Armii Krajowej / Bardzka,Ślężna / Aleja Wiśniowa,11
+172509237,604335,2023-03-11 18:46:51,2023-03-11 18:56:50,al. Armii Krajowej / Bardzka,Ślężna / Aleja Wiśniowa,10
+172509196,602441,2023-03-11 18:46:14,2023-03-11 18:58:32,Wyszyńskiego / Szczytnicka,"Dworzec Główny, południe",13
+172509642,603007,2023-03-11 18:53:29,2023-03-11 18:58:41,Plac Uniwersytecki (UWr),Drobnera / Dubois,6
+172508850,603457,2023-03-11 18:40:36,2023-03-11 18:59:00,Dyrekcyjna / Borowska (Wroclavia),Dyrekcyjna / Borowska (Wroclavia),19
+172509681,602014,2023-03-11 18:54:10,2023-03-11 18:59:30,Plac Dominikański (Galeria Dominikańska),Na Grobli (PWr - Geocentrum),6
+172509703,602183,2023-03-11 18:54:25,2023-03-11 18:59:32,Plac Dominikański (Galeria Dominikańska),Na Grobli (PWr - Geocentrum),6
+172509485,602197,2023-03-11 18:50:54,2023-03-11 18:59:46,Kazimierza Wielkiego (Helios),Poniatowskiego / Oleśnicka,9
+172509470,602933,2023-03-11 18:50:40,2023-03-11 18:59:47,Kazimierza Wielkiego (Helios),Poniatowskiego / Oleśnicka,10
+172509623,603055,2023-03-11 18:53:05,2023-03-11 19:00:13,Śrubowa / Strzegomska,Legnicka (Park Magnolia),8
+172509565,602080,2023-03-11 18:52:07,2023-03-11 19:00:34,Plac Dominikański (Galeria Dominikańska),Rynek,9
+172509939,603479,2023-03-11 18:58:27,2023-03-11 19:00:57,Czarnuszkowa/Waniliowa,Waniliowa / Cynamonowa,3
+172510053,602189,2023-03-11 19:00:46,2023-03-11 19:01:12,Rynek,Rynek,1
+172510097,603313,2023-03-11 19:01:30,2023-03-11 19:01:55,Rynek,Rynek,1
+172509852,603343,2023-03-11 18:56:55,2023-03-11 19:02:15,Nowowiejska / Górnickiego,Żeromskiego / Daszyńskiego,6
+172509330,602780,2023-03-11 18:48:14,2023-03-11 19:02:31,Nowowiejska / Górnickiego,Janiszewskiego (PWr),15
+172509980,602862,2023-03-11 18:59:19,2023-03-11 19:02:58,Poza stacją,Piławska,4
+172509906,602120,2023-03-11 18:57:56,2023-03-11 19:04:35,Pilczycka / Kozanowska,Lotnicza / Bajana,7
+172509692,602907,2023-03-11 18:54:20,2023-03-11 19:04:49,Dyrekcyjna / Borowska (Wroclavia),al. Armii Krajowej / Bardzka,11
+172509997,602001,2023-03-11 18:59:34,2023-03-11 19:06:18,Żmigrodzka / Marino,Obornicka / Bałtycka,7
+172509630,603324,2023-03-11 18:53:16,2023-03-11 19:07:14,Drobnera / Dubois,Powstańców Śląskich (Arkady Wrocławskie),14
+172510101,603457,2023-03-11 19:01:33,2023-03-11 19:07:44,Dyrekcyjna / Borowska (Wroclavia),Komandorska / Kamienna,7
+172509122,603399,2023-03-11 18:45:13,2023-03-11 19:07:50,Plac Jana Pawła II (Akademia Muzyczna),Nyska / Jesionowa,23
+172509937,602872,2023-03-11 18:58:23,2023-03-11 19:08:00,Mickiewicza / pętla tramwajowa,al. Kochanowskiego / Kopernika,10
+172509960,602992,2023-03-11 18:58:54,2023-03-11 19:08:04,Plac Powstańców Śląskich,Grabiszyńska / Stalowa,10
+172510220,602585,2023-03-11 19:03:32,2023-03-11 19:08:37,Sienkiewicza / Wyszyńskiego,Jedności Narodowej / Wyszyńskiego,6
+172509402,602049,2023-03-11 18:49:34,2023-03-11 19:08:49,Jagiełły / Dmowskiego ,Powstańcow Śląskich / Aleja Hallera,20
+172510231,602197,2023-03-11 19:03:38,2023-03-11 19:09:11,Poniatowskiego / Oleśnicka,Promenady Wrocławskie,6
+172510059,602284,2023-03-11 19:00:56,2023-03-11 19:09:29,Plac Strzegomski / Poznańska,pl. Orląt Lwowskich,9
+172509750,603176,2023-03-11 18:55:18,2023-03-11 19:10:05,Komandorska / Kamienna,Plac Dominikański (Galeria Dominikańska),15
+172509715,602356,2023-03-11 18:54:37,2023-03-11 19:10:16,Komandorska / Kamienna,Plac Dominikański (Galeria Dominikańska),16
+172510343,602332,2023-03-11 19:05:26,2023-03-11 19:11:04,al. Armii Krajowej / Borowska,Dyrekcyjna / Borowska (Wroclavia),6
+172509781,603474,2023-03-11 18:55:46,2023-03-11 19:11:07,Plac Legionów,Kamienna / Borowska (Aquapark),16
+172510883,602982,2023-03-11 19:13:58,2023-03-11 19:14:24,Grota-Roweckiego/Iwaszkiewicza,Grota-Roweckiego/Iwaszkiewicza,1
+172510769,602453,2023-03-11 19:11:58,2023-03-11 19:16:35,Reymonta / Kleczkowska,Plac Świętego Macieja / Trzebnicka,5
+172509698,603440,2023-03-11 18:54:23,2023-03-11 19:16:37,Aleja Hallera / Mielecka,Śrubowa / Strzegomska,23
+172510437,603236,2023-03-11 19:06:53,2023-03-11 19:16:52,Łukasiewicza / Smoluchowskiego (PWr),Nowowiejska / Górnickiego,10
+172510502,603324,2023-03-11 19:07:53,2023-03-11 19:17:45,Powstańców Śląskich (Arkady Wrocławskie),Powstańców Śląskich (Arkady Wrocławskie),10
+172510544,602872,2023-03-11 19:08:36,2023-03-11 19:18:17,al. Kochanowskiego / Kopernika,Sienkiewicza / Wyszyńskiego,10
+172510485,602693,2023-03-11 19:07:36,2023-03-11 19:18:18,Kościuszki / Komuny Paryskiej / Zgodna,Plac Kościuszki (Renoma),11
+172510068,602825,2023-03-11 19:01:06,2023-03-11 19:18:20,Rynek,Legnicka (Park Magnolia),18
+172510794,603445,2023-03-11 19:12:29,2023-03-11 19:19:09,Żmigrodzka / Marino,Bezpieczna / Obornicka,7
+172510765,603473,2023-03-11 19:11:57,2023-03-11 19:19:25,Jedności Narodowej / Wyszyńskiego,Rondo Reagana,8
+172510073,602676,2023-03-11 19:01:08,2023-03-11 19:19:48,Powstańców Śląskich (Arkady Wrocławskie),Tarnogajska / Klimasa,19
+172510181,602374,2023-03-11 19:02:53,2023-03-11 19:21:05,Fosa Miejska ,al. Armii Krajowej / Borowska,19
+172511206,603157,2023-03-11 19:18:58,2023-03-11 19:23:20,Legnicka / Młodych Techników,Młodych Techników,5
+172510628,602328,2023-03-11 19:09:50,2023-03-11 19:25:18,Powstańcow Śląskich / Aleja Hallera,Wita Stwosza / Szewska,16
+172511321,602356,2023-03-11 19:21:01,2023-03-11 19:27:51,Plac Dominikański (Galeria Dominikańska),Poniatowskiego / Oleśnicka,7
+172511251,602914,2023-03-11 19:19:47,2023-03-11 19:30:39,Nowodworska/Strzegomska,Graniczna / Strzegomska,11
+172511238,602579,2023-03-11 19:19:32,2023-03-11 19:30:43,Nowodworska/Strzegomska,Graniczna / Strzegomska,12
+172511598,602294,2023-03-11 19:25:31,2023-03-11 19:31:35,Powstańców Śląskich (Arkady Wrocławskie),"Dworzec Główny, południe",7
+172511154,603324,2023-03-11 19:18:16,2023-03-11 19:31:57,Powstańców Śląskich (Arkady Wrocławskie),Drobnera / Dubois,14
+172511172,602054,2023-03-11 19:18:29,2023-03-11 19:32:33,Plac Jana Pawła II (Akademia Muzyczna),Pereca / Grabiszyńska,15
+172511208,602907,2023-03-11 19:18:59,2023-03-11 19:32:45,al. Armii Krajowej / Bardzka,al. Armii Krajowej / Bardzka,14
+172512084,603449,2023-03-11 19:34:28,2023-03-11 19:39:21,Kościuszki / Komuny Paryskiej / Zgodna,Krakowska / Leroy Merlin,5
+172512242,602399,2023-03-11 19:37:12,2023-03-11 19:39:52,Ślężna / Kamienna (Uniw. Ekonomiczny),Ślężna / Kamienna (Uniw. Ekonomiczny),3
+172512161,603154,2023-03-11 19:35:53,2023-03-11 19:39:56,al. Poprzeczna / stacja kolejowa,Sołtysowicka / Redycka,5
+172511782,602650,2023-03-11 19:28:36,2023-03-11 19:40:03,Legnicka (Park Magnolia),Lotnicza / Na Ostatnim Groszu,12
+172511895,603180,2023-03-11 19:31:04,2023-03-11 19:41:42,Poza stacją,Dyrekcyjna / Borowska (Wroclavia),11
+172512162,602553,2023-03-11 19:35:54,2023-03-11 19:43:41,Powstańcow Śląskich / Aleja Hallera,al. Armii Krajowej / Borowska,8
+172500481,603148,2023-03-11 16:32:02,2023-03-11 19:46:13,Powstańcow Śląskich / Aleja Hallera,Aleja Hallera / Mielecka,195
+172512403,602747,2023-03-11 19:39:41,2023-03-11 19:47:17,Czekoladowa / Wałbrzyska,Przyjaźni,8
+172511722,603176,2023-03-11 19:27:39,2023-03-11 19:47:34,Plac Dominikański (Galeria Dominikańska),Kołłątaja / Podwale,20
+172512588,603058,2023-03-11 19:43:10,2023-03-11 19:48:20,Mińska / Stanisławowska,Graniczna / Strzegomska,6
+172512136,602685,2023-03-11 19:35:25,2023-03-11 19:49:03,Legnicka / Wejherowska,Osobowicka / Ostrowska,14
+172511534,602824,2023-03-11 19:24:20,2023-03-11 19:49:32,Młodych Techników,Legnicka / Młodych Techników,26
+172512460,602154,2023-03-11 19:40:35,2023-03-11 19:52:34,Kamienna / Borowska (Aquapark),al. Armii Krajowej / Bardzka,12
+172513107,603652,2023-03-11 19:52:31,2023-03-11 19:52:54,Kwidzyńska pętla,Kwidzyńska pętla,1
+172512364,603324,2023-03-11 19:39:05,2023-03-11 19:53:29,Drobnera / Dubois,Plac Uniwersytecki (UWr),15
+172513132,603247,2023-03-11 19:53:02,2023-03-11 19:53:30,Legnicka / Młodych Techników,Legnicka / Młodych Techników,1
+172512419,603388,2023-03-11 19:39:54,2023-03-11 19:54:23,Grota-Roweckiego / Parafialna,Ślężna / Aleja Wiśniowa,15
+172512482,602907,2023-03-11 19:41:01,2023-03-11 19:54:46,al. Armii Krajowej / Bardzka,al. Armii Krajowej / Bardzka,14
+172512776,603236,2023-03-11 19:46:40,2023-03-11 19:55:45,Nowowiejska / Górnickiego,Nowowiejska / Górnickiego,10
+172506815,602278,2023-03-11 18:08:14,2023-03-11 19:56:12,Nowowiejska / Jedności Narodowej,Jedności Narodowej / Wyszyńskiego,108
+172512777,602267,2023-03-11 19:46:40,2023-03-11 19:56:36,Powstańcow Śląskich / Aleja Hallera,Grabiszyńska / Stalowa,10
+172512959,602799,2023-03-11 19:49:46,2023-03-11 19:57:24,Popowicka / Rysia,Młodych Techników,8
+172513238,603655,2023-03-11 19:55:17,2023-03-11 19:57:44,Poza stacją,Buforowa - Vivaldiego,3
+172512989,602399,2023-03-11 19:50:18,2023-03-11 19:58:28,Ślężna / Kamienna (Uniw. Ekonomiczny),Ślężna / Kamienna (Uniw. Ekonomiczny),9
+172512564,602666,2023-03-11 19:42:32,2023-03-11 19:58:31,Dworzec Główny ,Nowowiejska / Górnickiego,16
+172513332,602618,2023-03-11 19:57:08,2023-03-11 20:00:08,Nyska / Jesionowa,Bardzka / Piękna,3
+172512807,603640,2023-03-11 19:47:11,2023-03-11 20:01:36,Plac Legionów,Krakowska / Leroy Merlin,15
+172513261,603449,2023-03-11 19:55:47,2023-03-11 20:01:37,Krakowska / Leroy Merlin,Kościuszki / Komuny Paryskiej / Zgodna,6
+172513116,602824,2023-03-11 19:52:45,2023-03-11 20:02:26,Legnicka / Młodych Techników,Legnicka (Park Magnolia),10
+172513351,602448,2023-03-11 19:57:25,2023-03-11 20:05:12,Kościuszki / Pułaskiego,Plac Dominikański (Galeria Dominikańska),8
+172513382,602027,2023-03-11 19:57:57,2023-03-11 20:05:16,Aleja Bielany,Poza stacją,8
+172513506,603440,2023-03-11 20:00:21,2023-03-11 20:07:56,Śrubowa / Strzegomska,Legnicka (Park Magnolia),8
+172513503,603156,2023-03-11 20:00:17,2023-03-11 20:08:05,Zaporoska / Grabiszyńska,Kazimierza Wielkiego (Helios),8
+172513373,602233,2023-03-11 19:57:48,2023-03-11 20:08:15,Powstańcow Śląskich / Aleja Hallera,Powstańcow Śląskich / Aleja Hallera,11
+172513959,602693,2023-03-11 20:08:28,2023-03-11 20:08:47,Plac Kościuszki (Renoma),Plac Kościuszki (Renoma),1
+172513413,602932,2023-03-11 19:58:33,2023-03-11 20:10:42,Fosa Miejska ,Szewska / Kazimierza Wielkiego ,13
+172513913,603180,2023-03-11 20:07:29,2023-03-11 20:10:52,Dyrekcyjna / Borowska (Wroclavia),Dworzec Główny ,4
+172513633,602356,2023-03-11 20:02:43,2023-03-11 20:11:46,Poniatowskiego / Oleśnicka,Rynek,10
+172513996,602666,2023-03-11 20:09:15,2023-03-11 20:11:54,Nowowiejska / Górnickiego,Nowowiejska / Wyszyńskiego,3
+172513182,603324,2023-03-11 19:54:10,2023-03-11 20:14:06,Plac Uniwersytecki (UWr),Promenady Wrocławskie,20
+172514071,602202,2023-03-11 20:10:55,2023-03-11 20:14:08,Plac Powstańców Śląskich,Szczęśliwa (Sky Tower),4
+172513727,602572,2023-03-11 20:04:12,2023-03-11 20:14:21,Krzywoustego / Korona,Aleja Kromera,11
+172513736,603412,2023-03-11 20:04:17,2023-03-11 20:14:27,Krzywoustego / Korona,Aleja Kromera,11
+172513163,602080,2023-03-11 19:53:44,2023-03-11 20:14:39,Rynek,Aleja Hallera / Mielecka,21
+172511737,603651,2023-03-11 19:27:52,2023-03-11 20:15:27,Rogowska / Zemska,Rogowska / Zemska,48
+172514267,602872,2023-03-11 20:14:47,2023-03-11 20:17:31,Sienkiewicza / Wyszyńskiego,Nowowiejska / Górnickiego,3
+172514258,603447,2023-03-11 20:14:34,2023-03-11 20:17:37,Poza stacją,Dyrekcyjna / Borowska (Wroclavia),4
+172514297,602399,2023-03-11 20:15:22,2023-03-11 20:17:51,Ślężna / Kamienna (Uniw. Ekonomiczny),Ślężna / Kamienna (Uniw. Ekonomiczny),3
+172514329,603276,2023-03-11 20:15:59,2023-03-11 20:19:26,Sienkiewicza / Wyszyńskiego,Nowowiejska / Wyszyńskiego,4
+172513892,603178,2023-03-11 20:06:57,2023-03-11 20:19:34,Kraszewskiego / Trzebnicka,Fosa Miejska ,13
+172514328,602848,2023-03-11 20:15:57,2023-03-11 20:19:43,Sienkiewicza / Wyszyńskiego,Nowowiejska / Wyszyńskiego,4
+172513930,602907,2023-03-11 20:07:47,2023-03-11 20:19:55,al. Armii Krajowej / Bardzka,Jagodzińska / Buforowa,13
+172514129,603004,2023-03-11 20:11:58,2023-03-11 20:22:21,Stadion Olimpijski,Nowowiejska / Górnickiego,11
+172513669,602700,2023-03-11 20:03:19,2023-03-11 20:25:12,Skarbowców / Wietrzna,Skarbowców / Wietrzna,22
+172514015,602972,2023-03-11 20:09:40,2023-03-11 20:27:06,Kościuszki / Komuny Paryskiej / Zgodna,Zaporoska / Grabiszyńska,18
+172514344,603324,2023-03-11 20:16:22,2023-03-11 20:29:21,Promenady Wrocławskie,Drobnera / Dubois,13
+172514685,603449,2023-03-11 20:23:49,2023-03-11 20:30:39,Kościuszki / Komuny Paryskiej / Zgodna,Plac Dominikański (Galeria Dominikańska),7
+172515083,602796,2023-03-11 20:32:33,2023-03-11 20:33:16,Świeradowska / Krynicka,Świeradowska / Krynicka,1
+172514977,602666,2023-03-11 20:30:30,2023-03-11 20:33:34,Nowowiejska / Wyszyńskiego,Nowowiejska / Górnickiego,4
+172514926,602102,2023-03-11 20:29:21,2023-03-11 20:34:05,Świeradowska (Ferio Gaj ),Świeradowska (Ferio Gaj ),5
+172514908,604373,2023-03-11 20:28:51,2023-03-11 20:36:26,Plac Strzegomski / Poznańska,Poza stacją,8
+172514866,604390,2023-03-11 20:28:08,2023-03-11 20:36:35,Poza stacją,Poza stacją,9
+172515099,602872,2023-03-11 20:32:58,2023-03-11 20:37:19,Nowowiejska / Górnickiego,Żeromskiego / Daszyńskiego,5
+172515312,603449,2023-03-11 20:37:11,2023-03-11 20:39:22,Plac Dominikański (Galeria Dominikańska),Szewska / Kazimierza Wielkiego ,3
+172514728,602914,2023-03-11 20:24:58,2023-03-11 20:39:46,Graniczna / Strzegomska,Strzegomska / Estońska,15
+172514718,602579,2023-03-11 20:24:46,2023-03-11 20:39:52,Graniczna / Strzegomska,Strzegomska / Estońska,16
+172514919,602441,2023-03-11 20:29:07,2023-03-11 20:40:12,"Dworzec Główny, południe",Rynek,12
+172514634,603061,2023-03-11 20:22:41,2023-03-11 20:40:26,Opolska / pętla tramwajowa,Kamienna / Tomaszowska,18
+172514714,603292,2023-03-11 20:24:40,2023-03-11 20:42:34,Piławska,"Dworzec Główny, południe",18
+172515599,602565,2023-03-11 20:44:10,2023-03-11 20:44:41,Dyrekcyjna / Borowska (Wroclavia),Dyrekcyjna / Borowska (Wroclavia),1
+172515445,602448,2023-03-11 20:40:28,2023-03-11 20:44:57,Plac Dominikański (Galeria Dominikańska),Rynek,5
+172514934,602332,2023-03-11 20:29:31,2023-03-11 20:45:06,Dyrekcyjna / Borowska (Wroclavia),Komandorska / Kamienna,16
+172515206,602435,2023-03-11 20:35:06,2023-03-11 20:46:06,Krzywoustego / Korona,Aleja Kromera,11
+172515560,603447,2023-03-11 20:43:07,2023-03-11 20:46:59,Powstańców Śląskich (Arkady Wrocławskie),Poza stacją,4
+172515122,602249,2023-03-11 20:33:28,2023-03-11 20:47:49,Świeradowska / Krynicka,Mościckiego (stacja kolejowa),15
+172515243,602356,2023-03-11 20:35:53,2023-03-11 20:48:35,Rynek,Drobnera / Dubois,13
+172515776,603306,2023-03-11 20:48:14,2023-03-11 20:48:50,Plac Dominikański (Galeria Dominikańska),Dworzec Główny ,1
+172515606,603247,2023-03-11 20:44:19,2023-03-11 20:50:46,Poza stacją,Poza stacją,7
+172515178,603324,2023-03-11 20:34:39,2023-03-11 20:51:02,Drobnera / Dubois,Plac Uniwersytecki (UWr),17
+172515657,602328,2023-03-11 20:45:45,2023-03-11 20:51:05,Wita Stwosza / Szewska,Rynek,6
+172515912,603247,2023-03-11 20:51:25,2023-03-11 20:51:41,Poza stacją,Plac Strzegomski / Poznańska,1
+172515665,602969,2023-03-11 20:45:54,2023-03-11 20:53:27,Grabiszyńska / Aleja Hallera,Grochowa / Jemiołowa,8
+172516013,603098,2023-03-11 20:53:18,2023-03-11 20:53:49,Rondo Reagana,Rondo Reagana,1
+172516064,603447,2023-03-11 20:54:21,2023-03-11 20:55:09,Poza stacją,Gliniana / Gajowa,1
+172515906,604372,2023-03-11 20:51:20,2023-03-11 20:55:56,Powstańców Śląskich (Arkady Wrocławskie),Fosa Miejska ,5
+172515401,602890,2023-03-11 20:39:30,2023-03-11 20:57:00,"Dworzec Główny, południe",Ślężna / Skierniewicka,18
+172515385,602218,2023-03-11 20:39:17,2023-03-11 20:57:02,"Dworzec Główny, południe",Ślężna / Skierniewicka,18
+172515478,603061,2023-03-11 20:41:20,2023-03-11 20:58:19,Kamienna / Tomaszowska,Opolska / pętla tramwajowa,17
+172515936,602994,2023-03-11 20:51:55,2023-03-11 20:59:11,Nyska / Jesionowa,Nyska / Jesionowa,8
+172515772,602086,2023-03-11 20:48:12,2023-03-11 20:59:17,Racławicka / Rymarska,Solskiego / al. Piastów,12
+172515761,602977,2023-03-11 20:48:02,2023-03-11 20:59:26,Racławicka / Rymarska,Solskiego / al. Piastów,12
+172515602,602824,2023-03-11 20:44:17,2023-03-11 21:00:28,Legnicka (Park Magnolia),pl. Orląt Lwowskich,17
+172515509,602284,2023-03-11 20:42:00,2023-03-11 21:01:05,pl. Orląt Lwowskich,"Dworzec Główny, południe",20
+172515756,603403,2023-03-11 20:47:52,2023-03-11 21:01:20,Legnicka / Zachodnia ,Na Ostatnim Groszu,14
+172515932,603324,2023-03-11 20:51:50,2023-03-11 21:01:23,Plac Uniwersytecki (UWr),Jagiełły / Dmowskiego ,10
+172516096,603633,2023-03-11 20:55:19,2023-03-11 21:01:45,Nowowiejska / Wyszyńskiego,pl. Powstańców Wielkopolskich,7
+172515920,603473,2023-03-11 20:51:36,2023-03-11 21:02:27,Rondo Reagana,Wróblewskiego (Teki),11
+172514066,603440,2023-03-11 20:10:47,2023-03-11 21:04:16,Legnicka (Park Magnolia),Nowowiejska / Górnickiego,54
+172516117,602614,2023-03-11 20:55:50,2023-03-11 21:04:29,Mickiewicza / pętla tramwajowa,Marca Polo (Olimpia Port),9
+172516168,603270,2023-03-11 20:57:34,2023-03-11 21:05:18,Kazimierza Wielkiego (Helios),Młodych Techników,8
+172516515,603417,2023-03-11 21:06:09,2023-03-11 21:06:39,Grabiszyńska / Stalowa,Grabiszyńska / Stalowa,1
+172516220,602239,2023-03-11 20:58:39,2023-03-11 21:06:55,Poza stacją,Jedności Narodowej / Wyszyńskiego,9
+172515913,603700,2023-03-11 20:51:29,2023-03-11 21:07:29,Rakowiecka,Rondo Reagana,16
+172515653,603436,2023-03-11 20:45:37,2023-03-11 21:08:32,Nowowiejska / Wyszyńskiego,Nowowiejska / Wyszyńskiego,23
+172516432,602565,2023-03-11 21:04:08,2023-03-11 21:11:04,Dyrekcyjna / Borowska (Wroclavia),Komandorska / Kamienna,7
+172516524,602267,2023-03-11 21:06:22,2023-03-11 21:11:20,Grabiszyńska / Stalowa,Grochowa / Jemiołowa,5
+172516813,602296,2023-03-11 21:14:18,2023-03-11 21:14:34,Boguszowska / Kosmonautów,Boguszowska / Kosmonautów,1
+172516395,602553,2023-03-11 21:03:12,2023-03-11 21:15:42,al. Armii Krajowej / Borowska,Aleja Hallera / Mielecka,13
+172515841,603292,2023-03-11 20:49:50,2023-03-11 21:16:40,"Dworzec Główny, południe",Aleja Hallera / Mielecka,27
+172516470,602717,2023-03-11 21:05:14,2023-03-11 21:17:20,Plac Powstańców Śląskich,Dworzec Główny ,13
+172516843,602296,2023-03-11 21:15:10,2023-03-11 21:21:38,Boguszowska / Kosmonautów,Wojanowska / Arbuzowa ,7
+172516761,602969,2023-03-11 21:12:55,2023-03-11 21:22:11,Grochowa / Jemiołowa,Grabiszyńska / Magazynierska (Corte Verona),10
+172516946,604368,2023-03-11 21:18:35,2023-03-11 21:23:27,Poza stacją,Legnicka / Młodych Techników,5
+172516947,602202,2023-03-11 21:18:35,2023-03-11 21:24:55,Szczęśliwa (Sky Tower),Dyrekcyjna / Borowska (Wroclavia),7
+172517127,603700,2023-03-11 21:23:21,2023-03-11 21:25:49,Rondo Reagana,Sienkiewicza / Piastowska,3
+172516735,603078,2023-03-11 21:12:10,2023-03-11 21:27:42,Sienkiewicza / Wyszyńskiego,Wróblewskiego (Teki),16
+172516727,602616,2023-03-11 21:11:55,2023-03-11 21:28:27,"Paprotna / Obornicka, zajezdnia MPK",pl. Powstańców Wielkopolskich,17
+172517029,603098,2023-03-11 21:20:49,2023-03-11 21:28:32,Nowowiejska / Jedności Narodowej,Kurkowa / Dubois,8
+172516898,602054,2023-03-11 21:16:59,2023-03-11 21:28:33,Pereca / Grabiszyńska,Rynek,12
+172517380,602590,2023-03-11 21:29:38,2023-03-11 21:30:30,Poza stacją,Świeradowska (Ferio Gaj ),1
+172516895,603192,2023-03-11 21:16:52,2023-03-11 21:30:47,Piaskowa / św. Ducha,Rondo Reagana,14
+172517370,603388,2023-03-11 21:29:28,2023-03-11 21:32:20,Ślężna / Aleja Wiśniowa,Ślężna / Kamienna (Uniw. Ekonomiczny),3
+172517109,602717,2023-03-11 21:22:50,2023-03-11 21:32:57,Dworzec Główny ,Plac Uniwersytecki (UWr),11
+172517434,603306,2023-03-11 21:30:59,2023-03-11 21:35:40,Dworzec Główny ,Powstańców Śląskich (Arkady Wrocławskie),5
+172517498,602026,2023-03-11 21:32:46,2023-03-11 21:36:03,Plac Legionów,Zaporoska / Grabiszyńska,4
+172517509,603340,2023-03-11 21:32:54,2023-03-11 21:36:21,Plac Legionów,Zaporoska / Grabiszyńska,4
+172517352,603431,2023-03-11 21:29:06,2023-03-11 21:36:32,Hubska / Prudnicka,Kościuszki / Pułaskiego,8
+172517393,602305,2023-03-11 21:29:58,2023-03-11 21:37:54,Poza stacją,Świeradowska (Ferio Gaj ),8
+172517531,602453,2023-03-11 21:33:19,2023-03-11 21:38:49,Plac Świętego Macieja / Trzebnicka,Poza stacją,6
+172517030,602451,2023-03-11 21:20:52,2023-03-11 21:39:11,Kozanowska / Pilczycka,Drobnera / Dubois,19
+172515789,603007,2023-03-11 20:48:42,2023-03-11 21:41:07,Drobnera / Dubois,Rynek,53
+172517555,603058,2023-03-11 21:33:59,2023-03-11 21:41:18,Graniczna / Strzegomska,Rogowska / Zemska,8
+172517724,603232,2023-03-11 21:39:18,2023-03-11 21:41:23,Hubska / Prudnicka,Poza stacją,3
+172516240,602907,2023-03-11 20:59:11,2023-03-11 21:42:16,Jagodzińska / Buforowa,Aleja Hallera / Mielecka,44
+172517414,602284,2023-03-11 21:30:29,2023-03-11 21:43:00,"Dworzec Główny, południe",Piłsudskiego 13 od Jump Hall,13
+172517755,603700,2023-03-11 21:40:23,2023-03-11 21:43:10,Sienkiewicza / Piastowska,Rondo Reagana,3
+172517392,602616,2023-03-11 21:29:57,2023-03-11 21:43:31,pl. Powstańców Wielkopolskich,Poza stacją,14
+172513903,603082,2023-03-11 20:07:20,2023-03-11 21:45:19,Kościuszki / Pułaskiego,Kościuszki / Pułaskiego,98
+172517034,603640,2023-03-11 21:20:58,2023-03-11 21:46:33,Krakowska / Leroy Merlin,Piłsudskiego 13 od Jump Hall,26
+172517700,603004,2023-03-11 21:38:20,2023-03-11 21:47:54,Nowowiejska / Górnickiego,Poza stacją,10
+172517752,602553,2023-03-11 21:40:16,2023-03-11 21:48:10,Aleja Hallera / Mielecka,Pereca / Grabiszyńska,8
+172517530,603080,2023-03-11 21:33:19,2023-03-11 21:48:11,Plac Uniwersytecki (UWr),Drobnera / Plac Bema,15
+172517967,603700,2023-03-11 21:46:39,2023-03-11 21:48:56,Rondo Reagana,Plac Grunwaldzki / Polaka,3
+172518013,602112,2023-03-11 21:48:02,2023-03-11 21:54:07,Bystrzycka / Idzikowskiego,Na Ostatnim Groszu,7
+172518277,603292,2023-03-11 21:55:49,2023-03-11 21:58:39,Aleja Hallera / Mielecka,Krucza / Mielecka / Stalowa,3
+172518095,602154,2023-03-11 21:50:07,2023-03-11 22:01:15,al. Armii Krajowej / Bardzka,Traugutta / Pułaskiego,12
+172517079,602316,2023-03-11 21:22:14,2023-03-11 22:03:47,Traugutta / Pułaskiego,Powstańców Śląskich (Arkady Wrocławskie),42
+172518003,603399,2023-03-11 21:47:49,2023-03-11 22:05:30,Nyska / Jesionowa,Nyska / Jesionowa,18
+172518119,603431,2023-03-11 21:50:47,2023-03-11 22:06:54,Kościuszki / Pułaskiego,Nowowiejska / Wyszyńskiego,17
+172518305,603061,2023-03-11 21:56:31,2023-03-11 22:07:46,Opolska / pętla tramwajowa,Semaforowa,12
+172518234,602553,2023-03-11 21:54:37,2023-03-11 22:08:32,Pereca / Grabiszyńska,Rynek,14
+172518596,603192,2023-03-11 22:05:17,2023-03-11 22:08:34,Rondo Reagana,Sienkiewicza / Piastowska,4
+172518669,603700,2023-03-11 22:07:58,2023-03-11 22:11:23,Plac Grunwaldzki / Polaka,Janiszewskiego (PWr),4
+172518650,603174,2023-03-11 22:07:08,2023-03-11 22:11:28,Opolska / pętla tramwajowa,Opolska / Siemianowicka,5
+172518498,602154,2023-03-11 22:02:34,2023-03-11 22:12:31,Traugutta / Pułaskiego,Plac Świętego Macieja / Trzebnicka,10
+172518619,602721,2023-03-11 22:06:16,2023-03-11 22:12:34,Świdnicka / Piłsudskiego (Hotel Scandic),Poza stacją,7
+172518442,603178,2023-03-11 22:00:43,2023-03-11 22:13:19,Fosa Miejska ,Powstańcow Śląskich / Aleja Hallera,13
+172517835,603148,2023-03-11 21:42:34,2023-03-11 22:13:36,Aleja Hallera / Mielecka,Jagodzińska / Buforowa,32
+172518496,603229,2023-03-11 22:02:32,2023-03-11 22:15:31,Bystrzycka / Idzikowskiego,Pilczycka (Stadion Miejski),13
+172518760,602202,2023-03-11 22:11:02,2023-03-11 22:17:44,Dyrekcyjna / Borowska (Wroclavia),Gliniana / Gajowa,7
+172518868,602332,2023-03-11 22:14:42,2023-03-11 22:20:19,Komandorska / Kamienna,Dyrekcyjna / Borowska (Wroclavia),6
+172518890,603381,2023-03-11 22:15:25,2023-03-11 22:20:34,Oporów (pętla tramwajowa),Solskiego / al. Piastów,6
+172518886,602118,2023-03-11 22:15:20,2023-03-11 22:20:48,Oporów (pętla tramwajowa),Solskiego / al. Piastów,6
+172518534,603007,2023-03-11 22:03:31,2023-03-11 22:20:50,Poza stacją,Szewska / Kazimierza Wielkiego ,18
+172518774,602717,2023-03-11 22:11:28,2023-03-11 22:23:33,Plac Uniwersytecki (UWr),Młodych Techników,13
+172518780,603075,2023-03-11 22:11:38,2023-03-11 22:24:24,al. Armii Krajowej / Borowska,Poza stacją,13
+172519071,602932,2023-03-11 22:21:31,2023-03-11 22:29:17,Szewska / Kazimierza Wielkiego ,Jagiełły / Dmowskiego ,8
+172519135,602332,2023-03-11 22:22:56,2023-03-11 22:29:20,Dyrekcyjna / Borowska (Wroclavia),Kamienna / Tomaszowska,7
+172519215,603295,2023-03-11 22:25:53,2023-03-11 22:32:09,Olszewskiego / Spółdzielcza,Wróblewskiego (Teki),7
+172519206,603253,2023-03-11 22:25:36,2023-03-11 22:32:20,Olszewskiego / Spółdzielcza,Wróblewskiego (Teki),7
+172519173,602746,2023-03-11 22:24:10,2023-03-11 22:33:43,"Kosmonautów / Fieldorfa, szpital wojewódzki",Wojanowska / Arbuzowa ,10
+172518925,602073,2023-03-11 22:16:32,2023-03-11 22:34:09,Bystrzycka / Idzikowskiego,Zachodnia / Poznańska,18
+172519360,603178,2023-03-11 22:30:36,2023-03-11 22:34:48,Powstańcow Śląskich / Aleja Hallera,Zaporoska / Wielka / Krucza,5
+172519357,603649,2023-03-11 22:30:30,2023-03-11 22:35:56,al. Kochanowskiego / Kopernika,Rondo Reagana,6
+172519270,603344,2023-03-11 22:27:37,2023-03-11 22:36:35,Świeradowska / Krynicka,Gliniana / Gajowa,9
+172519084,603281,2023-03-11 22:21:45,2023-03-11 22:38:19,Zaporoska / Wielka / Krucza,Krzycka / Aleja Karkonoska (Park Południowy),17
+172519561,603247,2023-03-11 22:37:27,2023-03-11 22:39:00,pl. Orląt Lwowskich,pl. Orląt Lwowskich,2
+172519483,602189,2023-03-11 22:34:58,2023-03-11 22:39:26,Rynek,Drobnera / Dubois,5
+172519278,603499,2023-03-11 22:27:48,2023-03-11 22:40:28,Kazimierza Wielkiego (Helios),Grabiszyńska / Stalowa,13
+172519180,603156,2023-03-11 22:24:19,2023-03-11 22:46:28,Kazimierza Wielkiego (Helios),Ślężna / Aleja Wiśniowa,23
+172519442,602950,2023-03-11 22:33:30,2023-03-11 22:47:29,Bezpieczna/Jugosławiańska,Kazimierza Wielkiego (Helios),14
+172519431,602199,2023-03-11 22:32:56,2023-03-11 22:50:21,Konduktorska,Mościckiego (stacja kolejowa),18
+172519783,603449,2023-03-11 22:44:51,2023-03-11 22:53:39,Szewska / Kazimierza Wielkiego ,Kościuszki / Komuny Paryskiej / Zgodna,9
+172469606,602634,2023-03-11 00:49:17,2023-03-11 22:53:41,Popowicka / Niedźwiedzia,Młodych Techników,1325
+172519774,603457,2023-03-11 22:44:31,2023-03-11 22:55:04,Komandorska / Kamienna,Dyrekcyjna / Borowska (Wroclavia),11
+172520102,603415,2023-03-11 22:55:30,2023-03-11 22:56:08,Plac Powstańców Warszawy (Muzeum Narodowe),Plac Powstańców Warszawy (Muzeum Narodowe),1
+172519926,602031,2023-03-11 22:50:10,2023-03-11 22:56:40,Skarbowców / Wietrzna,Poza stacją,7
+172519933,602294,2023-03-11 22:50:22,2023-03-11 22:57:23,"Dworzec Główny, południe",Traugutta / Pułaskiego,8
+172519638,602458,2023-03-11 22:40:08,2023-03-11 22:59:32,Poza stacją,Kazimierza Wielkiego (Helios),20
+172519063,604373,2023-03-11 22:21:08,2023-03-11 23:00:47,Poza stacją,Wyszyńskiego / Szczytnicka,40
+172520210,603306,2023-03-11 22:59:19,2023-03-11 23:02:12,Poza stacją,Grabiszyńska / Stalowa,3
+172520117,602616,2023-03-11 22:56:06,2023-03-11 23:02:49,Poza stacją,Nowowiejska / Górnickiego,7
+172519855,602947,2023-03-11 22:47:11,2023-03-11 23:08:10,Przyjaźni / Karkonoska,Zaporoska / Gajowicka,21
+172511816,602497,2023-03-11 19:29:23,2023-03-11 23:09:12,Zaporoska / Gajowicka,Zaporoska / Gajowicka,220
+172520400,603098,2023-03-11 23:05:28,2023-03-11 23:10:32,Piłsudskiego 13 od Jump Hall,Grabiszyńska / Stalowa,6
+172520309,602238,2023-03-11 23:02:34,2023-03-11 23:13:20,Popowicka / Niedźwiedzia,Popowicka / Niedźwiedzia,11
+172520577,603388,2023-03-11 23:11:31,2023-03-11 23:13:38,Ślężna / Kamienna (Uniw. Ekonomiczny),Ślężna / Kamienna (Uniw. Ekonomiczny),3
+172520588,602399,2023-03-11 23:11:58,2023-03-11 23:15:51,Ślężna / Kamienna (Uniw. Ekonomiczny),Ślężna / Kamienna (Uniw. Ekonomiczny),4
+172520460,602659,2023-03-11 23:07:27,2023-03-11 23:20:13,Plac Uniwersytecki (UWr),Drobnera / Dubois,13
+172520713,602972,2023-03-11 23:16:30,2023-03-11 23:24:24,Zaporoska / Grabiszyńska,Szewska / Kazimierza Wielkiego ,8
+172520825,602659,2023-03-11 23:20:55,2023-03-11 23:27:48,Drobnera / Dubois,Nowowiejska / Jedności Narodowej,7
+172520010,602186,2023-03-11 22:52:34,2023-03-11 23:28:26,Bezpieczna / Obornicka,Opolska / Siemianowicka,36
+172520537,603082,2023-03-11 23:10:14,2023-03-11 23:30:14,Kościuszki / Pułaskiego,Poza stacją,20
+172520943,602049,2023-03-11 23:25:04,2023-03-11 23:31:14,Powstańcow Śląskich / Aleja Hallera,Szczęśliwa (Sky Tower),7
+172521106,602198,2023-03-11 23:30:43,2023-03-11 23:35:29,Nowowiejska / Jedności Narodowej,Nowowiejska / Jedności Narodowej,5
+172521146,603352,2023-03-11 23:32:06,2023-03-11 23:37:48,Okulickiego,Okulickiego,6
+172521172,602919,2023-03-11 23:32:55,2023-03-11 23:38:26,Okulickiego,Okulickiego,6
+172521013,603301,2023-03-11 23:27:33,2023-03-11 23:39:49,Dworzec Główny ,al. Armii Krajowej / Bardzka,13
+172520996,603005,2023-03-11 23:26:56,2023-03-11 23:39:56,Dworzec Główny ,al. Armii Krajowej / Bardzka,13
+172521120,602316,2023-03-11 23:31:11,2023-03-11 23:40:44,Powstańców Śląskich (Arkady Wrocławskie),Plac Uniwersytecki (UWr),10
+172521108,602247,2023-03-11 23:30:50,2023-03-11 23:41:06,Poza stacją,Komandorska / Kamienna,11
+172521118,603021,2023-03-11 23:31:08,2023-03-11 23:41:14,Dworzec Główny ,Komandorska / Kamienna,11
+172521363,603439,2023-03-11 23:40:44,2023-03-11 23:44:00,Poza stacją,pl. Orląt Lwowskich,4
+172521222,602885,2023-03-11 23:34:32,2023-03-11 23:44:06,Jagodzińska / Buforowa,al. Armii Krajowej / Bardzka,10
+172521315,603050,2023-03-11 23:38:39,2023-03-11 23:45:34,Plac Legionów,Zaporoska / Gajowicka,7
+172521335,604351,2023-03-11 23:39:23,2023-03-11 23:46:47,Poza stacją,Hubska / Prudnicka,8
+172521347,602451,2023-03-11 23:40:04,2023-03-11 23:49:43,Drobnera / Dubois,Dworzec Główny ,10
+172521380,602553,2023-03-11 23:41:23,2023-03-11 23:52:24,Rynek,Kościuszki / Komuny Paryskiej / Zgodna,12
+172521390,603077,2023-03-11 23:41:41,2023-03-11 23:52:57,Leśnica - pętla tramwajowa,Stabłowicka / Główna ,12
+172521624,604351,2023-03-11 23:49:15,2023-03-11 23:53:21,Hubska / Prudnicka,Poza stacją,5
+172521357,603005,2023-03-11 23:40:27,2023-03-11 23:54:25,al. Armii Krajowej / Bardzka,Piławska,14
+172521825,602458,2023-03-11 23:56:29,2023-03-11 23:57:21,Kazimierza Wielkiego (Helios),Kazimierza Wielkiego (Helios),1
+172521653,603640,2023-03-11 23:50:16,2023-03-11 23:57:42,Piłsudskiego 13 od Jump Hall,Dworzec Główny ,8
+172521567,602992,2023-03-11 23:47:29,2023-03-11 23:59:13,Grabiszyńska / Stalowa,Powstańcow Śląskich / Aleja Hallera,12
