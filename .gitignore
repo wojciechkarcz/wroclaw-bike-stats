@@ -28,8 +28,5 @@ Thumbs.db
 .vscode/
 
 # Data & Outputs (if not needed in repo)
-data/raw/
-data/interim/
-data/processed/
 outputs/
 reports/generated/
