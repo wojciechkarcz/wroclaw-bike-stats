@@ -1,3 +1,35 @@
-temp/
-test/
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
 .env
+*.env
+.venv/
+venv/
+ENV/
+env/
+Pipfile.lock
+poetry.lock
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# Data & Outputs (if not needed in repo)
+data/raw/
+data/interim/
+data/processed/
+outputs/
+reports/generated/
