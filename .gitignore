@@ -30,3 +30,4 @@ Thumbs.db
 # Data & Outputs (if not needed in repo)
 outputs/
 reports/generated/
+data/raw/2025
