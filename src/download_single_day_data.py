@@ -6,7 +6,7 @@ import datetime # Import the datetime module
 
 # --- Configuration ---
 url = 'https://opendata.cui.wroclaw.pl/dataset/wrmprzejazdy_data/resource_history/c737af89-bcf7-4f7d-8bbc-4a0946d7006e'
-output_dir = 'raw_data'
+output_dir = '../data/raw/2025'
 
 # --- Helper function for timestamped logging ---
 def log_message(message):
