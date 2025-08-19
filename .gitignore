@@ -6,6 +6,7 @@ __pycache__/
 *.so
 *.egg-info/
 *.log
+*.pytest_cache
 
 # Jupyter
 .ipynb_checkpoints/
