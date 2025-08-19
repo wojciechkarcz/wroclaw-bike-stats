@@ -1,0 +1,6 @@
+beautifulsoup4
+geopy
+numpy
+pandas
+requests
+urllib3>=1.26
