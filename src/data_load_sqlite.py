@@ -34,7 +34,7 @@ def make_session():
     s.mount('http://', adapter)
     s.mount('https://', adapter)
     s.headers.update({
-        'User-Agent': 'wroclaw-bike-stats/1.0 (+https://github.com/)'
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
     })
     return s
 
@@ -225,11 +225,13 @@ def load_to_sqlite(df: pd.DataFrame, db_path: str):
 
 def main():
     root = repo_root()
-    db_path = os.path.join(root, 'data', 'bike_rides.db')
+    # Per docs/SPECS.md: SQLite db location: data/processed/bike_data.db
+    db_path = os.path.join(root, 'data', 'processed', 'bike_data.db')
     stations_csv = os.path.join(root, 'data', 'bike_stations.csv')
 
+    # Per docs/SPECS.md directory contract
     raw_base = os.path.join(root, 'data', 'raw')
-    processed_base = os.path.join(root, 'data', 'processed')
+    interim_base = os.path.join(root, 'data', 'interim')
 
     session = make_session()
     print('Discovering latest CSV...')
@@ -238,12 +240,13 @@ def main():
     if not latest_url:
         raise RuntimeError('Could not find any CSV download links on the page')
     dtv = extract_dt_from_filename(latest_filename)
-    year = dtv.year if dtv else dt.date.today().year
+    # Contract specifies raw data under data/raw/2025
+    year = 2025
 
     raw_dir = os.path.join(raw_base, str(year))
-    processed_dir = os.path.join(processed_base, str(year))
+    interim_dir = interim_base
     ensure_dir(raw_dir)
-    ensure_dir(processed_dir)
+    ensure_dir(interim_dir)
 
     print(f'Downloading raw file: {latest_filename}')
     raw_path = download_file(latest_url, raw_dir, session)
@@ -256,7 +259,8 @@ def main():
 
     # Save cleaned CSV (optional, helpful for debugging and ad-hoc use)
     cleaned_name = os.path.splitext(latest_filename)[0] + '_clean.csv'
-    cleaned_path = os.path.join(processed_dir, cleaned_name)
+    # Save cleaned CSV to data/interim per contract
+    cleaned_path = os.path.join(interim_dir, cleaned_name)
     cleaned.to_csv(cleaned_path, index=False)
     print(f'Wrote cleaned CSV: {cleaned_path}')
 
