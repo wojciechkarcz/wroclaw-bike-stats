@@ -9,7 +9,22 @@
 - M5 Next features
 
 ## Active Task
-[T-02] M1 – Finish raw data loading script 
+
+
+## Ready (next up)
+
+[T-04] M0 – Create a Makefile
+- Goal: I want to have some very basic Makefile with commands I can use to test parts of my project
+
+[T-05] M2 – Compute first metric
+- calculate the first metric from point 4 in `docs/SPECS.md`
+
+[T-06] M2 – Create tests for all metrics
+- create tests for all metrics listed in SPECS
+
+## Done (recent)
+[T-01] M1 - Basic project setup - 2025-08-18
+[T-02] M1 – Finish raw data loading script - 2025-08-19
 - Goal: the `src/data_load_sqlite.py` script is almost done, check if everything is right, especially paths following rules in `docs/SPECS.md`
 - Acceptance:
   - downloads the most recent csv file 
@@ -17,16 +32,6 @@
   - saves cleaned data into separate csv file
 - create at least 1 test for that script
 - Note: don't change the script much, just check if it is OK
-
-## Ready (next up)
-[T-03] M0 – Create a Makefile
-- Goal: I want to have some very basic Makefile with commands I can use to test parts of my project
-
-[T-04] M2 – Compute first metric
-- calculate the first metric from point 4 in `docs/SPECS.md`
-
-[T-05] M2 – Create tests for all metrics
-- create tests for all metrics listed in SPECS
-
-## Done (recent)
-[T-01] M1 - Basic project setup - 2025-08-18
+[T-03] M1 - Load all data to SQLite db - 2025-08-19
+- Create a script called `load_to_sqlite.py` which loads all csv files from `data/raw/2025` into SQLite db
+- The script should follow exactly the same process as `src/data_load_sqlite.py`
