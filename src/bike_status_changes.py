@@ -15,9 +15,11 @@ import sqlite3
 from pathlib import Path
 from typing import Dict, Iterable, List, Tuple
 
+# Resolve repo root so defaults work regardless of CWD
+REPO_ROOT = Path(__file__).resolve().parents[1]
 # Default locations following project specs
-DEFAULT_DATA_DIR = Path("data/sample/api")
-DEFAULT_DB_PATH = Path("data/processed/bike_data.db")
+DEFAULT_DATA_DIR = REPO_ROOT / "data" / "sample" / "api"
+DEFAULT_DB_PATH = REPO_ROOT / "data" / "processed" / "bike_data.db"
 
 
 def load_snapshot(path: Path) -> Tuple[str, Dict[str, Dict[str, object]]]:
@@ -140,6 +142,7 @@ def save_events_to_db(events: Iterable[Dict[str, object]], db_path: Path) -> Non
     """Insert events into SQLite, creating table if needed."""
     if not events:
         return
+    db_path.parent.mkdir(parents=True, exist_ok=True)
     conn = sqlite3.connect(db_path)
     try:
         conn.execute(

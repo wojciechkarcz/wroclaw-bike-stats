@@ -2,8 +2,7 @@ import json
 import sqlite3
 import sys
 from pathlib import Path
-
-import pytest
+import os
 
 # allow importing from src
 THIS_FILE = Path(__file__).resolve()
@@ -12,7 +11,7 @@ SRC_DIR = REPO_ROOT / "src"
 if str(SRC_DIR) not in sys.path:
     sys.path.insert(0, str(SRC_DIR))
 
-import bike_status_changes as mod
+import bike_status_changes as mod  # noqa: E402
 
 SAMPLE_DIR = REPO_ROOT / "data" / "sample" / "api"
 
@@ -78,3 +77,21 @@ def test_get_latest_files_sort_by_fetched_at(tmp_path):
     f3.write_text(json.dumps({"_fetched_at": "2025-01-01T00:00:02"}), encoding="utf-8")
     latest = mod.get_latest_files(tmp_path, 2)
     assert [p.name for p in latest] == ["bike_rides_c.json", "bike_rides_b.json"]
+
+
+def test_main_works_from_arbitrary_cwd(tmp_path):
+    db_path = tmp_path / "test.db"
+    cwd = Path.cwd()
+    try:
+        os.chdir(SRC_DIR)
+        mod.main(db_path=db_path)
+    finally:
+        os.chdir(cwd)
+    conn = sqlite3.connect(db_path)
+    try:
+        count = conn.execute(
+            "SELECT COUNT(*) FROM bike_status_changes"
+        ).fetchone()[0]
+        assert count > 0
+    finally:
+        conn.close()
