@@ -197,7 +197,7 @@ def main(data_dir: Path = DEFAULT_DATA_DIR, db_path: Path = DEFAULT_DB_PATH) -> 
     ts_curr, curr = load_snapshot(files[1])
     events = diff_snapshots(prev, curr, ts_curr)
     save_events_to_db(events, db_path)
-    print(f"[OK] Recorded {len(events)} events")
+    print(f"[{ts_curr}] [OK] Recorded {len(events)} events")
 
 
 if __name__ == "__main__":
