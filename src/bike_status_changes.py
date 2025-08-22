@@ -19,7 +19,7 @@ from typing import Dict, Iterable, List, Tuple
 REPO_ROOT = Path(__file__).resolve().parents[1]
 # Default locations following project specs
 DEFAULT_DATA_DIR = REPO_ROOT / "data" / "sample" / "api"
-DEFAULT_DB_PATH = REPO_ROOT / "data" / "processed" / "bike_data.db"
+DEFAULT_DB_PATH = REPO_ROOT / "data" / "processed" / "bike_status.db"
 
 
 def load_snapshot(path: Path) -> Tuple[str, Dict[str, Dict[str, object]]]:
@@ -197,7 +197,7 @@ def main(data_dir: Path = DEFAULT_DATA_DIR, db_path: Path = DEFAULT_DB_PATH) -> 
     ts_curr, curr = load_snapshot(files[1])
     events = diff_snapshots(prev, curr, ts_curr)
     save_events_to_db(events, db_path)
-    print(f"[OK] Recorded {len(events)} events")
+    print(f"[{ts_curr}] [OK] Recorded {len(events)} events")
 
 
 if __name__ == "__main__":
