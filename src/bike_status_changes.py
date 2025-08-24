@@ -5,7 +5,7 @@ This script compares the two most recent JSON files downloaded from the
 Nextbike API and records any bike arrivals or departures into an SQLite
 database table called ``bike_status_changes``.
 
-The database path defaults to ``data/processed/bike_data.db`` as defined in
+The database path defaults to ``data/processed/bike_status.db`` as defined in
 ``docs/SPECS.md``.
 """
 from __future__ import annotations
@@ -18,7 +18,7 @@ from typing import Dict, Iterable, List, Tuple
 # Resolve repo root so defaults work regardless of CWD
 REPO_ROOT = Path(__file__).resolve().parents[1]
 # Default locations following project specs
-DEFAULT_DATA_DIR = REPO_ROOT / "data" / "sample" / "api"
+DEFAULT_DATA_DIR = REPO_ROOT / "data" / "raw" / "api"
 DEFAULT_DB_PATH = REPO_ROOT / "data" / "processed" / "bike_status.db"
 
 

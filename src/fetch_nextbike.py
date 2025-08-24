@@ -7,7 +7,7 @@ from urllib.request import urlopen, Request
 from urllib.error import URLError, HTTPError
 
 # === CONFIG ===
-DATA_DIR = "/home/wojtek/dev/wroclaw-bike-stats/data/sample/api"  # <- change this
+DATA_DIR = "/home/wojtek/dev/wroclaw-bike-stats/data/raw/api"  
 URL = "https://api-gateway.nextbike.pl/api/maps/service/pl/locations"
 TIMEZONE = "Europe/Warsaw"  # for local timestamp in filename
 

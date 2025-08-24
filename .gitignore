@@ -32,6 +32,7 @@ Thumbs.db
 outputs/
 reports/generated/
 data/raw/2025
+data/raw/api
 data/interim
 data/processed
 data/sample/api
