@@ -40,10 +40,13 @@ def load_snapshot(path: Path) -> Tuple[str, Dict[str, Dict[str, object]]]:
 
     for place in places:
         bikes_list = place.get("bikes") or []
-        if not bikes_list:
+        bike_numbers = place.get("bikeNumbers") or place.get("bike_numbers") or []
+        # If neither detailed bikes nor numbers are present, skip
+        if not bikes_list and not bike_numbers:
             continue
-        place_type = place.get("placeType")
-        if place_type == "FREESTANDING_BIKE":
+        place_type = place.get("placeType", "") or ""
+        # Treat any freestanding variant uniformly (e.g., FREESTANDING_BIKE, FREESTANDING_ELECTRIC_BIKE)
+        if isinstance(place_type, str) and place_type.upper().startswith("FREESTANDING"):
             station_name = "freestanding"
             station_id = "freestanding"
         else:
@@ -51,18 +54,31 @@ def load_snapshot(path: Path) -> Tuple[str, Dict[str, Dict[str, object]]]:
             station_id = str(place.get("uid"))
         lat = place["geoCoords"]["lat"]
         lon = place["geoCoords"]["lng"]
-        for bike in bikes_list:
-            bike_id = str(bike["number"])
-            bike_type_field = str(bike.get("bikeType", "")).upper()
-            bike_type = "electric" if bike_type_field.startswith("ELECTRIC") else "standard"
-            bikes[bike_id] = {
-                "station_name": station_name,
-                "station_id": station_id,
-                "lat": lat,
-                "lon": lon,
-                "bike_type": bike_type,
-                "battery": bike.get("battery"),
-            }
+        if bikes_list:
+            for bike in bikes_list:
+                bike_id = str(bike.get("number"))
+                bike_type_field = str(bike.get("bikeType", "")).upper()
+                bike_type = "electric" if bike_type_field.startswith("ELECTRIC") else "standard"
+                bikes[bike_id] = {
+                    "station_name": station_name,
+                    "station_id": station_id,
+                    "lat": lat,
+                    "lon": lon,
+                    "bike_type": bike_type,
+                    "battery": bike.get("battery"),
+                }
+        else:
+            # Only numbers provided (typically stations) — add minimal entries
+            for num in bike_numbers:
+                bike_id = str(num)
+                bikes[bike_id] = {
+                    "station_name": station_name,
+                    "station_id": station_id,
+                    "lat": lat,
+                    "lon": lon,
+                    "bike_type": None,
+                    "battery": None,
+                }
     return timestamp, bikes
 
 
