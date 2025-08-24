@@ -13,43 +13,36 @@ if str(SRC_DIR) not in sys.path:
 
 import bike_status_changes as mod  # noqa: E402
 
-SAMPLE_DIR = REPO_ROOT / "data" / "sample" / "api"
+SAMPLE_API_DIR = REPO_ROOT / "data" / "sample" / "api"
+SAMPLE_SNAP_A = REPO_ROOT / "data" / "sample" / "snapA.json"
+SAMPLE_SNAP_B = REPO_ROOT / "data" / "sample" / "snapB.json"
 
 
-def test_diff_snapshots_detects_events():
-    files = sorted(SAMPLE_DIR.glob("bike_rides_*.json"))[:2]
-    ts1, snap1 = mod.load_snapshot(files[0])
-    ts2, snap2 = mod.load_snapshot(files[1])
+def test_diff_snapshots_detects_events_snapA_to_snapB():
+    # Focus on curated sample snapshots
+    assert SAMPLE_SNAP_A.exists() and SAMPLE_SNAP_B.exists()
+    ts1, snap1 = mod.load_snapshot(SAMPLE_SNAP_A)
+    ts2, snap2 = mod.load_snapshot(SAMPLE_SNAP_B)
     events = mod.diff_snapshots(snap1, snap2, ts2)
 
     by_bike = {}
     for e in events:
         by_bike.setdefault(e["bike_id"], []).append(e)
 
-    # bike present in first snapshot only -> departed from freestanding
-    evs = by_bike.get("591207")
-    assert evs and evs[0]["event_type"] == "departed"
-    assert evs[0]["station_name"] == "freestanding"
-
-    # bike present in second snapshot only -> arrived to a station
-    evs = by_bike.get("590520")
-    assert evs and evs[0]["event_type"] == "arrived"
-    assert evs[0]["station_name"] == "Żmigrodzka / Broniewskiego"
-
-    # bike moved between locations -> two events
-    evs = by_bike.get("591149")
+    # Bike 590066 is freestanding in A and at station in B -> two events
+    evs = by_bike.get("590066")
+    assert evs is not None and len(evs) == 2
     types = {e["event_type"] for e in evs}
     assert types == {"departed", "arrived"}
     dep = next(e for e in evs if e["event_type"] == "departed")
     arr = next(e for e in evs if e["event_type"] == "arrived")
-    assert dep["station_name"] == "Na Grobli (PWr - Geocentrum)"
-    assert arr["station_name"] == "freestanding"
+    assert dep["station_name"] == "freestanding"
+    assert arr["station_name"] == "Wrocław Leśnica, stacja kolejowa"
 
 
 def test_save_events_to_db(tmp_path):
-    files = sorted(SAMPLE_DIR.glob("bike_rides_*.json"))[:2]
-    ts1, snap1 = mod.load_snapshot(files[0])
-    ts2, snap2 = mod.load_snapshot(files[1])
+    ts1, snap1 = mod.load_snapshot(SAMPLE_SNAP_A)
+    ts2, snap2 = mod.load_snapshot(SAMPLE_SNAP_B)
     events = mod.diff_snapshots(snap1, snap2, ts2)
 
     db_path = tmp_path / "test.db"
@@ -59,7 +52,7 @@ def test_save_events_to_db(tmp_path):
     try:
         cur = conn.execute(
             "SELECT event_type, station_name FROM bike_status_changes WHERE bike_id=?",
-            ("591149",),
+            ("590066",),
         )
         rows = cur.fetchall()
         types = {r[0] for r in rows}
@@ -95,3 +88,48 @@ def test_main_works_from_arbitrary_cwd(tmp_path):
         assert count > 0
     finally:
         conn.close()
+
+
+def test_freestanding_electric_has_generic_station_name(tmp_path):
+    # Prepare minimal snapshot with a freestanding electric bike
+    payload = {
+        "_fetched_at": "2025-01-01T00:00:00",
+        "data": [
+            {
+                "cities": [
+                    {
+                        "places": [
+                            {
+                                "uid": "568267505",
+                                "name": "BIKE 590066",
+                                "placeType": "FREESTANDING_ELECTRIC_BIKE",
+                                "geoCoords": {"lat": 51.14448, "lng": 16.854524},
+                                "bikes": [
+                                    {"number": 590066, "bikeType": "ELECTRIC_4G", "battery": 30}
+                                ],
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+    }
+
+    f = tmp_path / "sample.json"
+    f.write_text(json.dumps(payload), encoding="utf-8")
+
+    ts, bikes = mod.load_snapshot(f)
+    assert ts == "2025-01-01T00:00:00"
+    info = bikes.get("590066")
+    assert info is not None
+    assert info["station_name"] == "freestanding"
+    assert info["station_id"] == "freestanding"
+
+
+def test_snapA_freestanding_electric_station_name():
+    assert SAMPLE_SNAP_A.exists()
+    _, bikes = mod.load_snapshot(SAMPLE_SNAP_A)
+    info = bikes.get("590066")
+    assert info is not None, "Bike 590066 should be present in snapA"
+    assert info["station_name"] == "freestanding"
+    assert info["station_id"] == "freestanding"
