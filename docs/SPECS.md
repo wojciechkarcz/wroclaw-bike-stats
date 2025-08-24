@@ -36,9 +36,11 @@ Stack: Python 3.10, SQLite, HTML/CSS/JS, static website, zero-auth, minimal deps
 
 ## 7. Directory Contract
 - SQLite db location: `data/processed/bike_data.db`
+- SQLite db location for bike status changes: `data/processed/bike_status.db`
 - Raw data location: `data/raw/2025`
 - Cleaned csv file location: `data/interim`
 - File with bike stations name, lat/lon coordinates: `data/bike_stations.csv`
+- Changelog location: `docs/CHANGELOG.md`
 - Don't edit and modify files in these locations.
 
 ## 8. Quality & Constraints
