@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 import json
-import os
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.request import urlopen, Request
 from urllib.error import URLError, HTTPError
 
 # === CONFIG ===
-DATA_DIR = "/home/wojtek/dev/wroclaw-bike-stats/data/raw/api"  
+# Resolve repo root and default data directory (pathlib-based)
+REPO_ROOT = Path(__file__).resolve().parents[1]
+DATA_DIR = REPO_ROOT / "data" / "raw" / "api"
 URL = "https://api-gateway.nextbike.pl/api/maps/service/pl/locations"
 TIMEZONE = "Europe/Warsaw"  # for local timestamp in filename
 
@@ -32,7 +33,7 @@ def fetch_json(url: str):
         return json.loads(raw)
 
 def main():
-    Path(DATA_DIR).mkdir(parents=True, exist_ok=True)
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
 
     try:
         payload = fetch_json(URL)
@@ -56,7 +57,7 @@ def main():
 
     # Filename with local timestamp
     fname = f"bike_rides_{now_local_for_filename()}.json"
-    fpath = Path(DATA_DIR) / fname
+    fpath = DATA_DIR / fname
 
     # Write pretty but compact-ish JSON
     with open(fpath, "w", encoding="utf-8") as f:
