@@ -1,0 +1,3 @@
+# Cron jobs for Wroclaw Bike Stats ETL
+# Run unified pipeline every minute
+* * * * * cd /path/to/wroclaw-bike-stats && python src/pipeline.py >> data/logs/cron.log 2>&1

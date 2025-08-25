@@ -11,6 +11,7 @@ The database path defaults to ``data/processed/bike_status.db`` as defined in
 from __future__ import annotations
 
 import json
+import logging
 import sqlite3
 from pathlib import Path
 from typing import Dict, Iterable, List, Tuple
@@ -20,6 +21,8 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 # Default locations following project specs
 DEFAULT_DATA_DIR = REPO_ROOT / "data" / "raw" / "api"
 DEFAULT_DB_PATH = REPO_ROOT / "data" / "processed" / "bike_status.db"
+
+logger = logging.getLogger(__name__)
 
 
 def load_snapshot(path: Path) -> Tuple[str, Dict[str, Dict[str, object]]]:
@@ -154,10 +157,15 @@ def diff_snapshots(
     return events
 
 
-def save_events_to_db(events: Iterable[Dict[str, object]], db_path: Path) -> None:
-    """Insert events into SQLite, creating table if needed."""
-    if not events:
-        return
+def save_events_to_db(events: Iterable[Dict[str, object]], db_path: Path) -> int:
+    """Insert events into SQLite, creating table if needed.
+
+    Returns the number of records written.
+    """
+
+    events_list = list(events)
+    if not events_list:
+        return 0
     db_path.parent.mkdir(parents=True, exist_ok=True)
     conn = sqlite3.connect(db_path)
     try:
@@ -196,24 +204,39 @@ def save_events_to_db(events: Iterable[Dict[str, object]], db_path: Path) -> Non
                     e["bike_type"],
                     e["battery"],
                 )
-                for e in events
+                for e in events_list
             ],
         )
         conn.commit()
     finally:
         conn.close()
+    return len(events_list)
 
 
-def main(data_dir: Path = DEFAULT_DATA_DIR, db_path: Path = DEFAULT_DB_PATH) -> None:
+def main(
+    data_dir: Path = DEFAULT_DATA_DIR, db_path: Path = DEFAULT_DB_PATH
+) -> Dict[str, object]:
+    """Process the latest snapshots and record bike status changes.
+
+    Returns a dictionary with ``files`` (list of processed snapshot paths)
+    and ``events`` (number of records written).
+    """
+
     files = get_latest_files(data_dir, 2)
     if len(files) < 2:
-        print("[WARN] Not enough JSON files to compare")
-        return
+        logger.warning("Not enough JSON files to compare in %s", data_dir)
+        return {"files": [], "events": 0}
     ts_prev, prev = load_snapshot(files[0])
     ts_curr, curr = load_snapshot(files[1])
     events = diff_snapshots(prev, curr, ts_curr)
-    save_events_to_db(events, db_path)
-    print(f"[{ts_curr}] [OK] Recorded {len(events)} events")
+    written = save_events_to_db(events, db_path)
+    logger.info(
+        "Processed %s and %s; recorded %d events",
+        files[0].name,
+        files[1].name,
+        written,
+    )
+    return {"files": files, "events": written}
 
 
 if __name__ == "__main__":
