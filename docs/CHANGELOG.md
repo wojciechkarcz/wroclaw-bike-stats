@@ -1,5 +1,10 @@
 ## Changelog
 
+#13 - Add bike rides CLI - 2025-08-25
+- Feat: consolidate CSV download and loading commands into `bike_rides_cli.py`.
+- Chore: remove older standalone downloader scripts.
+- Docs: add usage guide for `bike_rides_cli.py`.
+
 #12 - Add unified pipeline and logging - 2025-08-25
 - Feat: add `src/pipeline.py` orchestrating fetch and status change processing.
 - Feat: central logging with rotating file handler and start/end markers.
@@ -14,7 +19,7 @@ Basic project setup - 2025-08-18
 Finish raw data loading script - 2025-08-19
 - Goal: the `src/data_load_sqlite.py` script is almost done, check if everything is right, especially paths following rules in `docs/SPECS.md`
 - Acceptance:
-  - downloads the most recent csv file 
+  - downloads the most recent csv file
   - transforms the data and stores in SQLite db
   - saves cleaned data into separate csv file
 - create at least 1 test for that script
