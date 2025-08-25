@@ -1,5 +1,10 @@
 ## Changelog
 
+#12 - Add unified pipeline and logging - 2025-08-25
+- Feat: add `src/pipeline.py` orchestrating fetch and status change processing.
+- Feat: central logging with rotating file handler and start/end markers.
+- Chore: replace separate cron jobs with single pipeline invocation.
+
 #11 - Wrong station name for freestanding electric bikes - 2025-08-24
 - Fix: Normalize `station_name`/`station_id` to `freestanding` for any `placeType` starting with `FREESTANDING`.
 - Parse: Support both `bikes` objects and `bikeNumbers` lists within places.
