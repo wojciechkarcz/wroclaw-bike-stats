@@ -239,8 +239,6 @@ def main():
     latest_url, latest_filename = pick_latest_csv(csv_urls)
     if not latest_url:
         raise RuntimeError('Could not find any CSV download links on the page')
-    dtv = extract_dt_from_filename(latest_filename)
-    # Contract specifies raw data under data/raw/2025
     year = 2025
 
     raw_dir = os.path.join(raw_base, str(year))

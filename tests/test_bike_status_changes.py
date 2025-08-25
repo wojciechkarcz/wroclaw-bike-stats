@@ -1,3 +1,4 @@
+import shutil
 import json
 import sqlite3
 import sys
@@ -74,10 +75,14 @@ def test_get_latest_files_sort_by_fetched_at(tmp_path):
 
 def test_main_works_from_arbitrary_cwd(tmp_path):
     db_path = tmp_path / "test.db"
+    data_dir = REPO_ROOT / "data" / "raw" / "api"
+    os.makedirs(data_dir, exist_ok=True)
+    shutil.copy2(SAMPLE_SNAP_A, data_dir / "bike_rides_a.json")
+    shutil.copy2(SAMPLE_SNAP_B, data_dir / "bike_rides_b.json")
     cwd = Path.cwd()
     try:
         os.chdir(SRC_DIR)
-        mod.main(db_path=db_path)
+        mod.main(data_dir=data_dir, db_path=db_path)
     finally:
         os.chdir(cwd)
     conn = sqlite3.connect(db_path)
@@ -88,7 +93,6 @@ def test_main_works_from_arbitrary_cwd(tmp_path):
         assert count > 0
     finally:
         conn.close()
-
 
 def test_freestanding_electric_has_generic_station_name(tmp_path):
     # Prepare minimal snapshot with a freestanding electric bike

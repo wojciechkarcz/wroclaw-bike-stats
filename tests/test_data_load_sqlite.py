@@ -6,7 +6,6 @@ from types import SimpleNamespace
 
 import pandas as pd
 import sqlite3
-import pytest
 
 # Ensure we can import from the src/ directory regardless of cwd
 THIS_FILE = Path(__file__).resolve()
@@ -14,7 +13,7 @@ REPO_ROOT = THIS_FILE.parents[1]
 SRC_DIR = REPO_ROOT / "src"
 if str(SRC_DIR) not in sys.path:
     sys.path.insert(0, str(SRC_DIR))
-import data_load_sqlite as mod
+import data_load_sqlite as mod  # noqa: E402
 
 
 def test_extract_dt_from_filename_and_pick_latest():
@@ -72,21 +71,20 @@ def test_transform_data_distance_and_columns(tmp_path):
 
 def test_main_uses_spec_paths_and_writes_outputs(monkeypatch, tmp_path):
     # Prepare a local raw CSV to simulate download
-    sample_raw = os.path.join(
-        str(REPO_ROOT),
-        "data",
-        "raw",
-        "2025",
-        "Historia_przejazdow_2025-5-24_17_3_13.csv",
-    )
+    raw_dir = os.path.join(str(REPO_ROOT), "data", "raw", "2025")
+    os.makedirs(raw_dir, exist_ok=True)
+    sample_raw = os.path.join(raw_dir, "Historia_przejazdow_2025-5-24_17_3_13.csv")
     if not os.path.exists(sample_raw):
-        # Fallback: pick any CSV in raw/2025 if exact one missing
-        raw_dir = os.path.join(str(REPO_ROOT), "data", "raw", "2025")
-        sample_raw = next(
-            (os.path.join(raw_dir, f) for f in os.listdir(raw_dir) if f.endswith(".csv")),
-            None,
-        )
-        assert sample_raw is not None, "No sample raw CSV found in data/raw/2025"
+        pd.DataFrame({
+            "UID wynajmu": [1],
+            "Numer roweru": ["100"],
+            "Data wynajmu": ["2025-04-07 13:52:45"],
+            "Data zwrotu": ["2025-04-07 14:00:00"],
+            "Stacja wynajmu": ["Rynek"],
+            "Stacja zwrotu": ["Rynek"],
+            "Czas trwania": [1304],
+        }).to_csv(sample_raw, index=False)
+
 
     # Capture paths used by to_csv and load_to_sqlite
     used = SimpleNamespace(cleaned_path=None, db_path=None)
