@@ -37,4 +37,5 @@ data/interim
 data/processed
 data/sample/api
 data/sample/test
+data/logs
 temp/
