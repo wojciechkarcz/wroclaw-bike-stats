@@ -41,10 +41,13 @@ def compute_metrics(conn: sqlite3.Connection, table: str, day: str) -> Dict:
     except ValueError as e:
         raise ValueError("day must be in YYYY-MM-DD format") from e
 
+    # Global filter: exclude rides with duration <= 2 minutes
+    duration_filter = "duration > 2"
+
     # Total rides
     total_rides = _fetch_one(
         conn,
-        f"SELECT COUNT(*) FROM {table} WHERE date(start_time)=date(?)",
+        f"SELECT COUNT(*) FROM {table} WHERE date(start_time)=date(?) AND {duration_filter}",
         (day,),
     )
 
@@ -52,7 +55,7 @@ def compute_metrics(conn: sqlite3.Connection, table: str, day: str) -> Dict:
     hist_rows = _fetch_pairs(
         conn,
         f"SELECT CAST(strftime('%H', start_time) AS INTEGER) AS h, COUNT(*) "
-        f"FROM {table} WHERE date(start_time)=date(?) GROUP BY h ORDER BY h",
+        f"FROM {table} WHERE date(start_time)=date(?) AND {duration_filter} GROUP BY h ORDER BY h",
         (day,),
     )
     # Normalize keys to '0'..'23'
@@ -61,7 +64,7 @@ def compute_metrics(conn: sqlite3.Connection, table: str, day: str) -> Dict:
     # Avg/total distance
     avg_distance = _fetch_one(
         conn,
-        f"SELECT AVG(distance) FROM {table} WHERE date(start_time)=date(?)",
+        f"SELECT AVG(distance) FROM {table} WHERE date(start_time)=date(?) AND {duration_filter}",
         (day,),
     )
     # Round to 3 decimals for km precision
@@ -69,7 +72,7 @@ def compute_metrics(conn: sqlite3.Connection, table: str, day: str) -> Dict:
 
     total_distance = _fetch_one(
         conn,
-        f"SELECT SUM(distance) FROM {table} WHERE date(start_time)=date(?)",
+        f"SELECT SUM(distance) FROM {table} WHERE date(start_time)=date(?) AND {duration_filter}",
         (day,),
     )
     total_distance = round(float(total_distance), 3) if total_distance else 0.0
@@ -77,14 +80,14 @@ def compute_metrics(conn: sqlite3.Connection, table: str, day: str) -> Dict:
     # Avg/total duration (duration in DB is in minutes)
     avg_duration = _fetch_one(
         conn,
-        f"SELECT AVG(duration) FROM {table} WHERE date(start_time)=date(?)",
+        f"SELECT AVG(duration) FROM {table} WHERE date(start_time)=date(?) AND {duration_filter}",
         (day,),
     )
     avg_duration = round(float(avg_duration), 2) if avg_duration else 0.0
 
     total_duration = _fetch_one(
         conn,
-        f"SELECT SUM(duration) FROM {table} WHERE date(start_time)=date(?)",
+        f"SELECT SUM(duration) FROM {table} WHERE date(start_time)=date(?) AND {duration_filter}",
         (day,),
     )
     total_duration = int(total_duration) if total_duration else 0
@@ -93,14 +96,14 @@ def compute_metrics(conn: sqlite3.Connection, table: str, day: str) -> Dict:
     round_trips = _fetch_one(
         conn,
         f"SELECT COUNT(*) FROM {table} "
-        f"WHERE date(start_time)=date(?) AND start_station IS NOT NULL AND end_station IS NOT NULL AND start_station=end_station",
+        f"WHERE date(start_time)=date(?) AND {duration_filter} AND start_station IS NOT NULL AND end_station IS NOT NULL AND start_station=end_station",
         (day,),
     )
 
     # Bikes left outside a station (end_station == 'Poza stacją')
     left_outside_station = _fetch_one(
         conn,
-        f"SELECT COUNT(*) FROM {table} WHERE date(start_time)=date(?) AND end_station='Poza stacją'",
+        f"SELECT COUNT(*) FROM {table} WHERE date(start_time)=date(?) AND {duration_filter} AND end_station='Poza stacją'",
         (day,),
     )
 
@@ -112,12 +115,12 @@ def compute_metrics(conn: sqlite3.Connection, table: str, day: str) -> Dict:
         WITH dep AS (
             SELECT start_station AS station, COUNT(*) AS departures
             FROM {table}
-            WHERE date(start_time)=date(?) AND start_station IS NOT NULL
+            WHERE date(start_time)=date(?) AND {duration_filter} AND start_station IS NOT NULL AND start_station <> 'Poza stacją'
             GROUP BY start_station
         ), arr AS (
             SELECT end_station AS station, COUNT(*) AS arrivals
             FROM {table}
-            WHERE date(start_time)=date(?) AND end_station IS NOT NULL
+            WHERE date(start_time)=date(?) AND {duration_filter} AND end_station IS NOT NULL AND end_station <> 'Poza stacją'
             GROUP BY end_station
         ),
         all_stations AS (
@@ -154,7 +157,11 @@ def compute_metrics(conn: sqlite3.Connection, table: str, day: str) -> Dict:
         f"""
         SELECT start_station, end_station, COUNT(*) AS rides
         FROM {table}
-        WHERE date(start_time)=date(?) AND start_station IS NOT NULL AND end_station IS NOT NULL
+        WHERE date(start_time)=date(?)
+          AND {duration_filter}
+          AND start_station IS NOT NULL AND end_station IS NOT NULL
+          AND start_station <> end_station
+          AND start_station <> 'Poza stacją' AND end_station <> 'Poza stacją'
         GROUP BY start_station, end_station
         ORDER BY rides DESC, start_station ASC, end_station ASC
         LIMIT 5

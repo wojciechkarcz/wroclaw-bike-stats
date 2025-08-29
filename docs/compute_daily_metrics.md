@@ -90,8 +90,9 @@ python src/compute_daily_metrics.py --year 2025 --out data/processed/metrics/bik
 ```
 
 ## Implementation details
-- Busiest stations: top 5 by total arrivals + departures per station.
-- Top routes: top 5 by ride count grouped by `(start_station, end_station)`.
+- Global filter: exclude rides with `duration <= 2` minutes from all metrics.
+- Busiest stations: top 5 by total arrivals + departures per station; excludes station name `Poza stacją`.
+- Top routes: top 5 by ride count grouped by `(start_station, end_station)`; excludes round trips (`start_station = end_station`) and any route where either end is `Poza stacją`.
 - Histogram: number of rides grouped by the hour of `start_time`.
 - Distance is expected in kilometers in the DB; duration is expected in minutes.
 
@@ -99,4 +100,3 @@ python src/compute_daily_metrics.py --year 2025 --out data/processed/metrics/bik
 - Input DB: `data/processed/bike_data.db`
 - Output JSON: `data/processed/metrics/<year>.json`
 - These paths follow the project SPEC (`docs/SPECS.md`).
-

@@ -37,6 +37,8 @@ def _setup_sample_db(db_path: Path):
         # hour 13
         (2, "101", "2025-04-07 13:00:00", "2025-04-07 13:20:00", "A", "B", 20, 2.5),
         (3, "102", "2025-04-07 13:15:00", "2025-04-07 13:45:00", "B", "A", 30, 3.0),
+        # short ride (<= 2 min) should be globally excluded
+        (6, "105", "2025-04-07 13:30:00", "2025-04-07 13:32:00", "C", "D", 2, 0.5),
         # hour 14
         (4, "103", "2025-04-07 14:05:00", "2025-04-07 14:25:00", "B", "Poza stacją", 17, 2.0),
         # Another day (should be included when using --year)
@@ -85,11 +87,17 @@ def test_compute_metrics_core(tmp_path):
     # Busiest stations: A and B each have 2 arrivals + 2 departures -> total 4, Poza stacją has 1 arrival
     top_names = [x["station"] for x in metrics["busiest_stations_top5"]]
     assert "A" in top_names and "B" in top_names
+    assert "Poza stacją" not in top_names
 
     # Top routes: expect (A->B) and (B->A) to be present with 1 each
     routes = {(x["start_station"], x["end_station"]): x["rides"] for x in metrics["top_routes_top5"]}
     assert routes.get(("A", "B")) == 1
     assert routes.get(("B", "A")) == 1
+    # Round trips should be globally excluded from top routes
+    assert ("A", "A") not in routes
+    # Exclude routes with 'Poza stacją' as start or end
+    for (s, e) in routes.keys():
+        assert s != "Poza stacją" and e != "Poza stacją"
 
 
 def test_main_writes_json(tmp_path):

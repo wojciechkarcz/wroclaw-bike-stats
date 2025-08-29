@@ -1,0 +1,569 @@
+{
+  "year": 2025,
+  "days": {
+    "2025-08-01": {
+      "total_rides": 5351,
+      "bike_rentals_histogram": {
+        "0": 89,
+        "1": 47,
+        "2": 31,
+        "3": 22,
+        "4": 63,
+        "5": 89,
+        "6": 162,
+        "7": 247,
+        "8": 200,
+        "9": 155,
+        "10": 41,
+        "11": 70,
+        "12": 156,
+        "13": 270,
+        "14": 371,
+        "15": 546,
+        "16": 519,
+        "17": 251,
+        "18": 408,
+        "19": 416,
+        "20": 422,
+        "21": 348,
+        "22": 255,
+        "23": 173
+      },
+      "avg_distance_km": 1.751,
+      "avg_duration_min": 15.84,
+      "total_distance_km": 7609.256,
+      "total_duration_min": 84780,
+      "round_trips": 316,
+      "left_outside_station": 356,
+      "busiest_stations_top5": [
+        {
+          "station": "Dworzec Główny, południe",
+          "arrivals": 113,
+          "departures": 129,
+          "total": 242
+        },
+        {
+          "station": "Plac Dominikański (Galeria Dominikańska)",
+          "arrivals": 130,
+          "departures": 105,
+          "total": 235
+        },
+        {
+          "station": "Szczęśliwa (Sky Tower)",
+          "arrivals": 99,
+          "departures": 103,
+          "total": 202
+        },
+        {
+          "station": "Dworzec Główny",
+          "arrivals": 96,
+          "departures": 103,
+          "total": 199
+        },
+        {
+          "station": "Powstańcow Śląskich / Aleja Hallera",
+          "arrivals": 81,
+          "departures": 93,
+          "total": 174
+        }
+      ],
+      "top_routes_top5": [
+        {
+          "start_station": "Krzycka / Aleja Karkonoska (Park Południowy)",
+          "end_station": "Przyjaźni / Karkonoska",
+          "rides": 12
+        },
+        {
+          "start_station": "Przyjaźni / Karkonoska",
+          "end_station": "Krzycka / Aleja Karkonoska (Park Południowy)",
+          "rides": 11
+        },
+        {
+          "start_station": "3M",
+          "end_station": "Kwidzyńska pętla",
+          "rides": 10
+        },
+        {
+          "start_station": "Kutrzeby / Hubala",
+          "end_station": "al. Karkonoska / Jeździecka",
+          "rides": 10
+        },
+        {
+          "start_station": "Paprotna / Obornicka, zajezdnia MPK",
+          "end_station": "Bezpieczna / Obornicka",
+          "rides": 10
+        }
+      ]
+    },
+    "2025-08-02": {
+      "total_rides": 5515,
+      "bike_rentals_histogram": {
+        "0": 162,
+        "1": 113,
+        "2": 63,
+        "3": 40,
+        "4": 58,
+        "5": 58,
+        "6": 78,
+        "7": 82,
+        "8": 118,
+        "9": 200,
+        "10": 284,
+        "11": 317,
+        "12": 460,
+        "13": 478,
+        "14": 524,
+        "15": 469,
+        "16": 350,
+        "17": 435,
+        "18": 436,
+        "19": 444,
+        "20": 129,
+        "21": 86,
+        "22": 65,
+        "23": 66
+      },
+      "avg_distance_km": 1.806,
+      "avg_duration_min": 21.99,
+      "total_distance_km": 7757.298,
+      "total_duration_min": 121268,
+      "round_trips": 526,
+      "left_outside_station": 495,
+      "busiest_stations_top5": [
+        {
+          "station": "Dworzec Główny, południe",
+          "arrivals": 115,
+          "departures": 101,
+          "total": 216
+        },
+        {
+          "station": "Plac Dominikański (Galeria Dominikańska)",
+          "arrivals": 101,
+          "departures": 106,
+          "total": 207
+        },
+        {
+          "station": "Dyrekcyjna / Borowska (Wroclavia)",
+          "arrivals": 87,
+          "departures": 99,
+          "total": 186
+        },
+        {
+          "station": "Dworzec Główny",
+          "arrivals": 73,
+          "departures": 89,
+          "total": 162
+        },
+        {
+          "station": "Legnicka (Park Magnolia)",
+          "arrivals": 86,
+          "departures": 66,
+          "total": 152
+        }
+      ],
+      "top_routes_top5": [
+        {
+          "start_station": "Dyrekcyjna / Borowska (Wroclavia)",
+          "end_station": "al. Armii Krajowej / Borowska",
+          "rides": 14
+        },
+        {
+          "start_station": "Czekoladowa / Wałbrzyska",
+          "end_station": "Centrum Handlowe Auchan Bielany",
+          "rides": 13
+        },
+        {
+          "start_station": "Plac Dominikański (Galeria Dominikańska)",
+          "end_station": "Traugutta / Pułaskiego",
+          "rides": 13
+        },
+        {
+          "start_station": "Aleja Bielany",
+          "end_station": "Czekoladowa / Wałbrzyska",
+          "rides": 11
+        },
+        {
+          "start_station": "Czekoladowa / Wałbrzyska",
+          "end_station": "Aleja Bielany",
+          "rides": 11
+        }
+      ]
+    },
+    "2025-08-03": {
+      "total_rides": 4469,
+      "bike_rentals_histogram": {
+        "0": 60,
+        "1": 52,
+        "2": 7,
+        "3": 10,
+        "4": 20,
+        "5": 8,
+        "6": 10,
+        "7": 13,
+        "8": 15,
+        "9": 21,
+        "10": 54,
+        "11": 102,
+        "12": 211,
+        "13": 198,
+        "14": 236,
+        "15": 296,
+        "16": 432,
+        "17": 550,
+        "18": 566,
+        "19": 544,
+        "20": 434,
+        "21": 277,
+        "22": 231,
+        "23": 122
+      },
+      "avg_distance_km": 1.669,
+      "avg_duration_min": 21.15,
+      "total_distance_km": 5926.354,
+      "total_duration_min": 94498,
+      "round_trips": 504,
+      "left_outside_station": 296,
+      "busiest_stations_top5": [
+        {
+          "station": "Dworzec Główny, południe",
+          "arrivals": 78,
+          "departures": 100,
+          "total": 178
+        },
+        {
+          "station": "Dworzec Główny",
+          "arrivals": 83,
+          "departures": 87,
+          "total": 170
+        },
+        {
+          "station": "Plac Dominikański (Galeria Dominikańska)",
+          "arrivals": 69,
+          "departures": 85,
+          "total": 154
+        },
+        {
+          "station": "Plac Kościuszki (Renoma)",
+          "arrivals": 76,
+          "departures": 70,
+          "total": 146
+        },
+        {
+          "station": "Powstańcow Śląskich / Aleja Hallera",
+          "arrivals": 71,
+          "departures": 62,
+          "total": 133
+        }
+      ],
+      "top_routes_top5": [
+        {
+          "start_station": "Dworzec Główny, południe",
+          "end_station": "al. Armii Krajowej / Bardzka",
+          "rides": 9
+        },
+        {
+          "start_station": "Mickiewicza / pętla tramwajowa",
+          "end_station": "Marca Polo (Olimpia Port)",
+          "rides": 9
+        },
+        {
+          "start_station": "Drobnera / Dubois",
+          "end_station": "Wita Stwosza / Szewska",
+          "rides": 8
+        },
+        {
+          "start_station": "Dworzec Główny",
+          "end_station": "Kościuszki / Komuny Paryskiej / Zgodna",
+          "rides": 8
+        },
+        {
+          "start_station": "Kutrzeby / Hubala",
+          "end_station": "al. Karkonoska / Jeździecka",
+          "rides": 8
+        }
+      ]
+    },
+    "2025-08-04": {
+      "total_rides": 6267,
+      "bike_rentals_histogram": {
+        "0": 89,
+        "1": 34,
+        "2": 16,
+        "3": 31,
+        "4": 32,
+        "5": 80,
+        "6": 148,
+        "7": 240,
+        "8": 220,
+        "9": 192,
+        "10": 142,
+        "11": 149,
+        "12": 167,
+        "13": 261,
+        "14": 338,
+        "15": 486,
+        "16": 645,
+        "17": 627,
+        "18": 682,
+        "19": 505,
+        "20": 511,
+        "21": 358,
+        "22": 215,
+        "23": 99
+      },
+      "avg_distance_km": 1.704,
+      "avg_duration_min": 16.44,
+      "total_distance_km": 8517.867,
+      "total_duration_min": 103046,
+      "round_trips": 556,
+      "left_outside_station": 476,
+      "busiest_stations_top5": [
+        {
+          "station": "Dworzec Główny, południe",
+          "arrivals": 111,
+          "departures": 117,
+          "total": 228
+        },
+        {
+          "station": "Dworzec Główny",
+          "arrivals": 110,
+          "departures": 112,
+          "total": 222
+        },
+        {
+          "station": "Szczęśliwa (Sky Tower)",
+          "arrivals": 106,
+          "departures": 115,
+          "total": 221
+        },
+        {
+          "station": "Plac Dominikański (Galeria Dominikańska)",
+          "arrivals": 104,
+          "departures": 106,
+          "total": 210
+        },
+        {
+          "station": "Powstańcow Śląskich / Aleja Hallera",
+          "arrivals": 74,
+          "departures": 87,
+          "total": 161
+        }
+      ],
+      "top_routes_top5": [
+        {
+          "start_station": "Przyjaźni / Karkonoska",
+          "end_station": "Krzycka / Aleja Karkonoska (Park Południowy)",
+          "rides": 14
+        },
+        {
+          "start_station": "Kwidzyńska pętla",
+          "end_station": "3M",
+          "rides": 13
+        },
+        {
+          "start_station": "Centrum Handlowe Auchan Bielany",
+          "end_station": "Czekoladowa / Wałbrzyska",
+          "rides": 12
+        },
+        {
+          "start_station": "Krzycka / Aleja Karkonoska (Park Południowy)",
+          "end_station": "Przyjaźni / Karkonoska",
+          "rides": 12
+        },
+        {
+          "start_station": "Aleja Bielany",
+          "end_station": "Czekoladowa / Wałbrzyska",
+          "rides": 11
+        }
+      ]
+    },
+    "2025-08-05": {
+      "total_rides": 5161,
+      "bike_rentals_histogram": {
+        "0": 64,
+        "1": 33,
+        "2": 22,
+        "3": 30,
+        "4": 48,
+        "5": 94,
+        "6": 147,
+        "7": 306,
+        "8": 274,
+        "9": 231,
+        "10": 202,
+        "11": 274,
+        "12": 293,
+        "13": 316,
+        "14": 389,
+        "15": 526,
+        "16": 641,
+        "17": 617,
+        "18": 209,
+        "19": 59,
+        "20": 81,
+        "21": 123,
+        "22": 118,
+        "23": 64
+      },
+      "avg_distance_km": 1.815,
+      "avg_duration_min": 16.46,
+      "total_distance_km": 7566.999,
+      "total_duration_min": 84962,
+      "round_trips": 299,
+      "left_outside_station": 394,
+      "busiest_stations_top5": [
+        {
+          "station": "Dworzec Główny, południe",
+          "arrivals": 116,
+          "departures": 117,
+          "total": 233
+        },
+        {
+          "station": "Szczęśliwa (Sky Tower)",
+          "arrivals": 97,
+          "departures": 107,
+          "total": 204
+        },
+        {
+          "station": "Dworzec Główny",
+          "arrivals": 98,
+          "departures": 99,
+          "total": 197
+        },
+        {
+          "station": "Powstańcow Śląskich / Aleja Hallera",
+          "arrivals": 84,
+          "departures": 87,
+          "total": 171
+        },
+        {
+          "station": "al. Armii Krajowej / Borowska",
+          "arrivals": 79,
+          "departures": 69,
+          "total": 148
+        }
+      ],
+      "top_routes_top5": [
+        {
+          "start_station": "Czekoladowa / Wałbrzyska",
+          "end_station": "Aleja Bielany",
+          "rides": 13
+        },
+        {
+          "start_station": "Krzycka / Aleja Karkonoska (Park Południowy)",
+          "end_station": "Przyjaźni / Karkonoska",
+          "rides": 13
+        },
+        {
+          "start_station": "Kwidzyńska pętla",
+          "end_station": "3M",
+          "rides": 13
+        },
+        {
+          "start_station": "Szczęśliwa (Sky Tower)",
+          "end_station": "Dworzec Główny, południe",
+          "rides": 10
+        },
+        {
+          "start_station": "Dworzec Główny, południe",
+          "end_station": "Szczęśliwa (Sky Tower)",
+          "rides": 9
+        }
+      ]
+    },
+    "2025-08-06": {
+      "total_rides": 7327,
+      "bike_rentals_histogram": {
+        "0": 60,
+        "1": 38,
+        "2": 21,
+        "3": 22,
+        "4": 57,
+        "5": 75,
+        "6": 165,
+        "7": 272,
+        "8": 265,
+        "9": 214,
+        "10": 178,
+        "11": 279,
+        "12": 275,
+        "13": 318,
+        "14": 467,
+        "15": 569,
+        "16": 697,
+        "17": 738,
+        "18": 737,
+        "19": 647,
+        "20": 505,
+        "21": 387,
+        "22": 231,
+        "23": 110
+      },
+      "avg_distance_km": 1.801,
+      "avg_duration_min": 17.81,
+      "total_distance_km": 10853.319,
+      "total_duration_min": 130509,
+      "round_trips": 464,
+      "left_outside_station": 537,
+      "busiest_stations_top5": [
+        {
+          "station": "Szczęśliwa (Sky Tower)",
+          "arrivals": 145,
+          "departures": 152,
+          "total": 297
+        },
+        {
+          "station": "Dworzec Główny, południe",
+          "arrivals": 141,
+          "departures": 143,
+          "total": 284
+        },
+        {
+          "station": "Plac Dominikański (Galeria Dominikańska)",
+          "arrivals": 132,
+          "departures": 127,
+          "total": 259
+        },
+        {
+          "station": "Dworzec Główny",
+          "arrivals": 119,
+          "departures": 116,
+          "total": 235
+        },
+        {
+          "station": "al. Armii Krajowej / Borowska",
+          "arrivals": 107,
+          "departures": 120,
+          "total": 227
+        }
+      ],
+      "top_routes_top5": [
+        {
+          "start_station": "Hubska / Prudnicka",
+          "end_station": "Dworzec Główny, południe",
+          "rides": 15
+        },
+        {
+          "start_station": "Rondo Reagana",
+          "end_station": "Nowowiejska / Górnickiego",
+          "rides": 15
+        },
+        {
+          "start_station": "Krzycka / Aleja Karkonoska (Park Południowy)",
+          "end_station": "Przyjaźni / Karkonoska",
+          "rides": 14
+        },
+        {
+          "start_station": "Aleja Bielany",
+          "end_station": "Czekoladowa / Wałbrzyska",
+          "rides": 13
+        },
+        {
+          "start_station": "Centrum Handlowe Auchan Bielany",
+          "end_station": "Czekoladowa / Wałbrzyska",
+          "rides": 12
+        }
+      ]
+    }
+  }
+}
