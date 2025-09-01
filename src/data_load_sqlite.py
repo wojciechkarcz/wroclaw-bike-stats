@@ -227,7 +227,8 @@ def main():
     root = repo_root()
     # Per docs/SPECS.md: SQLite db location: data/processed/bike_data.db
     db_path = os.path.join(root, 'data', 'processed', 'bike_data.db')
-    stations_csv = os.path.join(root, 'data', 'bike_stations.csv')
+    # Use consolidated, up-to-date station coordinates
+    stations_csv = os.path.join(root, 'data', 'bike_stations_coords.csv')
 
     # Per docs/SPECS.md directory contract
     raw_base = os.path.join(root, 'data', 'raw')
