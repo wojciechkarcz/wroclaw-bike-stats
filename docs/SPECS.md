@@ -76,7 +76,7 @@ battery REAL
 - Bike status DB: `data/processed/bike_status.db`
 - Raw data: `data/raw/2025`
 - Interim cleaned CSV: `data/interim`
-- Bike stations reference file: `data/bike_stations.csv`    
+- Bike stations reference file: `data/bike_stations_coords.csv`    
 - Don’t edit or modify files in these locations manually.
 
 ## 8. Quality & Constraints
