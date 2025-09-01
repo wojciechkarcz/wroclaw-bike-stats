@@ -22,7 +22,8 @@ from data_load_sqlite import (
 def _process_paths(paths: list[str], transform: bool, to_sqlite: bool) -> None:
     """Transform CSV files and optionally load them to SQLite."""
     root = repo_root()
-    stations_csv = os.path.join(root, "data", "bike_stations.csv")
+    # Use consolidated, up-to-date station coordinates
+    stations_csv = os.path.join(root, "data", "bike_stations_coords.csv")
     interim_dir = os.path.join(root, "data", "interim")
     db_path = os.path.join(root, "data", "processed", "bike_data.db")
 
