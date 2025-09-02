@@ -38,9 +38,10 @@
        - `git add -A && git commit -m "<commit message> (#<n>)"`
     2) Push changes to GitHub:
        - `git push -u origin issue-<n>`
-    3) Summarize the current progress in a short changelog entry (concise list of changes, decisions, or blockers).
+    3) Summarize the current progress in a short changelog entry (concise list of changes, decisions, or blockers) in a temp file `comment.md`
     4) Add that summary as a GitHub issue comment:
-       - `gh issue comment <n> --body "…summary…"`.
+       - `gh issue comment <n> --body-file comment.md`.
+       - after executing that command without errors, remove a temp file `comment.md`
     5) This ensures the codebase, branch, and issue discussion are always in sync.
 
 - When I say “create a pr for issue #<n>”:
