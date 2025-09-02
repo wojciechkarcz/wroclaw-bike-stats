@@ -58,6 +58,7 @@
 
 - General rules:
     - Only modify files inside the repo; do not invent or rely on external services.
+    - Do not commit or push any changes unless explicitly instructed. 
     - Keep diffs small and focused on the issue’s scope.
     - After creation of PR to each issue, update CHANGELOG.md:
        - Append new section at top with issue number and title, date, summary, and key decisions/assumptions.

@@ -26,6 +26,12 @@ function setActiveView(id){
   document.querySelectorAll('.view').forEach(v=>v.classList.remove('active'));
   byId(id).classList.add('active');
   document.querySelectorAll('.tab').forEach(b=>b.classList.toggle('active', b.dataset.target === id));
+  // Re-render range charts after becoming visible so Chart.js can size correctly
+  if (id === 'range-view'){
+    const start = byId('range-start')?.value;
+    const end = byId('range-end')?.value;
+    if (start && end) updateRange(start, end);
+  }
 }
 
 function format(num){

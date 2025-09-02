@@ -149,6 +149,11 @@ function lineChart(container, series, opts={}){
     if (container._chart) { try { container._chart.destroy(); } catch(e){} }
     const labels = series.map(p=>p.x);
     const data = series.map(p=>p.y);
+    // Ensure canvas has actual pixel size even if parent was hidden before
+    const rect = container.getBoundingClientRect();
+    const cw = Math.max(1, Math.floor(rect.width)) || (opts.width || 720);
+    const ch = Math.max(1, Math.floor(rect.height)) || (opts.height || 240);
+    canvas.width = cw; canvas.height = ch;
     const chart = new Chart(canvas.getContext('2d'), {
       type: 'line',
       data: {
@@ -168,15 +173,15 @@ function lineChart(container, series, opts={}){
       options: {
         responsive: true,
         maintainAspectRatio: false,
-        parsing: false,
         animation: false,
+        spanGaps: true,
         scales: {
           x: {
             type: 'category',
             ticks: {
               autoSkip: false,
-              maxRotation: 0,
-              minRotation: 0,
+              maxRotation: 45,
+              minRotation: 45,
             },
             title: { display: !!opts.xLabel, text: opts.xLabel || '' }
           },
