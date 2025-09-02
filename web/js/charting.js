@@ -106,8 +106,9 @@ function lineChart(container, series, opts={}){
   const xs = series.map(p=>p.x);
   const ys = series.map(p=>p.y);
   const xMin = 0, xMax = series.length-1;
-  const yMin = Math.min(...ys);
-  const yMax = Math.max(...ys);
+  // Force Y axis to start at 0
+  const yMin = 0;
+  const yMax = Math.max(1, ...ys);
   const niceMax = yMax === yMin ? yMax+1 : yMax;
 
   const toX = (i)=> m.l + (i - xMin) * (w/(xMax - xMin || 1));
@@ -171,10 +172,14 @@ function lineChart(container, series, opts={}){
 
   svg.addEventListener('mousemove', (e)=>{
     const rect = svg.getBoundingClientRect();
+    const scaleX = rect.width / width;
+    const scaleY = rect.height / height;
     const px = e.clientX - rect.left;
-    // invert to nearest index
-    const i = Math.max(0, Math.min(series.length-1, Math.round((px - m.l) / (w/(xMax - xMin || 1)))));
-    const sx = toX(i), sy = toY(series[i].y);
+    // invert to nearest index using pixel coords and scale
+    const inv = (px - m.l*scaleX) / ((w*scaleX)/(xMax - xMin || 1));
+    const i = Math.max(0, Math.min(series.length-1, Math.round(inv)));
+    const sx = toX(i) * scaleX;
+    const sy = toY(series[i].y) * scaleY;
     // Only show when close to the point
     const dx = px - sx;
     const py = e.clientY - rect.top;
