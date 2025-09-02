@@ -5,7 +5,7 @@
   - Date range view: line charts, averaged histogram, aggregated lists
 */
 
-const DATA_URL = '/data/processed/metrics/bikes-2025.json';
+const DATA_URL = '/data/rides.json';
 
 const state = {
   raw: null, // full JSON
@@ -206,4 +206,3 @@ async function main(){
 }
 
 document.addEventListener('DOMContentLoaded', main);
-
