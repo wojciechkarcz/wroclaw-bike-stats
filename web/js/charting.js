@@ -9,9 +9,95 @@ function createSvg(width, height) {
   return svg;
 }
 
+function drawAxes(svg, m, w, h, xTicks, yTicks, labels){
+  const ns = svg.namespaceURI;
+  const axis = document.createElementNS(ns, 'g');
+  axis.setAttribute('stroke', '#9ca3af');
+  axis.setAttribute('stroke-width', '1');
+  axis.setAttribute('fill', 'none');
+  // X axis line
+  const xLine = document.createElementNS(ns, 'line');
+  xLine.setAttribute('x1', m.l); xLine.setAttribute('x2', m.l + w);
+  xLine.setAttribute('y1', m.t + h); xLine.setAttribute('y2', m.t + h);
+  axis.appendChild(xLine);
+  // Y axis line
+  const yLine = document.createElementNS(ns, 'line');
+  yLine.setAttribute('x1', m.l); yLine.setAttribute('x2', m.l);
+  yLine.setAttribute('y1', m.t); yLine.setAttribute('y2', m.t + h);
+  axis.appendChild(yLine);
+
+  const labelGroup = document.createElementNS(ns, 'g');
+  labelGroup.setAttribute('fill', '#6b7280');
+  labelGroup.setAttribute('font-size', '10');
+
+  // X ticks
+  xTicks.forEach(t => {
+    const g = document.createElementNS(ns, 'g');
+    const x = t.x;
+    const line = document.createElementNS(ns,'line');
+    line.setAttribute('x1', x); line.setAttribute('x2', x);
+    line.setAttribute('y1', m.t + h); line.setAttribute('y2', m.t + h + 4);
+    line.setAttribute('stroke', '#9ca3af');
+    g.appendChild(line);
+    if (t.label != null){
+      const text = document.createElementNS(ns,'text');
+      text.setAttribute('x', x);
+      text.setAttribute('y', m.t + h + 14);
+      text.setAttribute('text-anchor', 'middle');
+      text.textContent = t.label;
+      g.appendChild(text);
+    }
+    labelGroup.appendChild(g);
+  });
+
+  // Y ticks
+  yTicks.forEach(t => {
+    const g = document.createElementNS(ns, 'g');
+    const y = t.y;
+    const line = document.createElementNS(ns,'line');
+    line.setAttribute('x1', m.l - 4); line.setAttribute('x2', m.l);
+    line.setAttribute('y1', y); line.setAttribute('y2', y);
+    line.setAttribute('stroke', '#9ca3af');
+    g.appendChild(line);
+    if (t.label != null){
+      const text = document.createElementNS(ns,'text');
+      text.setAttribute('x', m.l - 6);
+      text.setAttribute('y', y + 3);
+      text.setAttribute('text-anchor', 'end');
+      text.textContent = t.label;
+      g.appendChild(text);
+    }
+    labelGroup.appendChild(g);
+  });
+
+  // Axis labels
+  if (labels && labels.x){
+    const text = document.createElementNS(ns,'text');
+    text.setAttribute('x', m.l + w/2);
+    text.setAttribute('y', m.t + h + 28);
+    text.setAttribute('text-anchor', 'middle');
+    text.setAttribute('fill', '#374151');
+    text.setAttribute('font-size', '11');
+    text.textContent = labels.x;
+    labelGroup.appendChild(text);
+  }
+  if (labels && labels.y){
+    const text = document.createElementNS(ns,'text');
+    text.setAttribute('transform', `translate(${m.l - 36} ${m.t + h/2}) rotate(-90)`);
+    text.setAttribute('text-anchor', 'middle');
+    text.setAttribute('fill', '#374151');
+    text.setAttribute('font-size', '11');
+    text.textContent = labels.y;
+    labelGroup.appendChild(text);
+  }
+
+  svg.appendChild(axis);
+  svg.appendChild(labelGroup);
+}
+
 function lineChart(container, series, opts={}){
   const width = opts.width || 720; const height = opts.height || 240;
-  const m = {l:36,r:10,t:10,b:24};
+  const m = {l:44,r:10,t:10,b:34};
   const w = width - m.l - m.r; const h = height - m.t - m.b;
   const svg = createSvg(width,height);
   container.innerHTML=''; container.appendChild(svg);
@@ -39,6 +125,19 @@ function lineChart(container, series, opts={}){
   }
   svg.appendChild(grid);
 
+  // axes
+  const xTickIdx = (len)=>{
+    if (len <= 2) return [0, len-1];
+    if (len <= 5) return [0, Math.floor(len/2), len-1];
+    return [0, Math.floor(len/2), len-1];
+  };
+  const xTicks = xTickIdx(series.length).map(i=>({ x: toX(i), label: String(series[i].x) }));
+  const yTicks = [0,0.25,0.5,0.75,1].map(frac=>{
+    const v = yMin + frac*(niceMax - yMin || 1);
+    return { y: toY(v), label: Math.round(v) };
+  });
+  drawAxes(svg, m, w, h, xTicks, yTicks, { x: opts.xLabel || '', y: opts.yLabel || '' });
+
   // path
   const d = series.map((p,i)=> `${i===0?'M':'L'} ${toX(i)} ${toY(p.y)}`).join(' ');
   const path = document.createElementNS(svg.namespaceURI,'path');
@@ -50,13 +149,16 @@ function lineChart(container, series, opts={}){
 
   // points
   const pts = document.createElementNS(svg.namespaceURI,'g');
+  const points = [];
   for (let i=0;i<series.length;i++){
     const c = document.createElementNS(svg.namespaceURI,'circle');
-    c.setAttribute('cx', toX(i));
-    c.setAttribute('cy', toY(series[i].y));
+    const cx = toX(i); const cy = toY(series[i].y);
+    c.setAttribute('cx', cx);
+    c.setAttribute('cy', cy);
     c.setAttribute('r', 3);
     c.setAttribute('fill', '#2563eb');
     pts.appendChild(c);
+    points.push({x: cx, y: cy});
   }
   svg.appendChild(pts);
 
@@ -73,17 +175,26 @@ function lineChart(container, series, opts={}){
     // invert to nearest index
     const i = Math.max(0, Math.min(series.length-1, Math.round((px - m.l) / (w/(xMax - xMin || 1)))));
     const sx = toX(i), sy = toY(series[i].y);
-    tip.style.left = `${sx}px`;
-    tip.style.top = `${sy}px`;
-    tip.innerText = `${series[i].x}: ${series[i].y}`;
-    tip.style.display = 'block';
+    // Only show when close to the point
+    const dx = px - sx;
+    const py = e.clientY - rect.top;
+    const dy = py - sy;
+    const dist = Math.sqrt(dx*dx + dy*dy);
+    if (dist <= (opts.hoverRadius || 12)){
+      tip.style.left = `${sx}px`;
+      tip.style.top = `${sy}px`;
+      tip.innerText = `${series[i].x}: ${series[i].y}`;
+      tip.style.display = 'block';
+    } else {
+      tip.style.display = 'none';
+    }
   });
   svg.addEventListener('mouseleave', ()=>{ tip.style.display='none'; });
 }
 
 function barChart(container, values, opts={}){
   const width = opts.width || 720; const height = opts.height || 240;
-  const m = {l:36,r:10,t:10,b:24};
+  const m = {l:44,r:10,t:10,b:34};
   const w = width - m.l - m.r; const h = height - m.t - m.b;
   const svg = createSvg(width,height);
   container.innerHTML=''; container.appendChild(svg);
@@ -103,6 +214,19 @@ function barChart(container, values, opts={}){
     grid.appendChild(line);
   }
   svg.appendChild(grid);
+
+  // axes with ticks
+  const xTicks = [];
+  const hoursToShow = [0,6,12,18,23];
+  hoursToShow.forEach(hr => {
+    const x = m.l + hr * bw + bw/2;
+    xTicks.push({ x, label: String(hr) });
+  });
+  const yTicks = [0,0.25,0.5,0.75,1].map(frac=>{
+    const v = frac*maxV;
+    return { y: toY(v), label: Math.round(v) };
+  });
+  drawAxes(svg, m, w, h, xTicks, yTicks, { x: opts.xLabel || '', y: opts.yLabel || '' });
 
   const bars = document.createElementNS(svg.namespaceURI,'g');
   bars.setAttribute('fill', opts.color || '#2563eb');
@@ -133,7 +257,8 @@ function barChart(container, values, opts={}){
       const bbox = target.getBoundingClientRect();
       tip.style.left = `${bbox.left + bbox.width/2 - svg.getBoundingClientRect().left}px`;
       tip.style.top = `${bbox.top - svg.getBoundingClientRect().top}px`;
-      tip.innerText = `${target.dataset.label}: ${target.dataset.value}`;
+      // histograms: show value only
+      tip.innerText = `${target.dataset.value}`;
       tip.style.display = 'block';
     }
   });
@@ -141,4 +266,3 @@ function barChart(container, values, opts={}){
 }
 
 window.SimpleCharts = { lineChart, barChart };
-

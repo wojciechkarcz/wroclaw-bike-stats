@@ -17,6 +17,7 @@
 
     <main class="container">
       <section id="single-view" class="view active">
+        <div id="single-date-label" class="selected-label"></div>
         <div class="controls">
           <label>
             Date:
@@ -31,19 +32,18 @@
           <div id="single-histogram" class="chart"></div>
         </div>
 
-        <div class="panel two-col">
-          <div>
-            <h2>Busiest Stations (Top)</h2>
-            <ol id="single-busiest"></ol>
-          </div>
-          <div>
-            <h2>Top Routes</h2>
-            <ol id="single-routes"></ol>
-          </div>
+        <div class="panel">
+          <h2>Busiest Stations (Top)</h2>
+          <div id="single-busiest" class="table-wrap"></div>
+        </div>
+        <div class="panel">
+          <h2>Top Routes</h2>
+          <div id="single-routes" class="table-wrap"></div>
         </div>
       </section>
 
       <section id="range-view" class="view">
+        <div id="range-date-label" class="selected-label"></div>
         <div class="controls">
           <label>
             From:
@@ -57,7 +57,7 @@
 
         <div class="panel">
           <h2>Daily Metrics</h2>
-          <div id="range-metrics" class="grid-charts"></div>
+          <div id="range-metrics" class="stack-charts"></div>
         </div>
 
         <div class="panel">
@@ -65,15 +65,13 @@
           <div id="range-histogram" class="chart"></div>
         </div>
 
-        <div class="panel two-col">
-          <div>
-            <h2>Busiest Stations (Sum in Range)</h2>
-            <ol id="range-busiest"></ol>
-          </div>
-          <div>
-            <h2>Top Routes (Sum in Range)</h2>
-            <ol id="range-routes"></ol>
-          </div>
+        <div class="panel">
+          <h2>Busiest Stations (Sum in Range)</h2>
+          <div id="range-busiest" class="table-wrap"></div>
+        </div>
+        <div class="panel">
+          <h2>Top Routes (Sum in Range)</h2>
+          <div id="range-routes" class="table-wrap"></div>
         </div>
       </section>
     </main>
@@ -86,4 +84,3 @@
     <script src="/js/app.js"></script>
   </body>
   </html>
-
