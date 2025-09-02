@@ -139,7 +139,63 @@ function lineChart(container, series, opts={}){
   });
   drawAxes(svg, m, w, h, xTicks, yTicks, { x: opts.xLabel || '', y: opts.yLabel || '' });
 
-  // path
+  // If Chart.js is available, prefer it for richer UX
+  if (window.Chart){
+    container.innerHTML = '';
+    const canvas = document.createElement('canvas');
+    canvas.style.width = '100%';
+    canvas.style.height = '100%';
+    container.appendChild(canvas);
+    if (container._chart) { try { container._chart.destroy(); } catch(e){} }
+    const labels = series.map(p=>p.x);
+    const data = series.map(p=>p.y);
+    const chart = new Chart(canvas.getContext('2d'), {
+      type: 'line',
+      data: {
+        labels,
+        datasets: [{
+          label: opts.yLabel || 'Value',
+          data,
+          borderColor: opts.color || '#2563eb',
+          backgroundColor: 'rgba(37,99,235,0.15)',
+          borderWidth: 2,
+          fill: false,
+          pointRadius: 3,
+          pointHoverRadius: 4,
+          tension: 0.2,
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        parsing: false,
+        animation: false,
+        scales: {
+          x: {
+            type: 'category',
+            ticks: {
+              autoSkip: false,
+              maxRotation: 0,
+              minRotation: 0,
+            },
+            title: { display: !!opts.xLabel, text: opts.xLabel || '' }
+          },
+          y: {
+            beginAtZero: true,
+            title: { display: !!opts.yLabel, text: opts.yLabel || '' }
+          }
+        },
+        plugins: {
+          legend: { display: false },
+          tooltip: { enabled: true }
+        }
+      }
+    });
+    container._chart = chart;
+    return; // done
+  }
+
+  // path (fallback SVG implementation)
   const d = series.map((p,i)=> `${i===0?'M':'L'} ${toX(i)} ${toY(p.y)}`).join(' ');
   const path = document.createElementNS(svg.namespaceURI,'path');
   path.setAttribute('d', d);
