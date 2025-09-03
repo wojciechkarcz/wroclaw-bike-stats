@@ -2,6 +2,7 @@ import argparse
 import json
 import os
 import sqlite3
+import logging
 from datetime import datetime
 from typing import Dict, List, Tuple
 
@@ -246,26 +247,43 @@ def main(argv: List[str] | None = None) -> None:
     )
     args = parser.parse_args(argv)
 
+    # Setup basic logging to show progress
+    try:
+        from logging_config import setup_logging  # type: ignore
+
+        setup_logging()
+    except Exception:
+        logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(name)s: %(message)s")
+
     conn = sqlite3.connect(args.db_path)
     try:
         # Yearly rebuild mode
         if args.year is not None:
             dates = list_dates_for_year(conn, args.table, args.year)
-            results: Dict[str, Dict] = {}
-            for d in dates:
-                results[d] = compute_metrics(conn, args.table, d)
-            # Remove redundant 'date' inside each day's payload
-            for d in list(results.keys()):
-                if isinstance(results[d], dict):
-                    results[d].pop("date", None)
-            # Determine out path
+            logging.info("Starting yearly rebuild for %s (%d days)", args.year, len(dates))
+
+            # Determine out path early and ensure directory exists
             if args.out_path is None:
                 out_dir = os.path.join(repo_root(), "data", "processed", "metrics")
                 ensure_dir(out_dir)
                 args.out_path = os.path.join(out_dir, f"{args.year}.json")
             else:
                 ensure_dir(os.path.dirname(os.path.abspath(args.out_path)))
-            write_year_file(args.out_path, args.year, results)
+
+            # Load existing (if any) to support incremental writes/appends
+            existing = read_year_file(args.out_path)
+            days: Dict[str, Dict] = dict(existing.get("days", {}))
+
+            total = len(dates)
+            for i, d in enumerate(dates, start=1):
+                metrics = compute_metrics(conn, args.table, d)
+                payload = dict(metrics)
+                payload.pop("date", None)
+                days[d] = payload
+                # Write after each day to avoid long-running single write
+                write_year_file(args.out_path, args.year, days)
+                logging.info("[%d/%d] Processed %s", i, total, d)
+
             print(f"Wrote yearly metrics for {args.year} to: {args.out_path}")
             return
 
