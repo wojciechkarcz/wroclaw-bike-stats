@@ -57,11 +57,12 @@
        `gh pr create --fill --title "#<n> - <summary>" --body "<description>"`
 
 - General rules:
-    - Only modify files inside the repo; do not invent or rely on external services.
-    - Keep diffs small and focused on the issue’s scope.
-    - After creation of PR to each issue, update CHANGELOG.md:
-       - Append new section at top with issue number and title, date, summary, and key decisions/assumptions.
-    - Use standard library whenever possible; add minimal dependencies only when justified.
-    - Provide small, reproducible test snippets in commit messages if helpful.
-    - Ensure consistent branch naming: always `issue-<n>`.
-    - Use always conventional commit messages starting with a type: fix, feat, chore, build, ci, docs, test, style, refactor
+   - Only modify files inside the repo; do not invent or rely on external services.
+   - Do not commit or push any changes unless explicitly instructed. 
+   - Keep diffs small and focused on the issue’s scope.
+   - After creation of PR to each issue, update CHANGELOG.md:
+      - Append new section at top with issue number and title, date, summary, and key decisions/assumptions.
+   - Use standard library whenever possible; add minimal dependencies only when justified.
+   - Provide small, reproducible test snippets in commit messages if helpful.
+   - Ensure consistent branch naming: always `issue-<n>`.
+   - Use always conventional commit messages starting with a type: fix, feat, chore, build, ci, docs, test, style, refactor
