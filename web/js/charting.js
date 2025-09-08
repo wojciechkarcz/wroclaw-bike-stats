@@ -154,6 +154,8 @@ function lineChart(container, series, opts={}){
     const cw = Math.max(1, Math.floor(rect.width)) || (opts.width || 720);
     const ch = Math.max(1, Math.floor(rect.height)) || (opts.height || 240);
     canvas.width = cw; canvas.height = ch;
+    // Adapt x-axis ticks density to available width (approx 80px per tick)
+    const estMaxTicks = Math.max(3, Math.min(labels.length, Math.floor(cw / 80)));
     const chart = new Chart(canvas.getContext('2d'), {
       type: 'line',
       data: {
@@ -179,7 +181,8 @@ function lineChart(container, series, opts={}){
           x: {
             type: 'category',
             ticks: {
-              autoSkip: false,
+              autoSkip: true,
+              maxTicksLimit: estMaxTicks,
               maxRotation: 45,
               minRotation: 45,
             },
