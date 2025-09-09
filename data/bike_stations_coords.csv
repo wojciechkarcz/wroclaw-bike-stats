@@ -38,7 +38,7 @@ Bałtycka / Żmigrodzka,51.13959,17.03216
 Berenta / Kasprowicza,51.138463,17.059804
 Bezpieczna / Obornicka,51.14156,17.02587
 Bezpieczna/Jugosławiańska,51.13894,17.02028
-Bielany Wrocławskie Kolejowa P&R,,
+Bielany Wrocławskie Kolejowa P&R,51.03803,16.97647
 Bierutowska,51.152216,17.13217
 Bogatyńska / Turoszowska,51.153669,16.944094
 Boguszowska / Kosmonautów,51.14395,16.89012
@@ -138,7 +138,7 @@ Karwińska / Opolska,51.08149,17.07693
 Kasprowicza / Syrokomli,51.137247,17.048546
 Kazimierza Wielkiego (Helios),51.110342,17.02601
 Kiełczowska,51.14574,17.13493
-Kino Nowe Horyzonty,,
+Kino Nowe Horyzonty,51.109729,17.02638
 Klecińska (Wrocław Grabiszyn),51.09724,16.97512
 Klecińska / Duńska,51.109433,16.969097
 Komandorska - Kamienna,51.09009,17.0235
@@ -188,7 +188,7 @@ Lotnicza / Metalowców,51.13258,16.95697
 Lotnicza / Na Ostatnim Groszu,51.126907,16.978759
 Lubelska/Łukowska,51.165419,16.920266
 MAHLE,,
-Magellana,,
+Magellana,51.113559,17.120977
 Majkowska/Węzeł,,
 Majkowskie Wembley,,
 Marca Polo (Olimpia Port),51.110299,17.117854
@@ -234,7 +234,7 @@ Opolska/Jesionowa,,
 Oporów (pętla tramwajowa),51.08451,16.97223
 Os. Przyjaźni,51.0687537,16.9997147
 Os. Sobieskiego,51.1600255,17.1334914
-Osiedlowa/Ciepłownicza Siechnice,,
+Osiedlowa/Ciepłownicza Siechnice,51.025524,17.154038
 Osobowicka - pętla tramwajowa,51.137452,16.994705
 Osobowicka / Ostrowska,51.14382,16.98789
 Ostrowskiego,51.095298,16.971707
@@ -312,8 +312,8 @@ Pętla Autobusowa - Dambonia,,
 Racławicka - Rymarska,51.0802183,16.9946767
 Racławicka / Rymarska,51.08022,16.99467
 Radeckiego / Marcinkowskiego (Uniw. Medyczny - CNIM),,
-Radosna /Brzozowa,,
-Radosna/Brzozowa,,
+Radosna /Brzozowa,51.050802,17.00179318
+Radosna/Brzozowa,51.050802,17.00179318
 Radwanice ul. Kolejowa (Biedronka),,
 Rakowiecka,51.09761,17.06855
 Reymonta / Kleczkowska,51.12695,17.02804
@@ -330,8 +330,8 @@ Rzeczypospolitej / Okrężna,,
 Sadowa/McDonald's,,
 Sandbox MMeissner-áéőű,,
 Semaforowa,51.05927,17.07877
-Siechnice PKP,,
-Siechnice UM,,
+Siechnice PKP,51.0380704,17.1442810
+Siechnice UM,51.032528,17.15100359
 Sienkiewicza - Piastowska,51.1154752,17.0606915
 Sienkiewicza - Wyszyńskiego,51.1167902,17.0519712
 Sienkiewicza / Piastowska,51.115564,17.060704
@@ -340,7 +340,7 @@ Skarbowców - Wietrzna,51.07329,16.99485
 Skarbowców / Wietrzna,51.07329,16.99485
 Skarszewska/Borkowska,,
 Sky Tower,51.09451845,17.0195532526258
-Smolec,,
+Smolec,51.08708,16.911272
 Smoluchowskiego - Łukaszewicza,51.1082363976901,17.0639335569296
 Solskiego / al. Piastów,51.0775,16.96396
 Sołtysowicka / Redycka,51.14905,17.07565
@@ -409,9 +409,9 @@ Wrocławska / Spacerowa Mokronos Górny,,
 Wrocławska/COSSW,,
 Wróblewskiego (Teki),51.10411,17.084711
 Wróblewskiego (ZOO),51.10592,17.075857
-Wysoka Nastrojowa,,
+Wysoka Nastrojowa,51.0526576,17.0045961
 Wysoka Parkowa / Lipowa,,
-Wysoka/Nastrojowa,,
+Wysoka/Nastrojowa,51.0526576,17.0045961
 Wyszyńskiego - Prusa,51.1194339948544,17.0515653717227
 Wyszyńskiego / Szczytnicka,51.113562,17.050674
 Zachodnia - Poznańska,51.1175802,17.007131
@@ -445,7 +445,7 @@ pl. Inwalidów Wojennych,,
 pl. Orląt Lwowskich,51.10823,17.02138
 pl. Powstańców Wielkopolskich,51.12469,17.03488
 pl. Staszica,51.12266,17.02995
-pl. Strzelecki,,
+pl. Strzelecki,51.1227422,17.0307021
 pl. Wilsona,,
 plac Bema,51.120978,17.015039
 station_name,lat,lon
