@@ -20,6 +20,7 @@ python src/compute_daily_metrics.py [options]
 - `--db <path>`: Path to SQLite DB (default: `data/processed/bike_data.db`).
 - `--table <name>`: Table name (default: `bike_rides`).
 - `--out <path>`: Output JSON file path. By default the script writes to `data/processed/metrics/<year>.json`.
+- `--latest`: Use the most recent date present in the DB (by `start_time`). If `--date` is also given, `--date` takes precedence.
 
 ### Modes
 1) Append or update a single day in the yearly file (use this for daily runs):
@@ -30,6 +31,15 @@ python src/compute_daily_metrics.py --date 2025-04-07
 
 - Determines `<year>` from the date and updates `data/processed/metrics/2025.json`.
 - If the yearly file does not exist, it is created.
+
+Append or update using the latest date from the database:
+
+```bash
+python src/compute_daily_metrics.py --latest
+```
+
+- Finds the most recent `date(start_time)` in the selected table and appends/updates that day in the yearly file.
+- Useful right after loading fresh data into the DB.
 
 2) Rebuild a whole year from the DB (loads all available dates in that year):
 
@@ -68,10 +78,10 @@ Notes:
 - The script stores only the per-day payload under `days[<date>]` and keeps the top-level `year` for convenience.
 
 ## Examples
-- Append metrics for the latest day (UTC today):
+- Append metrics for the latest day present in DB:
 
 ```bash
-python src/compute_daily_metrics.py --date $(date -u +%F)
+python src/compute_daily_metrics.py --latest
 ```
 
 - Append metrics using a custom DB and table:
@@ -88,6 +98,11 @@ python src/compute_daily_metrics.py \
 ```bash
 python src/compute_daily_metrics.py --year 2025 --out data/processed/metrics/bikes-2025.json
 ```
+
+### Behavior and precedence
+- If `--date` is provided, that date is used.
+- Else if `--latest` is provided, the script queries the DB for the most recent `date(start_time)` and uses it.
+- Else, it falls back to today’s UTC date.
 
 ## Implementation details
 - Global filter: exclude rides with `duration <= 2` minutes from all metrics.

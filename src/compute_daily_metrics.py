@@ -231,6 +231,12 @@ def write_year_file(path: str, year: int, days: Dict[str, Dict]) -> None:
 def main(argv: List[str] | None = None) -> None:
     parser = argparse.ArgumentParser(description="Compute daily bike ride metrics and write JSON output.")
     parser.add_argument("--date", dest="day", default=None, help="Date YYYY-MM-DD (based on start_time)")
+    parser.add_argument(
+        "--latest",
+        dest="latest",
+        action="store_true",
+        help="Use the most recent date present in the DB (by start_time)",
+    )
     parser.add_argument("--year", dest="year", type=int, default=None, help="Compute metrics for all dates in the given year")
     parser.add_argument(
         "--db",
@@ -287,8 +293,22 @@ def main(argv: List[str] | None = None) -> None:
             print(f"Wrote yearly metrics for {args.year} to: {args.out_path}")
             return
 
-        # Single day append/update into yearly file
-        day = args.day or datetime.utcnow().strftime("%Y-%m-%d")
+        # Resolve day for single-day append/update
+        day = args.day
+        if day is None and args.latest:
+            # Determine latest available date from DB
+            cur = conn.execute(
+                f"SELECT date(start_time) AS d FROM {args.table} WHERE start_time IS NOT NULL ORDER BY start_time DESC LIMIT 1"
+            )
+            row = cur.fetchone()
+            if row and row[0]:
+                day = row[0]
+                logging.info("Using latest date from DB: %s", day)
+            else:
+                raise SystemExit("No rows found in table; cannot determine latest date.")
+        # Fallback to today (UTC) if neither --date nor --latest provided
+        if day is None:
+            day = datetime.utcnow().strftime("%Y-%m-%d")
         year = int(day[:4])
         metrics = compute_metrics(conn, args.table, day)
         # default yearly file path
