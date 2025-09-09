@@ -17,6 +17,7 @@ from data_load_sqlite import (
     transform_data,
     load_to_sqlite,
 )
+ 
 
 
 def _process_paths(paths: list[str], transform: bool, to_sqlite: bool) -> None:
@@ -32,12 +33,18 @@ def _process_paths(paths: list[str], transform: bool, to_sqlite: bool) -> None:
         ensure_dir(os.path.dirname(db_path))
 
     for raw_path in paths:
+        filename = os.path.basename(raw_path)
+        dtv = extract_dt_from_filename(filename)
+        dt_label = dtv.strftime("%Y-%m-%d %H:%M:%S") if dtv else "unknown date"
+
         if transform or to_sqlite:
             df = pd.read_csv(raw_path, encoding="utf-8")
+
             cleaned = transform_data(df, stations_csv)
-            cleaned_name = os.path.splitext(os.path.basename(raw_path))[0] + "_clean.csv"
+            cleaned_name = os.path.splitext(filename)[0] + "_clean.csv"
             cleaned_path = os.path.join(interim_dir, cleaned_name)
             cleaned.to_csv(cleaned_path, index=False)
+
             if to_sqlite:
                 load_to_sqlite(cleaned, db_path)
         # When transform is False we simply keep the raw download.
@@ -102,7 +109,10 @@ def cmd_load(args: argparse.Namespace) -> None:
     ]
     if not paths:
         raise SystemExit(f"No CSV files in {folder}")
-    _process_paths(paths, args.transform, args.sqlite)
+    # Process each file and print a simple progress line for load-folder mode
+    for p in paths:
+        _process_paths([p], args.transform, args.sqlite)
+        print(f"Processed file: {os.path.basename(p)}")
 
 
 def build_parser() -> argparse.ArgumentParser:
