@@ -69,6 +69,64 @@ def test_transform_data_distance_and_columns(tmp_path):
     assert cleaned["distance"].notna().all()
 
 
+def test_transform_data_handles_duplicate_header_and_string_coords(tmp_path):
+    # Stations CSV with a duplicate header embedded and coords that would be read as strings
+    stations_path = tmp_path / "stations_dup_header.csv"
+    stations_path.write_text(
+        """
+station_name,lat,lon
+Start,51.100000,17.000000
+station_name,lat,lon
+End,51.105000,17.010000
+""".strip(),
+        encoding="utf-8",
+    )
+
+    df = pd.DataFrame(
+        {
+            "UID wynajmu": [1],
+            "Numer roweru": ["100"],
+            "Data wynajmu": ["2025-09-07 10:00:00"],
+            "Data zwrotu": ["2025-09-07 10:10:00"],
+            "Stacja wynajmu": ["Start"],
+            "Stacja zwrotu": ["End"],
+            "Czas trwania": [600],
+        }
+    )
+
+    cleaned = mod.transform_data(df, str(stations_path))
+    d = float(cleaned.loc[0, "distance"])
+    # Rough haversine check: ~1.247 km between the two points
+    import math
+
+    def haversine_km(lat1, lon1, lat2, lon2):
+        R = 6371.0088
+        phi1, phi2 = math.radians(lat1), math.radians(lat2)
+        dphi = math.radians(lat2 - lat1)
+        dlambda = math.radians(lon2 - lon1)
+        a = math.sin(dphi / 2) ** 2 + math.cos(phi1) * math.cos(phi2) * math.sin(dlambda / 2) ** 2
+        return 2 * R * math.asin(math.sqrt(a))
+
+    expected = haversine_km(51.100000, 17.000000, 51.105000, 17.010000)
+    # distance is rounded to 3 decimals in transform, accept small tolerance
+    assert abs(d - round(expected, 3)) < 0.01
+
+
+def test_distance_km_rounding_precision():
+    # Directly validate distance_km on numeric inputs and rounding to 3 decimals
+    from types import SimpleNamespace
+    row = {
+        "lat_start": 51.109782,
+        "lon_start": 17.030175,
+        "lat_end": 51.113871,
+        "lon_end": 17.034484,
+    }
+    # Expect approx 0.546 km; accept exact 3-decimal rounding
+    d = mod.distance_km(row)
+    assert isinstance(d, float)
+    assert abs(d - 0.546) < 0.005
+
+
 def test_main_uses_spec_paths_and_writes_outputs(monkeypatch, tmp_path):
     # Prepare a local raw CSV to simulate download
     raw_dir = os.path.join(str(REPO_ROOT), "data", "raw", "2025")

@@ -113,6 +113,15 @@ def distance_km(row):
 
 def transform_data(df: pd.DataFrame, stations_csv_path: str) -> pd.DataFrame:
     stations = pd.read_csv(stations_csv_path)
+    # Some station coord dumps may accidentally contain a duplicated header row
+    # in the middle of the file ("station_name,lat,lon"), which forces lat/lon
+    # columns to become object dtype (strings) and breaks distance computation.
+    if "station_name" in stations.columns:
+        stations = stations[stations["station_name"].astype(str).str.lower() != "station_name"]
+    # Ensure coordinates are numeric
+    for c in ["lat", "lon"]:
+        if c in stations.columns:
+            stations[c] = pd.to_numeric(stations[c], errors="coerce")
     for col in ['Stacja wynajmu', 'Stacja zwrotu']:
         if col in df.columns:
             s = df[col].astype(str).str.replace('\xa0', '', regex=False).str.rstrip()
@@ -163,6 +172,9 @@ def transform_data(df: pd.DataFrame, stations_csv_path: str) -> pd.DataFrame:
     for c in ['lat_start', 'lon_start', 'lat_end', 'lon_end']:
         if c not in df.columns:
             df[c] = np.nan
+        else:
+            # Coerce merged coordinates to numeric in case they came in as strings
+            df[c] = pd.to_numeric(df[c], errors='coerce')
     df['distance'] = df.apply(distance_km, axis=1)
 
     # Final column order
