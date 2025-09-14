@@ -1,3 +1,13 @@
+## #19 - README update (2025-09-14)
+
+- Update README with intro, architecture, deployment, and live link.
+- Consolidate CLI docs with code blocks and GitHub links.
+- Add Data Ingestion Tracks (CSV ~2-day delay; per-minute API snapshots).
+- Note: real-time events not yet integrated with web UI metrics.
+
+Key decisions/assumptions:
+- Serve metrics JSON from web/data/rides.json at /data/rides.json.
+- CSV is authoritative for historical metrics; API events are separate.
 ## #16 - Web app for displaying bike rides data (2025-09-08)
 
 - Scaffold static web UI under `/web` with Single Day and Date Range views.
