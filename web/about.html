@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About | Wrocław Bike Stats</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="site-brand">
+        <h1>Wrocław Bike Stats</h1>
+      </div>
+      <div class="header-actions">
+        <a class="header-link" href="/index.html">Dashboard</a>
+      </div>
+    </header>
+
+    <main class="container">
+      <article class="about">
+        <section>
+          <h2>Project Overview</h2>
+          <p>
+            Wrocław Bike Stats is a hobby project aimed at creating an online tool for analyzing the usage of city bikes in Wrocław, Poland. It is a "data sandbox project" designed for experimenting, testing, and learning various technologies related to data analysis, data engineering, and data science.
+          </p>
+        </section>
+
+        <section>
+          <h2>Why Wrocław?</h2>
+          <p>
+            Wrocław is the only city in Poland that provides open public data on daily rides from its bike-sharing system. That is why the choice fell on Wrocław&mdash;it had easily accessible data in the form of ready-to-use CSV files.
+          </p>
+        </section>
+
+        <section>
+          <h2>Where Do the Data Come From?</h2>
+          <p>
+            The data come from the official service of the Wrocław City Council &mdash; Open Data Wrocław. All resources related to the Wrocław City Bike can be found here:
+            <a href="https://opendata.cui.wroclaw.pl/dataset?tags=rowery">https://opendata.cui.wroclaw.pl/dataset?tags=rowery</a>.
+          </p>
+        </section>
+
+        <section>
+          <h2>Why City Bikes?</h2>
+          <p>
+            From my perspective, "bike data" are ideal for a sandbox project because they open up a wide range of possibilities. Simple records containing only information about a single ride simultaneously hold time series and geospatial data. Thanks to this, we can:
+          </p>
+          <ul>
+            <li>analyze global metrics of bike rides each day,</li>
+            <li>analyze traffic at individual stations,</li>
+            <li>analyze the most popular bike routes,</li>
+            <li>check the rental balance at each station at the end of the day, which affects so-called "bike rebalancing",</li>
+            <li>predict traffic at stations and on popular routes,</li>
+            <li>analyze traffic and rentals in real time,</li>
+            <li>identify bike numbers that may require servicing,</li>
+            <li>determine where bike stations are needed or unnecessary,</li>
+            <li>and much more.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Plans for the Future</h2>
+          <p>
+            The current main goal is to launch an MVP &mdash; a simple system presenting data on rides for a specific day and for any time range in 2025. In parallel, I am working on recording and processing data in real time, which should appear later. After that, I would like to focus on training an ML model to predict the number of rides each day and the final number of bikes at stations.
+          </p>
+        </section>
+
+        <section>
+          <h2>Project Links</h2>
+          <ul>
+            <li>Full project code and technical documentation: <a href="https://github.com/wojciechkarcz/wroclaw-bike-stats">https://github.com/wojciechkarcz/wroclaw-bike-stats</a></li>
+            <li>Author: Wojciech Karcz (LinkedIn: <a href="https://www.linkedin.com/in/wojciechkarcz/">https://www.linkedin.com/in/wojciechkarcz/</a>, X: <a href="https://x.com/wojciechkarcz">https://x.com/wojciechkarcz</a>)</li>
+            <li>Website and other projects: <a href="http://wojciechkarcz.pl">http://wojciechkarcz.pl</a></li>
+          </ul>
+        </section>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <small>Data: bikes-2025.json • Light mode • Static</small>
+    </footer>
+  </body>
+</html>
