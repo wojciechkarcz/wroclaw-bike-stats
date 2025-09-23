@@ -34,9 +34,16 @@ function setActiveView(id){
   }
 }
 
+function viewFromHash(){
+  const hash = window.location.hash.replace(/^#/, '');
+  if (hash === 'single-view' || hash === 'range-view') return hash;
+  return null;
+}
+
 function format(num){
   if (num == null) return '-';
-  return Intl.NumberFormat('en-US', { maximumFractionDigits: 2 }).format(num);
+  const formatted = Intl.NumberFormat('en-US', { maximumFractionDigits: 2 }).format(num);
+  return formatted.replace(/,/g, ' ');
 }
 
 function renderCards(container, entries){
@@ -210,12 +217,6 @@ function updateRange(start, end){
   renderRoutesTable(byId('range-routes'), routes);
 }
 
-function initTabs(){
-  document.querySelectorAll('.view-switch .tab').forEach(btn=>{
-    btn.addEventListener('click', ()=> setActiveView(btn.dataset.target));
-  });
-}
-
 function initDates(){
   const min = state.dates[0];
   const max = state.dates[state.dates.length-1];
@@ -228,9 +229,9 @@ function initDates(){
     updateSingle(v);
   });
   updateSingle(single.value);
-  byId('single-date-label').textContent = formatLongDate(single.value);
+  byId('single-date-label').textContent = formatDateWithWeekday(single.value);
   single.addEventListener('change', ()=>{
-    byId('single-date-label').textContent = formatLongDate(single.value);
+    byId('single-date-label').textContent = formatDateWithWeekday(single.value);
   });
 
   const start = byId('range-start');
@@ -260,11 +261,21 @@ function initDates(){
   onChange();
 }
 
+function initTabs(){
+  document.querySelectorAll('.view-switch .tab').forEach(btn=>{
+    btn.addEventListener('click', ()=> setActiveView(btn.dataset.target));
+  });
+}
+
 async function main(){
   initTabs();
+  const initial = viewFromHash() || 'single-view';
+  setActiveView(initial);
   try {
     await loadData();
     initDates();
+    const desired = viewFromHash();
+    if (desired) setActiveView(desired);
   } catch (e){
     console.error(e);
     document.querySelector('.container').innerHTML = `<div class="panel">${String(e)}</div>`;
@@ -340,8 +351,18 @@ function renderRoutesTable(container, rows){
   container.appendChild(table);
 }
 
+function formatDateWithWeekday(yyyy_mm_dd){
+  if (!yyyy_mm_dd) return '';
+  const d = new Date(yyyy_mm_dd + 'T00:00:00');
+  const day = String(d.getDate()).padStart(2, '0');
+  const month = String(d.getMonth() + 1).padStart(2, '0');
+  const year = d.getFullYear();
+  const weekday = d.toLocaleDateString('en-US', { weekday: 'long' });
+  return `${day}.${month}.${year} | ${weekday}`;
+}
+
 function formatLongDate(yyyy_mm_dd){
   if (!yyyy_mm_dd) return '';
   const d = new Date(yyyy_mm_dd + 'T00:00:00');
-  return d.toLocaleDateString(undefined, { day:'numeric', month:'long', year:'numeric' });
+  return d.toLocaleDateString('en-GB', { day:'numeric', month:'long', year:'numeric' });
 }
