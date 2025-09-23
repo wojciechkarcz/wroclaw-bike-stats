@@ -34,6 +34,12 @@ function setActiveView(id){
   }
 }
 
+function viewFromHash(){
+  const hash = window.location.hash.replace(/^#/, '');
+  if (hash === 'single-view' || hash === 'range-view') return hash;
+  return null;
+}
+
 function format(num){
   if (num == null) return '-';
   return Intl.NumberFormat('en-US', { maximumFractionDigits: 2 }).format(num);
@@ -210,12 +216,6 @@ function updateRange(start, end){
   renderRoutesTable(byId('range-routes'), routes);
 }
 
-function initTabs(){
-  document.querySelectorAll('.view-switch .tab').forEach(btn=>{
-    btn.addEventListener('click', ()=> setActiveView(btn.dataset.target));
-  });
-}
-
 function initDates(){
   const min = state.dates[0];
   const max = state.dates[state.dates.length-1];
@@ -260,11 +260,21 @@ function initDates(){
   onChange();
 }
 
+function initTabs(){
+  document.querySelectorAll('.view-switch .tab').forEach(btn=>{
+    btn.addEventListener('click', ()=> setActiveView(btn.dataset.target));
+  });
+}
+
 async function main(){
   initTabs();
+  const initial = viewFromHash() || 'single-view';
+  setActiveView(initial);
   try {
     await loadData();
     initDates();
+    const desired = viewFromHash();
+    if (desired) setActiveView(desired);
   } catch (e){
     console.error(e);
     document.querySelector('.container').innerHTML = `<div class="panel">${String(e)}</div>`;
