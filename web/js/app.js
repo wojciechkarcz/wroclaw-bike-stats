@@ -42,7 +42,8 @@ function viewFromHash(){
 
 function format(num){
   if (num == null) return '-';
-  return Intl.NumberFormat('en-US', { maximumFractionDigits: 2 }).format(num);
+  const formatted = Intl.NumberFormat('en-US', { maximumFractionDigits: 2 }).format(num);
+  return formatted.replace(/,/g, ' ');
 }
 
 function renderCards(container, entries){
@@ -228,9 +229,9 @@ function initDates(){
     updateSingle(v);
   });
   updateSingle(single.value);
-  byId('single-date-label').textContent = formatLongDate(single.value);
+  byId('single-date-label').textContent = formatDateWithWeekday(single.value);
   single.addEventListener('change', ()=>{
-    byId('single-date-label').textContent = formatLongDate(single.value);
+    byId('single-date-label').textContent = formatDateWithWeekday(single.value);
   });
 
   const start = byId('range-start');
@@ -350,8 +351,18 @@ function renderRoutesTable(container, rows){
   container.appendChild(table);
 }
 
+function formatDateWithWeekday(yyyy_mm_dd){
+  if (!yyyy_mm_dd) return '';
+  const d = new Date(yyyy_mm_dd + 'T00:00:00');
+  const day = String(d.getDate()).padStart(2, '0');
+  const month = String(d.getMonth() + 1).padStart(2, '0');
+  const year = d.getFullYear();
+  const weekday = d.toLocaleDateString('en-US', { weekday: 'long' });
+  return `${day}.${month}.${year} | ${weekday}`;
+}
+
 function formatLongDate(yyyy_mm_dd){
   if (!yyyy_mm_dd) return '';
   const d = new Date(yyyy_mm_dd + 'T00:00:00');
-  return d.toLocaleDateString(undefined, { day:'numeric', month:'long', year:'numeric' });
+  return d.toLocaleDateString('en-GB', { day:'numeric', month:'long', year:'numeric' });
 }
