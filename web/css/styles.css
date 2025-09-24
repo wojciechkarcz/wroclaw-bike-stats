@@ -1,6 +1,7 @@
 :root{
   --bg:#ffffff; --fg:#111827; --muted:#6b7280;
   --card:#f9fafb; --line:#e5e7eb; --accent:#2563eb;
+  scroll-padding-top:96px;
 }
 *{box-sizing:border-box}
 html,body{margin:0;padding:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif;color:var(--fg);background:var(--bg)}
@@ -25,7 +26,7 @@ html,body{margin:0;padding:0;font-family:system-ui,-apple-system,Segoe UI,Roboto
 .controls{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:12px}
 label{font-size:14px;display:flex;gap:6px;align-items:center}
 input[type=date]{padding:6px 8px;border:1px solid var(--line);border-radius:6px}
-.view{display:none}
+.view{display:none;scroll-margin-top:96px}
 .view.active{display:block}
 .panel{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px;margin:12px 0}
 .two-col{display:block}
