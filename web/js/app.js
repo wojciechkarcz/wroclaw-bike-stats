@@ -42,8 +42,12 @@ function viewFromHash(){
 
 function format(num){
   if (num == null) return '-';
-  const formatted = Intl.NumberFormat('en-US', { maximumFractionDigits: 2 }).format(num);
-  return formatted.replace(/,/g, ' ');
+  const value = Number(num);
+  if (!Number.isFinite(value)) return String(num);
+  const normalized = value.toLocaleString('en-US', { useGrouping: false, maximumFractionDigits: 2 });
+  const [intPart, fractional] = normalized.split('.');
+  const spacedInt = intPart.replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
+  return fractional ? `${spacedInt}.${fractional}` : spacedInt;
 }
 
 function renderCards(container, entries){
@@ -196,7 +200,7 @@ function updateRange(start, end){
   host.innerHTML = '';
   METRICS.forEach(m => {
     const card = document.createElement('div');
-    card.className = 'card';
+    card.className = 'card chart-card';
     const title = document.createElement('div');
     title.className = 'k';
     title.textContent = m.label;
