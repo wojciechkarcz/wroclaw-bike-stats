@@ -9,7 +9,7 @@ html,body{margin:0;padding:0;font-family:system-ui,-apple-system,Segoe UI,Roboto
 .site-brand{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
 .site-header h1{font-size:18px;margin:0}
 .site-tagline{margin:0;font-size:14px;color:var(--muted)}
-.header-actions{display:flex;align-items:center;gap:12px}
+.header-actions{display:flex;align-items:center;gap:8px}
 .header-link{display:inline-flex;align-items:center;justify-content:center;padding:6px 10px;border:1px solid var(--line);border-radius:8px;text-decoration:none;font-size:14px;color:var(--fg);transition:color .2s ease,border-color .2s ease,background-color .2s ease}
 .header-link:hover,.header-link:focus{border-color:var(--accent);color:var(--accent);background:rgba(37,99,235,.08)}
 .header-link:focus{outline:none;box-shadow:0 0 0 2px rgba(37,99,235,.2)}
