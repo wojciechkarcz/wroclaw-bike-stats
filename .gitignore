@@ -40,3 +40,6 @@ data/sample/test
 data/logs
 temp/
 web/data
+# Live map side project (live/)
+live/live_events.json
+live/.sim_raw/

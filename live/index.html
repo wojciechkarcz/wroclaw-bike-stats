@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wrocław Bike — Live</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+  :root {
+    --bg: #10141a;
+    --panel: #171d26;
+    --panel-border: #232c3a;
+    --text: #e7ecf3;
+    --muted: #8a97a8;
+    --arrival: #2dd4a7;
+    --departure: #ff8a3d;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+  }
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.35rem 1rem;
+    padding: 0.9rem 1.2rem 0.7rem;
+  }
+  header h1 { font-size: 1.15rem; margin: 0; font-weight: 600; letter-spacing: 0.02em; }
+  .live-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    color: #ff5470;
+  }
+  .live-badge .dot {
+    width: 8px; height: 8px; border-radius: 50%;
+    background: #ff5470;
+    animation: blink 1.6s ease-in-out infinite;
+  }
+  @keyframes blink { 0%,100% { opacity: 1; } 50% { opacity: 0.25; } }
+  .meta { margin-left: auto; font-size: 0.8rem; color: var(--muted); }
+  .meta b { color: var(--text); font-weight: 600; }
+
+  #map { height: 58vh; min-height: 340px; border-block: 1px solid var(--panel-border); }
+
+  .legend {
+    display: flex;
+    gap: 1.4rem;
+    padding: 0.55rem 1.2rem;
+    font-size: 0.8rem;
+    color: var(--muted);
+  }
+  .legend .key { display: inline-flex; align-items: center; gap: 0.45rem; }
+  .legend .swatch { width: 11px; height: 11px; border-radius: 50%; }
+  .swatch.arrival { background: var(--arrival); box-shadow: 0 0 6px var(--arrival); }
+  .swatch.departure { background: var(--departure); box-shadow: 0 0 6px var(--departure); }
+
+  .columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 0 1.2rem 1.4rem;
+  }
+  @media (max-width: 720px) { .columns { grid-template-columns: 1fr; } }
+  .col {
+    background: var(--panel);
+    border: 1px solid var(--panel-border);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .col h2 {
+    margin: 0;
+    padding: 0.6rem 0.9rem;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--panel-border);
+  }
+  .col.departures h2 { color: var(--departure); }
+  .col.arrivals h2 { color: var(--arrival); }
+  .col ul { list-style: none; margin: 0; padding: 0.35rem 0; min-height: 120px; }
+  .col li {
+    display: grid;
+    grid-template-columns: 4.6rem 4.4rem 1fr auto;
+    gap: 0.6rem;
+    align-items: baseline;
+    padding: 0.4rem 0.9rem;
+    font-size: 0.85rem;
+    border-left: 3px solid transparent;
+    animation: rowIn 0.6s ease both;
+  }
+  .col.departures li { border-left-color: var(--departure); }
+  .col.arrivals li { border-left-color: var(--arrival); }
+  .col li.leaving { animation: rowOut 0.8s ease both; }
+  @keyframes rowIn {
+    from { opacity: 0; transform: translateY(-8px); max-height: 0; }
+    to   { opacity: 1; transform: translateY(0); max-height: 3rem; }
+  }
+  @keyframes rowOut {
+    from { opacity: 1; max-height: 3rem; }
+    to   { opacity: 0; max-height: 0; padding-block: 0; }
+  }
+  .col li .time { color: var(--muted); font-variant-numeric: tabular-nums; }
+  .col li .bike { font-weight: 600; font-variant-numeric: tabular-nums; }
+  .col li .station { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .col li .type { font-size: 0.75rem; color: var(--muted); }
+  .col li .type.electric { color: #ffd166; }
+  .empty-note { padding: 0.6rem 0.9rem; font-size: 0.8rem; color: var(--muted); }
+
+  /* Map markers */
+  .event-marker { position: relative; width: 100%; height: 100%; }
+  .event-marker .core {
+    position: absolute; inset: 7px;
+    border-radius: 50%;
+    animation: popIn 0.45s cubic-bezier(0.2, 1.6, 0.4, 1) both;
+  }
+  .event-marker .ring {
+    position: absolute; inset: 0;
+    border-radius: 50%;
+    animation: ripple 2.2s ease-out infinite;
+  }
+  .event-marker.arrival .core { background: var(--arrival); box-shadow: 0 0 10px var(--arrival); }
+  .event-marker.departure .core { background: var(--departure); box-shadow: 0 0 10px var(--departure); }
+  .event-marker.arrival .ring { border: 2px solid var(--arrival); }
+  .event-marker.departure .ring { border: 2px solid var(--departure); }
+  .event-marker.fading { transition: opacity 1.2s ease; opacity: 0; }
+  @keyframes popIn { from { transform: scale(0); } to { transform: scale(1); } }
+  @keyframes ripple {
+    0% { transform: scale(0.5); opacity: 0.9; }
+    100% { transform: scale(1.9); opacity: 0; }
+  }
+  .leaflet-popup-content-wrapper, .leaflet-popup-tip {
+    background: var(--panel); color: var(--text);
+  }
+  .leaflet-popup-content { font-size: 0.82rem; line-height: 1.45; }
+
+  footer { padding: 0 1.2rem 1.2rem; font-size: 0.72rem; color: var(--muted); }
+</style>
+</head>
+<body>
+
+<header>
+  <span class="live-badge"><span class="dot"></span>LIVE</span>
+  <h1>Wrocław Bike — arrivals &amp; departures</h1>
+  <span class="meta">
+    last data: <b id="last-update">—</b> ·
+    events this minute: <b id="event-count">0</b>
+  </span>
+</header>
+
+<div id="map"></div>
+
+<div class="legend">
+  <span class="key"><span class="swatch departure"></span> Departure (bike left a station)</span>
+  <span class="key"><span class="swatch arrival"></span> Arrival (bike returned to a station)</span>
+</div>
+
+<div class="columns">
+  <div class="col departures">
+    <h2>Departures</h2>
+    <ul id="departures-list"></ul>
+  </div>
+  <div class="col arrivals">
+    <h2>Arrivals</h2>
+    <ul id="arrivals-list"></ul>
+  </div>
+</div>
+
+<footer>
+  Data: Nextbike API, sampled every minute. Events inside each minute are
+  replayed with an even spread for a smoother feel — second-level times are approximate.
+</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+"use strict";
+
+// ---- Tunables -------------------------------------------------------------
+const DATA_URL = "live_events.json";
+const POLL_MS = 10_000;          // how often we check for a fresh file
+const SPREAD_MS = 60_000;        // window over which one batch is replayed
+const JITTER_MS = 1_500;         // +/- randomness around the even spread
+const MARKER_TTL_MS = 60_000;    // how long a marker stays on the map
+const ROW_TTL_MS = 60_000;       // how long a row stays in the table
+const MAX_ROWS = 30;             // hard cap per column, just in case
+// ---------------------------------------------------------------------------
+
+const map = L.map("map", { zoomControl: true }).setView([51.11, 17.035], 13);
+L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
+  maxZoom: 19,
+}).addTo(map);
+
+const lists = {
+  departed: document.getElementById("departures-list"),
+  arrived: document.getElementById("arrivals-list"),
+};
+const lastUpdateEl = document.getElementById("last-update");
+const eventCountEl = document.getElementById("event-count");
+
+let lastGeneratedAt = null;
+let pendingTimers = [];
+
+function shuffle(arr) {
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
+// Keep the snapshot's own wall clock (Wrocław time): take HH:MM from the ISO
+// string and append the fake seconds derived from the replay offset.
+function fakeTime(isoTimestamp, offsetMs) {
+  const m = isoTimestamp.match(/T(\d{2}):(\d{2})/);
+  const secs = Math.min(59, Math.floor(offsetMs / 1000));
+  return `${m ? m[1] : "??"}:${m ? m[2] : "??"}:${String(secs).padStart(2, "0")}`;
+}
+
+function stationLabel(ev) {
+  return ev.station_name === "freestanding" ? "Free-standing bike" : ev.station_name;
+}
+
+function typeLabel(ev) {
+  if (ev.bike_type === "electric") {
+    return ev.battery != null ? `⚡ ${Math.round(ev.battery)}%` : "⚡ electric";
+  }
+  return "standard";
+}
+
+function showMarker(ev, timeText) {
+  const cls = ev.event_type === "arrived" ? "arrival" : "departure";
+  const icon = L.divIcon({
+    className: "",
+    html: `<div class="event-marker ${cls}"><div class="ring"></div><div class="core"></div></div>`,
+    iconSize: [26, 26],
+    iconAnchor: [13, 13],
+  });
+  const marker = L.marker([ev.lat, ev.lon], { icon }).addTo(map);
+  marker.bindPopup(
+    `<b>Bike ${ev.bike_id}</b> ${ev.event_type}<br>` +
+    `${stationLabel(ev)}<br>` +
+    `${typeLabel(ev)} &middot; ${timeText}`
+  );
+  setTimeout(() => {
+    const el = marker.getElement();
+    const inner = el && el.querySelector(".event-marker");
+    if (inner) inner.classList.add("fading");
+    setTimeout(() => map.removeLayer(marker), 1300);
+  }, MARKER_TTL_MS);
+}
+
+function showRow(ev, timeText) {
+  const list = lists[ev.event_type];
+  if (!list) return;
+  const li = document.createElement("li");
+  li.innerHTML =
+    `<span class="time">${timeText}</span>` +
+    `<span class="bike">#${ev.bike_id}</span>` +
+    `<span class="station" title="${stationLabel(ev)}">${stationLabel(ev)}</span>` +
+    `<span class="type ${ev.bike_type || ""}">${typeLabel(ev)}</span>`;
+  list.prepend(li);
+  while (list.children.length > MAX_ROWS) list.lastChild.remove();
+  setTimeout(() => {
+    li.classList.add("leaving");
+    setTimeout(() => li.remove(), 900);
+  }, ROW_TTL_MS);
+}
+
+function playBatch(payload) {
+  pendingTimers.forEach(clearTimeout);
+  pendingTimers = [];
+
+  const events = shuffle(payload.events.slice());
+  const n = events.length;
+  eventCountEl.textContent = n;
+  lastUpdateEl.textContent = fakeTime(payload.generated_at, 0).slice(0, 5);
+
+  if (n === 0) return;
+  const step = SPREAD_MS / n;
+  events.forEach((ev, i) => {
+    let offset = (i + 0.5) * step + (Math.random() * 2 - 1) * JITTER_MS;
+    offset = Math.max(200, Math.min(SPREAD_MS - 1000, offset));
+    const timeText = fakeTime(payload.generated_at, offset);
+    pendingTimers.push(setTimeout(() => {
+      showMarker(ev, timeText);
+      showRow(ev, timeText);
+    }, offset));
+  });
+}
+
+async function poll() {
+  try {
+    const res = await fetch(`${DATA_URL}?t=${Date.now()}`, { cache: "no-store" });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const payload = await res.json();
+    if (payload.generated_at !== lastGeneratedAt) {
+      lastGeneratedAt = payload.generated_at;
+      playBatch(payload);
+    }
+  } catch (err) {
+    console.warn("Failed to fetch live events:", err);
+  }
+}
+
+poll();
+setInterval(poll, POLL_MS);
+</script>
+</body>
+</html>
